@@ -11,8 +11,21 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const themeScript = `
+    (() => {
+      const theme = localStorage.getItem("pro-fix-theme");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      const shouldUseDark = theme === "dark" || (!theme && prefersDark);
+      document.documentElement.classList.toggle("dark", shouldUseDark);
+      document.documentElement.style.colorScheme = shouldUseDark ? "dark" : "light";
+    })();
+  `;
+
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body>{children}</body>
     </html>
   );

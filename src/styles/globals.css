@@ -1,9 +1,14 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  color-scheme: light;
   background: #f8fafc;
   color: #09090b;
+}
+
+.dark {
+  background: #09090b;
+  color: #fafafa;
 }
 
 * {
@@ -17,7 +22,8 @@ html {
 body {
   min-height: 100vh;
   margin: 0;
-  background: #f8fafc;
+  background: inherit;
+  color: inherit;
   font-family:
     Arial,
     Helvetica,

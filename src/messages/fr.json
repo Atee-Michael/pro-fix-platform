@@ -5,6 +5,12 @@
     "localeLabel": "Sélecteur de langue",
     "home": "Accueil",
     "design": "Design",
+    "theme": {
+      "label": "Sélecteur de thème",
+      "system": "Système",
+      "light": "Clair",
+      "dark": "Sombre"
+    },
     "locales": {
       "en": "Anglais",
       "fr": "Français"

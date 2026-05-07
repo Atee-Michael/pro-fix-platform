@@ -24,7 +24,7 @@ export default async function DesignPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-zinc-50 text-zinc-950">
+    <main className="min-h-screen bg-zinc-50 text-zinc-950 dark:bg-zinc-950 dark:text-white">
       <PageHeader
         actions={
           <>
@@ -41,7 +41,7 @@ export default async function DesignPage() {
         <Container className="grid gap-8 lg:grid-cols-[280px_1fr]">
           <div>
             <Badge tone="dark">{t("brand.badge")}</Badge>
-            <h2 className="mt-4 text-2xl font-semibold tracking-tight">
+            <h2 className="mt-4 text-2xl font-semibold tracking-tight text-zinc-950 dark:text-white">
               {t("brand.title")}
             </h2>
           </div>
@@ -102,7 +102,7 @@ export default async function DesignPage() {
               <CardTitle>{t("cards.title")}</CardTitle>
               <CardDescription>{t("cards.description")}</CardDescription>
             </CardHeader>
-            <div className="grid gap-3 text-sm text-zinc-700">
+            <div className="grid gap-3 text-sm text-zinc-700 dark:text-zinc-300">
               <p className="flex items-center justify-between">
                 <span>{t("cards.brakeCheck")}</span>
                 <Badge tone="blue">{t("cards.ready")}</Badge>

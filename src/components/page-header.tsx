@@ -16,7 +16,7 @@ export function PageHeader({
   title
 }: PageHeaderProps) {
   return (
-    <header className="border-b border-zinc-800 bg-zinc-950 py-16 text-white sm:py-20">
+    <header className="border-b border-zinc-800 bg-zinc-950 py-16 text-white dark:border-black dark:bg-black sm:py-20">
       <Container className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
         <div className="max-w-3xl">
           {eyebrow ? (

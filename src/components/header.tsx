@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import { Container } from "@/components/container";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { Link } from "@/i18n/routing";
 import type { Locale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
@@ -13,7 +14,7 @@ export async function Header({ locale }: HeaderProps) {
   const t = await getTranslations("navigation");
 
   return (
-    <header className="border-b border-zinc-200 bg-white">
+    <header className="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-950">
       <Container className="flex min-h-20 flex-wrap items-center justify-between gap-4 py-4">
         <Link className="inline-flex items-center" href="/" locale={locale}>
           <Image
@@ -27,14 +28,14 @@ export async function Header({ locale }: HeaderProps) {
         </Link>
         <nav aria-label={t("primaryLabel")} className="flex items-center gap-2">
           <Link
-            className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950"
+            className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-white"
             href="/"
             locale={locale}
           >
             {t("home")}
           </Link>
           <Link
-            className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950"
+            className="rounded-md px-3 py-2 text-sm font-semibold text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-white"
             href="/design"
             locale={locale}
           >
@@ -49,7 +50,7 @@ export async function Header({ locale }: HeaderProps) {
                 "rounded-md border px-3 py-2 text-sm font-semibold uppercase transition-colors",
                 targetLocale === locale
                   ? "border-blue-800 bg-blue-800 text-white"
-                  : "border-zinc-300 bg-white text-zinc-700 hover:border-blue-800 hover:text-blue-800"
+                  : "border-zinc-300 bg-white text-zinc-700 hover:border-blue-800 hover:text-blue-800 dark:border-zinc-700 dark:bg-zinc-950 dark:text-zinc-300 dark:hover:border-blue-500 dark:hover:text-blue-300"
               )}
               href="/"
               key={targetLocale}
@@ -59,6 +60,12 @@ export async function Header({ locale }: HeaderProps) {
             </Link>
           ))}
         </nav>
+        <ThemeToggle
+          darkLabel={t("theme.dark")}
+          label={t("theme.label")}
+          lightLabel={t("theme.light")}
+          systemLabel={t("theme.system")}
+        />
       </Container>
     </header>
   );

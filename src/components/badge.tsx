@@ -8,8 +8,10 @@ type BadgeProps = HTMLAttributes<HTMLSpanElement> & {
 };
 
 const toneClasses: Record<BadgeTone, string> = {
-  blue: "border-blue-800/20 bg-blue-800/10 text-blue-900",
-  silver: "border-zinc-300 bg-zinc-100 text-zinc-700",
+  blue:
+    "border-blue-800/20 bg-blue-800/10 text-blue-900 dark:border-blue-300/20 dark:bg-blue-300/10 dark:text-blue-200",
+  silver:
+    "border-zinc-300 bg-zinc-100 text-zinc-700 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-200",
   dark: "border-zinc-800 bg-zinc-950 text-white"
 };
 

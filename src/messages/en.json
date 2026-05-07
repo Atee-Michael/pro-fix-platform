@@ -5,6 +5,12 @@
     "localeLabel": "Language switcher",
     "home": "Home",
     "design": "Design",
+    "theme": {
+      "label": "Theme selector",
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    },
     "locales": {
       "en": "English",
       "fr": "French"

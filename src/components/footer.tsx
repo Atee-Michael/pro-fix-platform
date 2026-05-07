@@ -27,7 +27,7 @@ export async function Footer({ locale }: FooterProps) {
             alt={nav("logoAlt")}
             className="h-auto w-40"
             height={64}
-            src="/pro-fix-logo.svg"
+            src="/img/Logo-Pro-Fix.png"
             width={220}
           />
           <p className="mt-4 text-sm leading-6 text-zinc-600 dark:text-zinc-300">

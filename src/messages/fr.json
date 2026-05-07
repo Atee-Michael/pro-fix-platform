@@ -32,9 +32,123 @@
     "copyright": "Pro-Fix Auto Services. Tous droits reserves."
   },
   "home": {
-    "eyebrow": "Pro-Fix Auto Services",
-    "title": "Un entretien automobile fiable, bati sur une base de plateforme propre.",
-    "description": "Reservez un service, consultez les mises a jour et obtenez de l'aide via une experience publique claire."
+    "hero": {
+      "eyebrow": "Pro-Fix Auto Services",
+      "title": "Entretien independant pour BMW, MINI, Motorrad et vehicules premium.",
+      "description": "Diagnostics mesures, conseils clairs et travail soigne pour les conducteurs qui veulent un vrai suivi de leur vehicule.",
+      "primaryAction": "Reserver une visite",
+      "secondaryAction": "Voir les services",
+      "panelLabel": "Approche atelier",
+      "panelText": "Chaque intervention commence par l'ecoute, les controles et l'explication de la bonne prochaine etape."
+    },
+    "story": {
+      "eyebrow": "Histoire de l'entreprise",
+      "title": "Construit autour de la confiance, pas du volume.",
+      "description": "Pro-Fix s'adresse aux proprietaires qui apprecient les reponses directes et l'entretien attentif.",
+      "body": "L'atelier repose sur une idee simple : comprendre correctement le vehicule, expliquer ce qui compte et realiser le travail avec soin. Les clients doivent repartir en sachant ce qui a ete trouve, ce qui a ete fait et ce qui peut attendre."
+    },
+    "expertise": {
+      "eyebrow": "Expertise marques",
+      "title": "Connaissance BMW, MINI, BMW Motorrad et marques premium.",
+      "description": "L'experience specialisee aide a garder le diagnostic precis et les reparations adaptees au vehicule.",
+      "brands": ["BMW", "MINI", "BMW Motorrad", "Marques premium"],
+      "cardDescription": "Controles adaptes au modele, recherche de panne soignee et conseils de service respectueux du vehicule."
+    },
+    "services": {
+      "eyebrow": "Apercu des services",
+      "title": "Services essentiels avec communication claire.",
+      "description": "Une offre ciblee pour l'entretien, les pannes et le suivi planifie.",
+      "items": [
+        {
+          "title": "Diagnostics",
+          "description": "Recherche structuree pour voyants, problemes de fonctionnement et defauts electroniques."
+        },
+        {
+          "title": "Entretien",
+          "description": "Maintenance courante avec les bonnes pieces, les bons controles et les bons dossiers."
+        },
+        {
+          "title": "Reparations",
+          "description": "Travaux expliques avant validation, avec attention portee a la fiabilite."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Processus diagnostic",
+      "title": "Un parcours calme du probleme a la decision.",
+      "description": "Le processus reduit les suppositions et garde le client informe.",
+      "steps": [
+        {
+          "title": "Ecouter",
+          "description": "Commencer par les symptomes, l'historique et ce que le conducteur a remarque."
+        },
+        {
+          "title": "Tester",
+          "description": "Utiliser les controles et outils de diagnostic pour confirmer ce qui se passe."
+        },
+        {
+          "title": "Expliquer",
+          "description": "Partager les constats simplement, avec des options raisonnables."
+        },
+        {
+          "title": "Reparer",
+          "description": "Realiser les travaux valides et confirmer le resultat avant la restitution."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Pourquoi Pro-Fix",
+      "title": "Travail soigne, priorites claires.",
+      "description": "Une experience premium doit rester posee, transparente et utile.",
+      "items": [
+        {
+          "title": "Specialisation",
+          "description": "La familiarite avec BMW, MINI, Motorrad et les systemes premium garde le travail precis."
+        },
+        {
+          "title": "Conseil simple",
+          "description": "Les constats sont expliques sans pression, pour faciliter les decisions."
+        },
+        {
+          "title": "Restitution claire",
+          "description": "Les clients comprennent ce qui a change et ce qu'il faut surveiller ensuite."
+        }
+      ]
+    },
+    "portal": {
+      "eyebrow": "Apercu du portail client",
+      "title": "Un futur espace pour l'historique et les mises a jour.",
+      "description": "Le portail client donnera aux proprietaires une vue claire des reservations, notes et avances du vehicule.",
+      "statusLabel": "Statut du vehicule",
+      "status": "En controle",
+      "note": "Les fonctions du portail seront ajoutees plus tard, avec des mises a jour et dossiers de service faciles a lire."
+    },
+    "news": {
+      "eyebrow": "Actualites et conseils",
+      "title": "Notes utiles pour les proprietaires.",
+      "description": "Le contenu conseil doit aider les clients a comprendre l'entretien sans ajouter de bruit.",
+      "items": [
+        {
+          "title": "Preparer une visite diagnostic",
+          "description": "Ce qu'il faut noter avant d'amener le vehicule pour une recherche."
+        },
+        {
+          "title": "Intervalles et usage reel",
+          "description": "Pourquoi le kilometrage, l'age et le style de conduite comptent."
+        },
+        {
+          "title": "Voyants avec contexte",
+          "description": "Comment traiter les alertes tableau de bord sans panique ni attente."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact et reservation",
+      "title": "Dites-nous ce dont le vehicule a besoin.",
+      "description": "Partagez le probleme, reservez une visite ou posez une question. La premiere etape est une conversation claire.",
+      "primaryAction": "Reserver une visite",
+      "secondaryAction": "Contacter Pro-Fix"
+    }
   },
   "pages": {
     "services": {

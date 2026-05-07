@@ -32,9 +32,123 @@
     "copyright": "Pro-Fix Auto Services. All rights reserved."
   },
   "home": {
-    "eyebrow": "Pro-Fix Auto Services",
-    "title": "Reliable vehicle care, built on a clean platform foundation.",
-    "description": "Book service, review updates, and get support through a focused public website experience."
+    "hero": {
+      "eyebrow": "Pro-Fix Auto Services",
+      "title": "Independent care for BMW, MINI, Motorrad and premium vehicles.",
+      "description": "Measured diagnostics, clear advice and careful workmanship for drivers who want their vehicle looked after properly.",
+      "primaryAction": "Book a visit",
+      "secondaryAction": "View services",
+      "panelLabel": "Workshop approach",
+      "panelText": "Every job starts with listening, testing and explaining the right next step before work begins."
+    },
+    "story": {
+      "eyebrow": "Business story",
+      "title": "Built around trust, not volume.",
+      "description": "Pro-Fix is shaped for owners who value straight answers and thoughtful vehicle care.",
+      "body": "The workshop is built around a simple idea: understand the vehicle properly, explain what matters, and carry out the work with care. Customers should leave knowing what was found, what was done and what can wait."
+    },
+    "expertise": {
+      "eyebrow": "Brand expertise",
+      "title": "BMW, MINI, BMW Motorrad and premium brand knowledge.",
+      "description": "Specialist experience helps diagnosis stay focused and repairs stay appropriate to the vehicle.",
+      "brands": ["BMW", "MINI", "BMW Motorrad", "Premium brands"],
+      "cardDescription": "Model-aware checks, careful fault tracing and service advice that respects the vehicle."
+    },
+    "services": {
+      "eyebrow": "Services preview",
+      "title": "Core services with clear communication.",
+      "description": "A focused service range for maintenance, faults and planned care.",
+      "items": [
+        {
+          "title": "Diagnostics",
+          "description": "Structured investigation for warning lights, running concerns and electronic faults."
+        },
+        {
+          "title": "Servicing",
+          "description": "Routine maintenance carried out with the right parts, checks and records."
+        },
+        {
+          "title": "Repairs",
+          "description": "Practical repair work explained before approval, with attention to long-term reliability."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Diagnostic process",
+      "title": "A calm route from concern to decision.",
+      "description": "The process is designed to reduce guesswork and keep customers informed.",
+      "steps": [
+        {
+          "title": "Listen",
+          "description": "Start with the symptoms, history and what the driver has noticed."
+        },
+        {
+          "title": "Test",
+          "description": "Use checks and diagnostic tools to confirm what is happening."
+        },
+        {
+          "title": "Explain",
+          "description": "Share findings in plain language with sensible options."
+        },
+        {
+          "title": "Repair",
+          "description": "Carry out approved work and confirm the result before handover."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Why Pro-Fix",
+      "title": "Careful work, clear priorities.",
+      "description": "A premium experience should feel composed, transparent and useful.",
+      "items": [
+        {
+          "title": "Specialist focus",
+          "description": "Familiarity with BMW, MINI, Motorrad and premium systems keeps work precise."
+        },
+        {
+          "title": "Plain advice",
+          "description": "Findings are explained without pressure, so decisions are easier."
+        },
+        {
+          "title": "Thoughtful handover",
+          "description": "Customers understand what changed and what to watch next."
+        }
+      ]
+    },
+    "portal": {
+      "eyebrow": "Customer portal preview",
+      "title": "A future space for service history and updates.",
+      "description": "The customer portal will give owners a calm view of bookings, notes and vehicle progress.",
+      "statusLabel": "Vehicle status",
+      "status": "In review",
+      "note": "Portal features will be added later, with booking updates and service records kept easy to read."
+    },
+    "news": {
+      "eyebrow": "Latest news and advice",
+      "title": "Useful notes for owners.",
+      "description": "Advice content should help customers understand maintenance without turning it into noise.",
+      "items": [
+        {
+          "title": "Preparing for a diagnostic visit",
+          "description": "What to note before bringing the vehicle in for investigation."
+        },
+        {
+          "title": "Service intervals and real use",
+          "description": "Why mileage, age and driving style all matter."
+        },
+        {
+          "title": "Warning lights with context",
+          "description": "How to treat dashboard alerts without panic or delay."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact and booking",
+      "title": "Tell us what the vehicle needs.",
+      "description": "Share the concern, book a visit or ask a question. The first step is a clear conversation.",
+      "primaryAction": "Book a visit",
+      "secondaryAction": "Contact Pro-Fix"
+    }
   },
   "pages": {
     "services": {

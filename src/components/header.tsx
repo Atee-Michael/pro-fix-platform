@@ -34,7 +34,7 @@ export async function Header({ locale }: HeaderProps) {
             className="h-auto w-40"
             height={64}
             priority
-            src="/pro-fix-logo.svg"
+            src="/img/Logo-Pro-Fix.png"
             width={220}
           />
         </Link>

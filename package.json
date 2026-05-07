@@ -10,6 +10,7 @@
     "build": "next build"
   },
   "dependencies": {
+    "framer-motion": "^12.38.0",
     "next": "latest",
     "next-intl": "^4.11.0",
     "react": "latest",

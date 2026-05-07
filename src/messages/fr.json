@@ -2,31 +2,111 @@
   "navigation": {
     "logoAlt": "Pro-Fix Auto Services",
     "primaryLabel": "Navigation principale",
-    "localeLabel": "Sélecteur de langue",
+    "mobileLabel": "Navigation mobile",
+    "accountLabel": "Navigation du compte",
+    "localeLabel": "Selecteur de langue",
+    "menu": "Menu",
     "home": "Accueil",
+    "services": "Services",
+    "book": "Reserver",
+    "news": "Actualites",
+    "support": "Support",
+    "contact": "Contact",
+    "login": "Connexion",
+    "register": "Inscription",
     "design": "Design",
     "theme": {
-      "label": "Sélecteur de thème",
-      "system": "Système",
+      "label": "Selecteur de theme",
+      "system": "Systeme",
       "light": "Clair",
       "dark": "Sombre"
     },
     "locales": {
       "en": "Anglais",
-      "fr": "Français"
+      "fr": "Francais"
     }
+  },
+  "footer": {
+    "label": "Navigation de pied de page",
+    "description": "Entretien automobile premium, parcours de service clairs et support fiable pour les clients Pro-Fix.",
+    "copyright": "Pro-Fix Auto Services. Tous droits reserves."
   },
   "home": {
     "eyebrow": "Pro-Fix Auto Services",
-    "title": "Un entretien automobile fiable, bâti sur une base de plateforme propre.",
-    "description": "Voici le projet Next.js App Router de base. Les fonctionnalités seront ajoutées par étapes ciblées."
+    "title": "Un entretien automobile fiable, bati sur une base de plateforme propre.",
+    "description": "Reservez un service, consultez les mises a jour et obtenez de l'aide via une experience publique claire."
+  },
+  "pages": {
+    "services": {
+      "eyebrow": "Services",
+      "title": "Maintenance experte pour conducteurs et flottes professionnelles.",
+      "description": "Explorez diagnostics, reparations, inspections, entretien et options de soin premium pour votre vehicule.",
+      "cardTitle": "Couverture des services",
+      "cardDescription": "Une structure claire aide les clients a trouver le bon support avant de reserver.",
+      "primaryAction": "Reserver un service",
+      "secondaryAction": "Contacter l'equipe"
+    },
+    "book": {
+      "eyebrow": "Reservation",
+      "title": "Planifiez votre prochain rendez-vous Pro-Fix.",
+      "description": "Commencez une demande de service et preparez les details du vehicule avant la connexion du parcours de reservation.",
+      "cardTitle": "Apercu de reservation",
+      "cardDescription": "Cette route est prete pour le futur formulaire de reservation et le flux de disponibilite.",
+      "primaryAction": "Commencer",
+      "secondaryAction": "Voir les services"
+    },
+    "news": {
+      "eyebrow": "Actualites",
+      "title": "Mises a jour, notes de service et conseils automobiles.",
+      "description": "Publiez les annonces Pro-Fix, conseils d'entretien et mises a jour client depuis cette page.",
+      "cardTitle": "Base editoriale",
+      "cardDescription": "La route actualites est prete pour les articles et contenus par categorie.",
+      "primaryAction": "Lire les dernieres nouvelles",
+      "secondaryAction": "Contacter le support"
+    },
+    "support": {
+      "eyebrow": "Support",
+      "title": "Aide utile avant, pendant et apres le service.",
+      "description": "Offrez aux clients un espace clair pour les questions de service, l'aide a la reservation et le suivi automobile.",
+      "cardTitle": "Centre de support",
+      "cardDescription": "Cette page peut evoluer vers des FAQ, de l'aide au statut et des parcours de support client.",
+      "primaryAction": "Obtenir de l'aide",
+      "secondaryAction": "Nous contacter"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Contactez l'equipe Pro-Fix.",
+      "description": "Creez une route directe pour les questions client, demandes de service et partenariats.",
+      "cardTitle": "Options de contact",
+      "cardDescription": "La page contact est prete pour l'adresse, les horaires et le formulaire de demande.",
+      "primaryAction": "Envoyer une demande",
+      "secondaryAction": "Reserver"
+    },
+    "login": {
+      "eyebrow": "Connexion",
+      "title": "Acces client pour les futures fonctions de compte.",
+      "description": "Gardez la route de connexion publique prete sans ajouter encore de logique d'authentification.",
+      "cardTitle": "Connexion au compte",
+      "cardDescription": "L'authentification sera ajoutee plus tard dans une etape dediee.",
+      "primaryAction": "Continuer",
+      "secondaryAction": "Creer un compte"
+    },
+    "register": {
+      "eyebrow": "Inscription",
+      "title": "Preparez l'inscription client pour les futurs comptes.",
+      "description": "Gardez la route d'inscription disponible pendant que la creation de compte reste hors perimetre.",
+      "cardTitle": "Configuration du compte",
+      "cardDescription": "L'interface d'inscription et l'authentification seront connectees dans une phase ulterieure.",
+      "primaryAction": "Creer un compte",
+      "secondaryAction": "Se connecter"
+    }
   },
   "design": {
     "hero": {
-      "eyebrow": "Système de design",
-      "title": "Aperçu des composants Pro-Fix",
-      "description": "Des fondations d'interface réutilisables pour la plateforme Pro-Fix, avec une palette automobile haut de gamme.",
-      "primaryAction": "Réserver un service",
+      "eyebrow": "Systeme de design",
+      "title": "Apercu des composants Pro-Fix",
+      "description": "Des fondations d'interface reutilisables pour la plateforme Pro-Fix, avec une palette automobile haut de gamme.",
+      "primaryAction": "Reserver un service",
       "secondaryAction": "Voir l'inspection"
     },
     "brand": {
@@ -43,24 +123,24 @@
     "buttons": {
       "badge": "Boutons",
       "title": "Actions de service",
-      "description": "Des actions claires pour les réservations, les avis et les parcours secondaires.",
+      "description": "Des actions claires pour les reservations, les avis et les parcours secondaires.",
       "primary": "Principal",
       "secondary": "Secondaire",
       "ghost": "Discret"
     },
     "inputs": {
       "badge": "Champs",
-      "title": "Détails client",
-      "description": "Contrôles de formulaire pour les premières réservations et la capture de demandes.",
-      "registrationLabel": "Immatriculation du véhicule",
+      "title": "Details client",
+      "description": "Controles de formulaire pour les premieres reservations et la capture de demandes.",
+      "registrationLabel": "Immatriculation du vehicule",
       "registrationPlaceholder": "AB12 CDE"
     },
     "cards": {
       "badge": "Cartes",
-      "title": "Résumé d'inspection",
+      "title": "Resume d'inspection",
       "description": "Surfaces compactes pour les statuts, notes et informations de service.",
-      "brakeCheck": "Contrôle des freins",
-      "ready": "Prêt",
+      "brakeCheck": "Controle des freins",
+      "ready": "Pret",
       "oilService": "Vidange",
       "queued": "En attente"
     }

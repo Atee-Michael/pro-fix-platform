@@ -2,8 +2,18 @@
   "navigation": {
     "logoAlt": "Pro-Fix Auto Services",
     "primaryLabel": "Primary navigation",
+    "mobileLabel": "Mobile navigation",
+    "accountLabel": "Account navigation",
     "localeLabel": "Language switcher",
+    "menu": "Menu",
     "home": "Home",
+    "services": "Services",
+    "book": "Book",
+    "news": "News",
+    "support": "Support",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
     "design": "Design",
     "theme": {
       "label": "Theme selector",
@@ -16,10 +26,80 @@
       "fr": "French"
     }
   },
+  "footer": {
+    "label": "Footer navigation",
+    "description": "Premium vehicle care, clear service journeys, and reliable support for Pro-Fix customers.",
+    "copyright": "Pro-Fix Auto Services. All rights reserved."
+  },
   "home": {
     "eyebrow": "Pro-Fix Auto Services",
     "title": "Reliable vehicle care, built on a clean platform foundation.",
-    "description": "This is the base Next.js App Router project. Feature areas will be added in focused steps."
+    "description": "Book service, review updates, and get support through a focused public website experience."
+  },
+  "pages": {
+    "services": {
+      "eyebrow": "Services",
+      "title": "Expert maintenance for everyday drivers and business fleets.",
+      "description": "Explore diagnostics, repairs, inspections, servicing, and premium care options for your vehicle.",
+      "cardTitle": "Service coverage",
+      "cardDescription": "A clear service structure helps customers find the right support before booking.",
+      "primaryAction": "Book a service",
+      "secondaryAction": "Contact the team"
+    },
+    "book": {
+      "eyebrow": "Booking",
+      "title": "Schedule your next Pro-Fix appointment.",
+      "description": "Start a service request and prepare vehicle details before the booking workflow is connected.",
+      "cardTitle": "Booking preview",
+      "cardDescription": "This route is ready for the future booking form and availability flow.",
+      "primaryAction": "Start booking",
+      "secondaryAction": "View services"
+    },
+    "news": {
+      "eyebrow": "News",
+      "title": "Updates, service notes, and automotive guidance.",
+      "description": "Publish Pro-Fix announcements, maintenance advice, and customer updates from this page.",
+      "cardTitle": "Editorial foundation",
+      "cardDescription": "The news route is ready for articles and category-led content.",
+      "primaryAction": "Read latest",
+      "secondaryAction": "Contact support"
+    },
+    "support": {
+      "eyebrow": "Support",
+      "title": "Helpful guidance before, during, and after service.",
+      "description": "Give customers a clear place for service questions, booking help, and vehicle care support.",
+      "cardTitle": "Support center",
+      "cardDescription": "This page can grow into FAQs, status help, and customer support workflows.",
+      "primaryAction": "Get support",
+      "secondaryAction": "Contact us"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Reach the Pro-Fix team.",
+      "description": "Create a direct contact route for customer questions, service requests, and partnership enquiries.",
+      "cardTitle": "Contact options",
+      "cardDescription": "The contact page is ready for location, hours, and enquiry form details.",
+      "primaryAction": "Send enquiry",
+      "secondaryAction": "Book service"
+    },
+    "login": {
+      "eyebrow": "Login",
+      "title": "Customer access for future account features.",
+      "description": "Keep the public login route ready without adding authentication logic yet.",
+      "cardTitle": "Account sign in",
+      "cardDescription": "Authentication will be added later as a focused implementation step.",
+      "primaryAction": "Continue",
+      "secondaryAction": "Create account"
+    },
+    "register": {
+      "eyebrow": "Register",
+      "title": "Prepare customer registration for future accounts.",
+      "description": "Keep the registration route available while account creation remains out of scope.",
+      "cardTitle": "Account setup",
+      "cardDescription": "Registration UI and authentication will be connected in a later phase.",
+      "primaryAction": "Create account",
+      "secondaryAction": "Sign in"
+    }
   },
   "design": {
     "hero": {

@@ -1,5 +1,6 @@
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
+import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { routing } from "@/i18n/routing";
 
@@ -28,6 +29,7 @@ export default async function LocaleLayout({
     <NextIntlClientProvider>
       <Header locale={locale as "en" | "fr"} />
       {children}
+      <Footer locale={locale as "en" | "fr"} />
     </NextIntlClientProvider>
   );
 }

@@ -1,0 +1,62 @@
+{
+  "navigation": {
+    "logoAlt": "Pro-Fix Auto Services",
+    "primaryLabel": "Primary navigation",
+    "localeLabel": "Language switcher",
+    "home": "Home",
+    "design": "Design",
+    "locales": {
+      "en": "English",
+      "fr": "French"
+    }
+  },
+  "home": {
+    "eyebrow": "Pro-Fix Auto Services",
+    "title": "Reliable vehicle care, built on a clean platform foundation.",
+    "description": "This is the base Next.js App Router project. Feature areas will be added in focused steps."
+  },
+  "design": {
+    "hero": {
+      "eyebrow": "Design system",
+      "title": "Pro-Fix component preview",
+      "description": "Reusable UI foundations for the Pro-Fix platform, shaped around a premium automotive palette.",
+      "primaryAction": "Book service",
+      "secondaryAction": "View inspection"
+    },
+    "brand": {
+      "badge": "Brand",
+      "title": "Logo and palette",
+      "logoAlt": "Pro-Fix Auto Services"
+    },
+    "colors": {
+      "black": "Black",
+      "white": "White",
+      "silver": "Silver",
+      "deepBlue": "Deep blue"
+    },
+    "buttons": {
+      "badge": "Buttons",
+      "title": "Service actions",
+      "description": "Clear actions for booking, review, and secondary flows.",
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "ghost": "Ghost"
+    },
+    "inputs": {
+      "badge": "Inputs",
+      "title": "Customer details",
+      "description": "Form controls for early booking and lead capture surfaces.",
+      "registrationLabel": "Vehicle registration",
+      "registrationPlaceholder": "AB12 CDE"
+    },
+    "cards": {
+      "badge": "Cards",
+      "title": "Inspection summary",
+      "description": "Compact surfaces for status, notes, and service information.",
+      "brakeCheck": "Brake check",
+      "ready": "Ready",
+      "oilService": "Oil service",
+      "queued": "Queued"
+    }
+  }
+}

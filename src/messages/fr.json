@@ -1,0 +1,62 @@
+{
+  "navigation": {
+    "logoAlt": "Pro-Fix Auto Services",
+    "primaryLabel": "Navigation principale",
+    "localeLabel": "Sélecteur de langue",
+    "home": "Accueil",
+    "design": "Design",
+    "locales": {
+      "en": "Anglais",
+      "fr": "Français"
+    }
+  },
+  "home": {
+    "eyebrow": "Pro-Fix Auto Services",
+    "title": "Un entretien automobile fiable, bâti sur une base de plateforme propre.",
+    "description": "Voici le projet Next.js App Router de base. Les fonctionnalités seront ajoutées par étapes ciblées."
+  },
+  "design": {
+    "hero": {
+      "eyebrow": "Système de design",
+      "title": "Aperçu des composants Pro-Fix",
+      "description": "Des fondations d'interface réutilisables pour la plateforme Pro-Fix, avec une palette automobile haut de gamme.",
+      "primaryAction": "Réserver un service",
+      "secondaryAction": "Voir l'inspection"
+    },
+    "brand": {
+      "badge": "Marque",
+      "title": "Logo et palette",
+      "logoAlt": "Pro-Fix Auto Services"
+    },
+    "colors": {
+      "black": "Noir",
+      "white": "Blanc",
+      "silver": "Argent",
+      "deepBlue": "Bleu profond"
+    },
+    "buttons": {
+      "badge": "Boutons",
+      "title": "Actions de service",
+      "description": "Des actions claires pour les réservations, les avis et les parcours secondaires.",
+      "primary": "Principal",
+      "secondary": "Secondaire",
+      "ghost": "Discret"
+    },
+    "inputs": {
+      "badge": "Champs",
+      "title": "Détails client",
+      "description": "Contrôles de formulaire pour les premières réservations et la capture de demandes.",
+      "registrationLabel": "Immatriculation du véhicule",
+      "registrationPlaceholder": "AB12 CDE"
+    },
+    "cards": {
+      "badge": "Cartes",
+      "title": "Résumé d'inspection",
+      "description": "Surfaces compactes pour les statuts, notes et informations de service.",
+      "brakeCheck": "Contrôle des freins",
+      "ready": "Prêt",
+      "oilService": "Vidange",
+      "queued": "En attente"
+    }
+  }
+}

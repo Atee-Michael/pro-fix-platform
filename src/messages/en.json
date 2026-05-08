@@ -150,6 +150,96 @@
       "secondaryAction": "Contact Pro-Fix"
     }
   },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "Services",
+      "title": "Careful service work for premium vehicles.",
+      "description": "From diagnosis to maintenance and repair, Pro-Fix keeps the process clear, measured and focused on what the vehicle actually needs."
+    },
+    "overview": {
+      "eyebrow": "Service groups",
+      "title": "Support shaped around the way your vehicle is built.",
+      "description": "Each service area is grouped to help owners find the right starting point before booking."
+    },
+    "groups": [
+      {
+        "title": "Diagnostics",
+        "description": "Structured fault finding for warning lights, performance concerns and unclear symptoms.",
+        "services": [
+          "Fault code reading with context",
+          "Warning light investigation",
+          "Running and drivability checks",
+          "Pre-repair diagnostic reports"
+        ]
+      },
+      {
+        "title": "Preventive maintenance",
+        "description": "Routine care planned around mileage, age and how the vehicle is used.",
+        "services": [
+          "Oil and filter servicing",
+          "Brake fluid and coolant checks",
+          "Inspection service items",
+          "Seasonal vehicle health checks"
+        ]
+      },
+      {
+        "title": "Mechanical repairs",
+        "description": "Repair work explained before approval, with attention to reliability and fit.",
+        "services": [
+          "Brake repairs",
+          "Suspension and steering work",
+          "Cooling system repairs",
+          "Engine and drivetrain support"
+        ]
+      },
+      {
+        "title": "Electrical systems",
+        "description": "Careful checks for modern electrical faults and connected vehicle systems.",
+        "services": [
+          "Battery and charging checks",
+          "Sensor and module investigation",
+          "Lighting and control faults",
+          "Electrical continuity testing"
+        ]
+      },
+      {
+        "title": "BMW and MINI specialist support",
+        "description": "Model-aware support for BMW and MINI service, faults and ownership questions.",
+        "services": [
+          "BMW and MINI diagnostics",
+          "Service schedule guidance",
+          "Common fault investigation",
+          "Pre-purchase checks"
+        ]
+      },
+      {
+        "title": "BMW Motorrad support",
+        "description": "Focused care for BMW Motorrad owners who want clear advice and precise checks.",
+        "services": [
+          "Motorcycle diagnostic checks",
+          "Maintenance inspections",
+          "Electrical and sensor checks",
+          "Ownership advice"
+        ]
+      },
+      {
+        "title": "Premium brand inspections",
+        "description": "Detailed inspections for premium vehicles before purchase, sale or longer journeys.",
+        "services": [
+          "Condition inspections",
+          "Road test observations",
+          "Service history review",
+          "Clear written findings"
+        ]
+      }
+    ],
+    "cta": {
+      "eyebrow": "Booking",
+      "title": "Ready to arrange a visit?",
+      "description": "Send the vehicle details and the concern. The team can guide the next step before work begins.",
+      "action": "Go to booking"
+    }
+  },
   "pages": {
     "services": {
       "eyebrow": "Services",

@@ -150,6 +150,96 @@
       "secondaryAction": "Contacter Pro-Fix"
     }
   },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "Services",
+      "title": "Travail soigne pour vehicules premium.",
+      "description": "Du diagnostic a l'entretien et a la reparation, Pro-Fix garde un processus clair, mesure et centre sur les vrais besoins du vehicule."
+    },
+    "overview": {
+      "eyebrow": "Groupes de services",
+      "title": "Un support adapte a la conception de votre vehicule.",
+      "description": "Chaque domaine de service est groupe pour aider les proprietaires a trouver le bon point de depart avant de reserver."
+    },
+    "groups": [
+      {
+        "title": "Diagnostics",
+        "description": "Recherche de panne structuree pour voyants, perte de performance et symptomes incertains.",
+        "services": [
+          "Lecture des codes avec contexte",
+          "Recherche de voyants",
+          "Controles de fonctionnement",
+          "Rapports avant reparation"
+        ]
+      },
+      {
+        "title": "Maintenance preventive",
+        "description": "Entretien courant planifie selon le kilometrage, l'age et l'usage du vehicule.",
+        "services": [
+          "Vidange et filtres",
+          "Controles liquide de frein et refroidissement",
+          "Points d'inspection",
+          "Bilans saisonniers"
+        ]
+      },
+      {
+        "title": "Reparations mecaniques",
+        "description": "Travaux expliques avant validation, avec attention portee a la fiabilite.",
+        "services": [
+          "Reparations de freinage",
+          "Suspension et direction",
+          "Systeme de refroidissement",
+          "Moteur et transmission"
+        ]
+      },
+      {
+        "title": "Systemes electriques",
+        "description": "Controles attentifs pour les defauts electriques modernes et systemes connectes.",
+        "services": [
+          "Batterie et charge",
+          "Capteurs et modules",
+          "Eclairage et commandes",
+          "Tests de continuite"
+        ]
+      },
+      {
+        "title": "Support specialiste BMW et MINI",
+        "description": "Support adapte aux modeles BMW et MINI pour l'entretien, les pannes et les questions d'usage.",
+        "services": [
+          "Diagnostics BMW et MINI",
+          "Conseils de planning d'entretien",
+          "Recherche de pannes courantes",
+          "Controles avant achat"
+        ]
+      },
+      {
+        "title": "Support BMW Motorrad",
+        "description": "Accompagnement cible pour les proprietaires BMW Motorrad qui veulent des conseils clairs et des controles precis.",
+        "services": [
+          "Diagnostics moto",
+          "Inspections d'entretien",
+          "Controles electriques et capteurs",
+          "Conseils de possession"
+        ]
+      },
+      {
+        "title": "Inspections marques premium",
+        "description": "Inspections detaillees pour vehicules premium avant achat, vente ou long trajet.",
+        "services": [
+          "Inspections d'etat",
+          "Observations apres essai routier",
+          "Revue de l'historique",
+          "Constats ecrits clairs"
+        ]
+      }
+    ],
+    "cta": {
+      "eyebrow": "Reservation",
+      "title": "Pret a organiser une visite ?",
+      "description": "Envoyez les details du vehicule et le probleme. L'equipe peut guider la prochaine etape avant le debut des travaux.",
+      "action": "Aller a la reservation"
+    }
+  },
   "pages": {
     "services": {
       "eyebrow": "Services",

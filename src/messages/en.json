@@ -351,6 +351,15 @@
       ]
     }
   },
+  "newsPage": {
+    "hero": {
+      "eyebrow": "News and advice",
+      "title": "Practical notes for premium vehicle owners.",
+      "description": "Short articles on diagnostics, maintenance, inspections and careful ownership."
+    },
+    "readArticle": "Read article",
+    "backToNews": "Back to news"
+  },
   "pages": {
     "services": {
       "eyebrow": "Services",

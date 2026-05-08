@@ -351,6 +351,15 @@
       ]
     }
   },
+  "newsPage": {
+    "hero": {
+      "eyebrow": "Actualites et conseils",
+      "title": "Notes pratiques pour proprietaires de vehicules premium.",
+      "description": "Articles courts sur le diagnostic, l'entretien, les inspections et le suivi attentif."
+    },
+    "readArticle": "Lire l'article",
+    "backToNews": "Retour aux actualites"
+  },
   "pages": {
     "services": {
       "eyebrow": "Services",

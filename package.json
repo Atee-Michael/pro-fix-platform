@@ -10,10 +10,12 @@
     "build": "next build"
   },
   "dependencies": {
+    "framer-motion": "^12.38.0",
     "next": "latest",
     "next-intl": "^4.11.0",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "latest",

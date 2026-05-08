@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 import { cn } from "@/lib/utils";
 
 type Theme = "light" | "dark" | "system";
@@ -13,6 +13,7 @@ type ThemeToggleProps = {
 };
 
 const themes: Theme[] = ["system", "light", "dark"];
+const themeChangeEvent = "pro-fix-theme-change";
 
 function getStoredTheme() {
   if (typeof window === "undefined") {
@@ -32,35 +33,37 @@ function applyTheme(theme: Theme) {
   document.documentElement.style.colorScheme = shouldUseDark ? "dark" : "light";
 }
 
+function subscribeToTheme(callback: () => void) {
+  const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+  window.addEventListener("storage", callback);
+  window.addEventListener(themeChangeEvent, callback);
+  mediaQuery.addEventListener("change", callback);
+
+  return () => {
+    window.removeEventListener("storage", callback);
+    window.removeEventListener(themeChangeEvent, callback);
+    mediaQuery.removeEventListener("change", callback);
+  };
+}
+
 export function ThemeToggle({
   darkLabel,
   label,
   lightLabel,
   systemLabel
 }: ThemeToggleProps) {
-  const [theme, setTheme] = useState<Theme>(getStoredTheme);
+  const theme = useSyncExternalStore<Theme>(
+    subscribeToTheme,
+    getStoredTheme,
+    () => "system"
+  );
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-
     applyTheme(theme);
-
-    const handleSystemThemeChange = () => {
-      if (theme === "system") {
-        applyTheme("system");
-      }
-    };
-
-    mediaQuery.addEventListener("change", handleSystemThemeChange);
-
-    return () => {
-      mediaQuery.removeEventListener("change", handleSystemThemeChange);
-    };
   }, [theme]);
 
   function handleThemeChange(nextTheme: Theme) {
-    setTheme(nextTheme);
-
     if (nextTheme === "system") {
       window.localStorage.removeItem("pro-fix-theme");
     } else {
@@ -68,6 +71,7 @@ export function ThemeToggle({
     }
 
     applyTheme(nextTheme);
+    window.dispatchEvent(new Event(themeChangeEvent));
   }
 
   return (

@@ -32,9 +32,369 @@
     "copyright": "Pro-Fix Auto Services. All rights reserved."
   },
   "home": {
-    "eyebrow": "Pro-Fix Auto Services",
-    "title": "Reliable vehicle care, built on a clean platform foundation.",
-    "description": "Book service, review updates, and get support through a focused public website experience."
+    "hero": {
+      "eyebrow": "Pro-Fix Auto Services",
+      "title": "Independent care for BMW, MINI, Motorrad and premium vehicles.",
+      "description": "Measured diagnostics, clear advice and careful workmanship for drivers who want their vehicle looked after properly.",
+      "primaryAction": "Book a visit",
+      "secondaryAction": "View services",
+      "panelLabel": "Workshop approach",
+      "panelText": "Every job starts with listening, testing and explaining the right next step before work begins."
+    },
+    "story": {
+      "eyebrow": "Business story",
+      "title": "Built around trust, not volume.",
+      "description": "Pro-Fix is shaped for owners who value straight answers and thoughtful vehicle care.",
+      "body": "The workshop is built around a simple idea: understand the vehicle properly, explain what matters, and carry out the work with care. Customers should leave knowing what was found, what was done and what can wait."
+    },
+    "expertise": {
+      "eyebrow": "Brand expertise",
+      "title": "BMW, MINI, BMW Motorrad and premium brand knowledge.",
+      "description": "Specialist experience helps diagnosis stay focused and repairs stay appropriate to the vehicle.",
+      "brands": ["BMW", "MINI", "BMW Motorrad", "Premium brands"],
+      "cardDescription": "Model-aware checks, careful fault tracing and service advice that respects the vehicle."
+    },
+    "services": {
+      "eyebrow": "Services preview",
+      "title": "Core services with clear communication.",
+      "description": "A focused service range for maintenance, faults and planned care.",
+      "items": [
+        {
+          "title": "Diagnostics",
+          "description": "Structured investigation for warning lights, running concerns and electronic faults."
+        },
+        {
+          "title": "Servicing",
+          "description": "Routine maintenance carried out with the right parts, checks and records."
+        },
+        {
+          "title": "Repairs",
+          "description": "Practical repair work explained before approval, with attention to long-term reliability."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Diagnostic process",
+      "title": "A calm route from concern to decision.",
+      "description": "The process is designed to reduce guesswork and keep customers informed.",
+      "steps": [
+        {
+          "title": "Listen",
+          "description": "Start with the symptoms, history and what the driver has noticed."
+        },
+        {
+          "title": "Test",
+          "description": "Use checks and diagnostic tools to confirm what is happening."
+        },
+        {
+          "title": "Explain",
+          "description": "Share findings in plain language with sensible options."
+        },
+        {
+          "title": "Repair",
+          "description": "Carry out approved work and confirm the result before handover."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Why Pro-Fix",
+      "title": "Careful work, clear priorities.",
+      "description": "A premium experience should feel composed, transparent and useful.",
+      "items": [
+        {
+          "title": "Specialist focus",
+          "description": "Familiarity with BMW, MINI, Motorrad and premium systems keeps work precise."
+        },
+        {
+          "title": "Plain advice",
+          "description": "Findings are explained without pressure, so decisions are easier."
+        },
+        {
+          "title": "Thoughtful handover",
+          "description": "Customers understand what changed and what to watch next."
+        }
+      ]
+    },
+    "portal": {
+      "eyebrow": "Customer portal preview",
+      "title": "A future space for service history and updates.",
+      "description": "The customer portal will give owners a calm view of bookings, notes and vehicle progress.",
+      "statusLabel": "Vehicle status",
+      "status": "In review",
+      "note": "Portal features will be added later, with booking updates and service records kept easy to read."
+    },
+    "news": {
+      "eyebrow": "Latest news and advice",
+      "title": "Useful notes for owners.",
+      "description": "Advice content should help customers understand maintenance without turning it into noise.",
+      "items": [
+        {
+          "title": "Preparing for a diagnostic visit",
+          "description": "What to note before bringing the vehicle in for investigation."
+        },
+        {
+          "title": "Service intervals and real use",
+          "description": "Why mileage, age and driving style all matter."
+        },
+        {
+          "title": "Warning lights with context",
+          "description": "How to treat dashboard alerts without panic or delay."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact and booking",
+      "title": "Tell us what the vehicle needs.",
+      "description": "Share the concern, book a visit or ask a question. The first step is a clear conversation.",
+      "primaryAction": "Book a visit",
+      "secondaryAction": "Contact Pro-Fix"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "Services",
+      "title": "Careful service work for premium vehicles.",
+      "description": "From diagnosis to maintenance and repair, Pro-Fix keeps the process clear, measured and focused on what the vehicle actually needs."
+    },
+    "overview": {
+      "eyebrow": "Service groups",
+      "title": "Support shaped around the way your vehicle is built.",
+      "description": "Each service area is grouped to help owners find the right starting point before booking."
+    },
+    "groups": [
+      {
+        "title": "Diagnostics",
+        "description": "Structured fault finding for warning lights, performance concerns and unclear symptoms.",
+        "services": [
+          "Fault code reading with context",
+          "Warning light investigation",
+          "Running and drivability checks",
+          "Pre-repair diagnostic reports"
+        ]
+      },
+      {
+        "title": "Preventive maintenance",
+        "description": "Routine care planned around mileage, age and how the vehicle is used.",
+        "services": [
+          "Oil and filter servicing",
+          "Brake fluid and coolant checks",
+          "Inspection service items",
+          "Seasonal vehicle health checks"
+        ]
+      },
+      {
+        "title": "Mechanical repairs",
+        "description": "Repair work explained before approval, with attention to reliability and fit.",
+        "services": [
+          "Brake repairs",
+          "Suspension and steering work",
+          "Cooling system repairs",
+          "Engine and drivetrain support"
+        ]
+      },
+      {
+        "title": "Electrical systems",
+        "description": "Careful checks for modern electrical faults and connected vehicle systems.",
+        "services": [
+          "Battery and charging checks",
+          "Sensor and module investigation",
+          "Lighting and control faults",
+          "Electrical continuity testing"
+        ]
+      },
+      {
+        "title": "BMW and MINI specialist support",
+        "description": "Model-aware support for BMW and MINI service, faults and ownership questions.",
+        "services": [
+          "BMW and MINI diagnostics",
+          "Service schedule guidance",
+          "Common fault investigation",
+          "Pre-purchase checks"
+        ]
+      },
+      {
+        "title": "BMW Motorrad support",
+        "description": "Focused care for BMW Motorrad owners who want clear advice and precise checks.",
+        "services": [
+          "Motorcycle diagnostic checks",
+          "Maintenance inspections",
+          "Electrical and sensor checks",
+          "Ownership advice"
+        ]
+      },
+      {
+        "title": "Premium brand inspections",
+        "description": "Detailed inspections for premium vehicles before purchase, sale or longer journeys.",
+        "services": [
+          "Condition inspections",
+          "Road test observations",
+          "Service history review",
+          "Clear written findings"
+        ]
+      }
+    ],
+    "cta": {
+      "eyebrow": "Booking",
+      "title": "Ready to arrange a visit?",
+      "description": "Send the vehicle details and the concern. The team can guide the next step before work begins.",
+      "action": "Go to booking"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Contact us",
+      "title": "Speak with Pro-Fix.",
+      "description": "Use this page to find the workshop details or prepare a message for the team. The form is a shell for now and does not submit yet."
+    },
+    "details": {
+      "items": [
+        {
+          "label": "Address",
+          "value": "302, Boulevard du 13 Janvier, Lome, Togo"
+        },
+        {
+          "label": "Phone",
+          "value": "+228 93685800"
+        },
+        {
+          "label": "Email",
+          "value": "info@pro-fix.com"
+        }
+      ]
+    },
+    "hours": {
+      "eyebrow": "Opening hours",
+      "title": "Workshop hours",
+      "description": "Opening hours will be confirmed before launch.",
+      "placeholder": "Opening hours placeholder"
+    },
+    "map": {
+      "eyebrow": "Map",
+      "title": "Workshop location",
+      "description": "A map embed can be connected later.",
+      "placeholder": "Map placeholder"
+    },
+    "form": {
+      "eyebrow": "Contact form",
+      "title": "Message shell",
+      "description": "No backend functionality is connected yet.",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "+228 ...",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us what you need help with",
+      "submit": "Send message",
+      "note": "This form is a visual shell only. Submission will be added in a later backend step."
+    }
+  },
+  "supportPage": {
+    "hero": {
+      "eyebrow": "Support",
+      "title": "Help for bookings, accounts and service records.",
+      "description": "Find the right support area or use the future ticket entry point when support workflows are connected."
+    },
+    "contact": {
+      "eyebrow": "Support email",
+      "title": "Contact support",
+      "description": "For customer support questions, use the support inbox.",
+      "email": "support@pro-fix.com"
+    },
+    "ticket": {
+      "eyebrow": "Ticket entry",
+      "title": "Support ticket placeholder",
+      "description": "A ticket form will be connected later.",
+      "placeholder": "Support ticket entry point placeholder"
+    },
+    "help": {
+      "eyebrow": "Help sections",
+      "title": "Common support areas",
+      "description": "These sections prepare the structure for account, booking, receipt and report guidance.",
+      "sections": [
+        {
+          "title": "Account help",
+          "description": "Future guidance for signing in, registration and customer profile access."
+        },
+        {
+          "title": "Booking help",
+          "description": "Support for appointment requests, booking changes and visit preparation."
+        },
+        {
+          "title": "Receipt help",
+          "description": "A place for payment receipt questions and invoice record guidance."
+        },
+        {
+          "title": "Report help",
+          "description": "Support for diagnostic reports, service notes and inspection summaries."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "description": "Initial questions for the public support page.",
+      "items": [
+        {
+          "question": "Can I submit a support ticket now?",
+          "answer": "Not yet. The ticket entry point is prepared as a placeholder until backend functionality is added."
+        },
+        {
+          "question": "Where should I send support questions?",
+          "answer": "Use support@pro-fix.com for support questions while the portal and ticket system are not connected."
+        },
+        {
+          "question": "Can I get help with a booking?",
+          "answer": "Yes. Booking help will cover appointment requests, changes and preparation details."
+        }
+      ]
+    }
+  },
+  "newsPage": {
+    "hero": {
+      "eyebrow": "News and advice",
+      "title": "Practical notes for premium vehicle owners.",
+      "description": "Short articles on diagnostics, maintenance, inspections and careful ownership."
+    },
+    "readArticle": "Read article",
+    "backToNews": "Back to news"
+  },
+  "auth": {
+    "validation": {
+      "emailRequired": "Enter your email address.",
+      "emailInvalid": "Enter a valid email address.",
+      "passwordRequired": "Enter your password.",
+      "passwordMin": "Use at least 8 characters."
+    },
+    "login": {
+      "eyebrow": "Login",
+      "title": "Sign in to your account.",
+      "description": "This form is UI only. Authentication will be connected later.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "submit": "Sign in",
+      "validationPlaceholder": "Validation messages will appear here when needed.",
+      "backendPlaceholder": "Form validated locally. Backend sign in is not connected yet.",
+      "alternatePrompt": "Need an account?",
+      "alternateLink": "Register"
+    },
+    "register": {
+      "eyebrow": "Register",
+      "title": "Create a Pro-Fix account.",
+      "description": "This form is UI only. Account creation will be connected later.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Create a password",
+      "submit": "Create account",
+      "validationPlaceholder": "Validation messages will appear here when needed.",
+      "backendPlaceholder": "Form validated locally. Backend registration is not connected yet.",
+      "alternatePrompt": "Already have an account?",
+      "alternateLink": "Login"
+    }
   },
   "pages": {
     "services": {

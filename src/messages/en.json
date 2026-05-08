@@ -360,6 +360,42 @@
     "readArticle": "Read article",
     "backToNews": "Back to news"
   },
+  "auth": {
+    "validation": {
+      "emailRequired": "Enter your email address.",
+      "emailInvalid": "Enter a valid email address.",
+      "passwordRequired": "Enter your password.",
+      "passwordMin": "Use at least 8 characters."
+    },
+    "login": {
+      "eyebrow": "Login",
+      "title": "Sign in to your account.",
+      "description": "This form is UI only. Authentication will be connected later.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "submit": "Sign in",
+      "validationPlaceholder": "Validation messages will appear here when needed.",
+      "backendPlaceholder": "Form validated locally. Backend sign in is not connected yet.",
+      "alternatePrompt": "Need an account?",
+      "alternateLink": "Register"
+    },
+    "register": {
+      "eyebrow": "Register",
+      "title": "Create a Pro-Fix account.",
+      "description": "This form is UI only. Account creation will be connected later.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Create a password",
+      "submit": "Create account",
+      "validationPlaceholder": "Validation messages will appear here when needed.",
+      "backendPlaceholder": "Form validated locally. Backend registration is not connected yet.",
+      "alternatePrompt": "Already have an account?",
+      "alternateLink": "Login"
+    }
+  },
   "pages": {
     "services": {
       "eyebrow": "Services",

@@ -360,6 +360,42 @@
     "readArticle": "Lire l'article",
     "backToNews": "Retour aux actualites"
   },
+  "auth": {
+    "validation": {
+      "emailRequired": "Saisissez votre adresse email.",
+      "emailInvalid": "Saisissez une adresse email valide.",
+      "passwordRequired": "Saisissez votre mot de passe.",
+      "passwordMin": "Utilisez au moins 8 caracteres."
+    },
+    "login": {
+      "eyebrow": "Connexion",
+      "title": "Connectez-vous a votre compte.",
+      "description": "Ce formulaire est uniquement une interface. L'authentification sera connectee plus tard.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vous@example.com",
+      "passwordLabel": "Mot de passe",
+      "passwordPlaceholder": "Saisissez votre mot de passe",
+      "submit": "Se connecter",
+      "validationPlaceholder": "Les messages de validation apparaitront ici si necessaire.",
+      "backendPlaceholder": "Formulaire valide localement. La connexion backend n'est pas encore connectee.",
+      "alternatePrompt": "Besoin d'un compte ?",
+      "alternateLink": "Inscription"
+    },
+    "register": {
+      "eyebrow": "Inscription",
+      "title": "Creez un compte Pro-Fix.",
+      "description": "Ce formulaire est uniquement une interface. La creation de compte sera connectee plus tard.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vous@example.com",
+      "passwordLabel": "Mot de passe",
+      "passwordPlaceholder": "Creez un mot de passe",
+      "submit": "Creer un compte",
+      "validationPlaceholder": "Les messages de validation apparaitront ici si necessaire.",
+      "backendPlaceholder": "Formulaire valide localement. L'inscription backend n'est pas encore connectee.",
+      "alternatePrompt": "Vous avez deja un compte ?",
+      "alternateLink": "Connexion"
+    }
+  },
   "pages": {
     "services": {
       "eyebrow": "Services",

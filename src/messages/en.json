@@ -240,6 +240,117 @@
       "action": "Go to booking"
     }
   },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Contact us",
+      "title": "Speak with Pro-Fix.",
+      "description": "Use this page to find the workshop details or prepare a message for the team. The form is a shell for now and does not submit yet."
+    },
+    "details": {
+      "items": [
+        {
+          "label": "Address",
+          "value": "302, Boulevard du 13 Janvier, Lome, Togo"
+        },
+        {
+          "label": "Phone",
+          "value": "+228 93685800"
+        },
+        {
+          "label": "Email",
+          "value": "info@pro-fix.com"
+        }
+      ]
+    },
+    "hours": {
+      "eyebrow": "Opening hours",
+      "title": "Workshop hours",
+      "description": "Opening hours will be confirmed before launch.",
+      "placeholder": "Opening hours placeholder"
+    },
+    "map": {
+      "eyebrow": "Map",
+      "title": "Workshop location",
+      "description": "A map embed can be connected later.",
+      "placeholder": "Map placeholder"
+    },
+    "form": {
+      "eyebrow": "Contact form",
+      "title": "Message shell",
+      "description": "No backend functionality is connected yet.",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "+228 ...",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us what you need help with",
+      "submit": "Send message",
+      "note": "This form is a visual shell only. Submission will be added in a later backend step."
+    }
+  },
+  "supportPage": {
+    "hero": {
+      "eyebrow": "Support",
+      "title": "Help for bookings, accounts and service records.",
+      "description": "Find the right support area or use the future ticket entry point when support workflows are connected."
+    },
+    "contact": {
+      "eyebrow": "Support email",
+      "title": "Contact support",
+      "description": "For customer support questions, use the support inbox.",
+      "email": "support@pro-fix.com"
+    },
+    "ticket": {
+      "eyebrow": "Ticket entry",
+      "title": "Support ticket placeholder",
+      "description": "A ticket form will be connected later.",
+      "placeholder": "Support ticket entry point placeholder"
+    },
+    "help": {
+      "eyebrow": "Help sections",
+      "title": "Common support areas",
+      "description": "These sections prepare the structure for account, booking, receipt and report guidance.",
+      "sections": [
+        {
+          "title": "Account help",
+          "description": "Future guidance for signing in, registration and customer profile access."
+        },
+        {
+          "title": "Booking help",
+          "description": "Support for appointment requests, booking changes and visit preparation."
+        },
+        {
+          "title": "Receipt help",
+          "description": "A place for payment receipt questions and invoice record guidance."
+        },
+        {
+          "title": "Report help",
+          "description": "Support for diagnostic reports, service notes and inspection summaries."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "description": "Initial questions for the public support page.",
+      "items": [
+        {
+          "question": "Can I submit a support ticket now?",
+          "answer": "Not yet. The ticket entry point is prepared as a placeholder until backend functionality is added."
+        },
+        {
+          "question": "Where should I send support questions?",
+          "answer": "Use support@pro-fix.com for support questions while the portal and ticket system are not connected."
+        },
+        {
+          "question": "Can I get help with a booking?",
+          "answer": "Yes. Booking help will cover appointment requests, changes and preparation details."
+        }
+      ]
+    }
+  },
   "pages": {
     "services": {
       "eyebrow": "Services",

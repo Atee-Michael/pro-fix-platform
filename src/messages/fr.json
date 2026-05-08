@@ -240,6 +240,117 @@
       "action": "Aller a la reservation"
     }
   },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Parler avec Pro-Fix.",
+      "description": "Utilisez cette page pour trouver les coordonnees de l'atelier ou preparer un message pour l'equipe. Le formulaire est une maquette pour l'instant."
+    },
+    "details": {
+      "items": [
+        {
+          "label": "Adresse",
+          "value": "302, Boulevard du 13 Janvier, Lome, Togo"
+        },
+        {
+          "label": "Telephone",
+          "value": "+228 93685800"
+        },
+        {
+          "label": "Email",
+          "value": "info@pro-fix.com"
+        }
+      ]
+    },
+    "hours": {
+      "eyebrow": "Horaires",
+      "title": "Horaires de l'atelier",
+      "description": "Les horaires seront confirmes avant le lancement.",
+      "placeholder": "Placeholder des horaires"
+    },
+    "map": {
+      "eyebrow": "Carte",
+      "title": "Emplacement de l'atelier",
+      "description": "Une carte pourra etre connectee plus tard.",
+      "placeholder": "Placeholder de carte"
+    },
+    "form": {
+      "eyebrow": "Formulaire de contact",
+      "title": "Maquette de message",
+      "description": "Aucune fonctionnalite backend n'est connectee pour l'instant.",
+      "nameLabel": "Nom",
+      "namePlaceholder": "Votre nom",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vous@example.com",
+      "phoneLabel": "Telephone",
+      "phonePlaceholder": "+228 ...",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Dites-nous ce dont vous avez besoin",
+      "submit": "Envoyer le message",
+      "note": "Ce formulaire est uniquement une maquette visuelle. L'envoi sera ajoute dans une etape backend ulterieure."
+    }
+  },
+  "supportPage": {
+    "hero": {
+      "eyebrow": "Support",
+      "title": "Aide pour reservations, comptes et dossiers de service.",
+      "description": "Trouvez la bonne zone d'aide ou utilisez le futur point d'entree ticket lorsque les flux support seront connectes."
+    },
+    "contact": {
+      "eyebrow": "Email support",
+      "title": "Contacter le support",
+      "description": "Pour les questions de support client, utilisez la boite support.",
+      "email": "support@pro-fix.com"
+    },
+    "ticket": {
+      "eyebrow": "Ticket",
+      "title": "Placeholder de ticket support",
+      "description": "Un formulaire de ticket sera connecte plus tard.",
+      "placeholder": "Placeholder du point d'entree ticket support"
+    },
+    "help": {
+      "eyebrow": "Sections d'aide",
+      "title": "Zones de support courantes",
+      "description": "Ces sections preparent la structure pour l'aide compte, reservation, recu et rapport.",
+      "sections": [
+        {
+          "title": "Aide compte",
+          "description": "Future aide pour connexion, inscription et acces au profil client."
+        },
+        {
+          "title": "Aide reservation",
+          "description": "Support pour demandes de rendez-vous, changements et preparation de visite."
+        },
+        {
+          "title": "Aide recu",
+          "description": "Un espace pour les questions de recus de paiement et dossiers de facture."
+        },
+        {
+          "title": "Aide rapport",
+          "description": "Support pour rapports diagnostic, notes de service et resumes d'inspection."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Questions frequentes",
+      "description": "Premieres questions pour la page support publique.",
+      "items": [
+        {
+          "question": "Puis-je envoyer un ticket maintenant ?",
+          "answer": "Pas encore. Le point d'entree ticket est prepare comme placeholder jusqu'a l'ajout du backend."
+        },
+        {
+          "question": "Ou envoyer les questions de support ?",
+          "answer": "Utilisez support@pro-fix.com pendant que le portail et le systeme de tickets ne sont pas connectes."
+        },
+        {
+          "question": "Puis-je obtenir de l'aide pour une reservation ?",
+          "answer": "Oui. L'aide reservation couvrira les demandes, changements et details de preparation."
+        }
+      ]
+    }
+  },
   "pages": {
     "services": {
       "eyebrow": "Services",

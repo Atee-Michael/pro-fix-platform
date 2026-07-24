@@ -402,6 +402,92 @@
       "alternateLink": "Connexion"
     }
   },
+  "dashboard": {
+    "shell": {
+      "title": "Espace client",
+      "logout": "Se deconnecter"
+    },
+    "navigation": {
+      "label": "Navigation de l'espace client",
+      "mobileLabel": "Navigation mobile de l'espace client",
+      "overview": "Apercu",
+      "vehicles": "Vehicules",
+      "repairHistory": "Historique des reparations",
+      "reports": "Rapports",
+      "receipts": "Recus",
+      "bookings": "Reservations",
+      "payments": "Paiements",
+      "support": "Support",
+      "profile": "Profil"
+    },
+    "pages": {
+      "overview": {
+        "eyebrow": "Apercu",
+        "title": "Votre espace Pro-Fix",
+        "description": "Un point de depart securise pour vos vehicules, visites a l'atelier et dossiers client.",
+        "placeholder": "L'activite du compte et les mises a jour de service apparaitront ici."
+      },
+      "vehicles": {
+        "eyebrow": "Vehicules",
+        "title": "Vos vehicules",
+        "description": "Consultez et gerez les vehicules associes a votre compte client.",
+        "placeholder": "Les dossiers de vos vehicules apparaitront ici."
+      },
+      "repairHistory": {
+        "eyebrow": "Historique des reparations",
+        "title": "Historique des reparations",
+        "description": "Consultez les travaux termines et l'historique d'entretien de vos vehicules.",
+        "placeholder": "Les dossiers de reparation apparaitront ici."
+      },
+      "reports": {
+        "eyebrow": "Rapports",
+        "title": "Rapports des vehicules",
+        "description": "Accedez aux rapports de diagnostic, d'inspection et d'atelier partages avec votre compte.",
+        "placeholder": "Les rapports disponibles apparaitront ici."
+      },
+      "receipts": {
+        "eyebrow": "Recus",
+        "title": "Vos recus",
+        "description": "Retrouvez les recus associes aux rendez-vous termines et aux paiements.",
+        "placeholder": "Les recus apparaitront ici."
+      },
+      "bookings": {
+        "eyebrow": "Reservations",
+        "title": "Vos reservations",
+        "description": "Consultez vos prochains rendez-vous et vos visites precedentes.",
+        "placeholder": "Les details de reservation apparaitront ici."
+      },
+      "payments": {
+        "eyebrow": "Paiements",
+        "title": "Paiements",
+        "description": "Consultez le statut des paiements et l'activite de facturation du compte.",
+        "placeholder": "Les informations de paiement apparaitront ici."
+      },
+      "support": {
+        "eyebrow": "Support",
+        "title": "Support client",
+        "description": "Trouvez de l'aide et suivez vos echanges avec l'equipe Pro-Fix.",
+        "placeholder": "Les tickets et messages de support apparaitront ici."
+      },
+      "profile": {
+        "eyebrow": "Profil",
+        "title": "Resume du profil",
+        "description": "Consultez les informations client associees a votre compte securise.",
+        "notProvided": "Non renseigne",
+        "fields": {
+          "name": "Nom",
+          "email": "Email",
+          "phone": "Telephone",
+          "role": "Role du compte"
+        },
+        "roles": {
+          "customer": "Client",
+          "staff": "Personnel",
+          "admin": "Administrateur"
+        }
+      }
+    }
+  },
   "pages": {
     "services": {
       "eyebrow": "Services",

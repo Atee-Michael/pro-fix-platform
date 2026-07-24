@@ -66,6 +66,8 @@ export async function register(
   let hasSession = false;
 
   try {
+    // Validate the privileged server configuration before creating an auth user.
+    const admin = createServiceRoleClient();
     const supabase = await createClient();
     const { data, error } = await supabase.auth.signUp({
       email: credentials.data.email,
@@ -77,7 +79,6 @@ export async function register(
       return { code: "registrationPending" };
     }
 
-    const admin = createServiceRoleClient();
     const { error: profileError } = await admin.from("profiles").insert({
       id: data.user.id,
       email: credentials.data.email,

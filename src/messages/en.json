@@ -402,6 +402,92 @@
       "alternateLink": "Login"
     }
   },
+  "dashboard": {
+    "shell": {
+      "title": "Customer dashboard",
+      "logout": "Log out"
+    },
+    "navigation": {
+      "label": "Dashboard navigation",
+      "mobileLabel": "Mobile dashboard navigation",
+      "overview": "Overview",
+      "vehicles": "Vehicles",
+      "repairHistory": "Repair history",
+      "reports": "Reports",
+      "receipts": "Receipts",
+      "bookings": "Bookings",
+      "payments": "Payments",
+      "support": "Support",
+      "profile": "Profile"
+    },
+    "pages": {
+      "overview": {
+        "eyebrow": "Overview",
+        "title": "Your Pro-Fix dashboard",
+        "description": "A secure starting point for your vehicles, workshop visits and customer records.",
+        "placeholder": "Dashboard activity and service updates will appear here."
+      },
+      "vehicles": {
+        "eyebrow": "Vehicles",
+        "title": "Your vehicles",
+        "description": "View and manage the vehicles connected to your customer account.",
+        "placeholder": "Vehicle records will appear here."
+      },
+      "repairHistory": {
+        "eyebrow": "Repair history",
+        "title": "Repair history",
+        "description": "Review completed workshop work and service history for your vehicles.",
+        "placeholder": "Repair history records will appear here."
+      },
+      "reports": {
+        "eyebrow": "Reports",
+        "title": "Vehicle reports",
+        "description": "Access diagnostic, inspection and workshop reports shared with your account.",
+        "placeholder": "Available reports will appear here."
+      },
+      "receipts": {
+        "eyebrow": "Receipts",
+        "title": "Your receipts",
+        "description": "Find receipts connected to completed appointments and payments.",
+        "placeholder": "Receipt records will appear here."
+      },
+      "bookings": {
+        "eyebrow": "Bookings",
+        "title": "Your bookings",
+        "description": "Review upcoming and previous workshop appointments.",
+        "placeholder": "Booking details will appear here."
+      },
+      "payments": {
+        "eyebrow": "Payments",
+        "title": "Payments",
+        "description": "View payment status and account billing activity.",
+        "placeholder": "Payment information will appear here."
+      },
+      "support": {
+        "eyebrow": "Support",
+        "title": "Customer support",
+        "description": "Find help and follow conversations with the Pro-Fix team.",
+        "placeholder": "Support tickets and messages will appear here."
+      },
+      "profile": {
+        "eyebrow": "Profile",
+        "title": "Profile summary",
+        "description": "Review the customer details connected to your secure account.",
+        "notProvided": "Not provided",
+        "fields": {
+          "name": "Name",
+          "email": "Email",
+          "phone": "Phone",
+          "role": "Account role"
+        },
+        "roles": {
+          "customer": "Customer",
+          "staff": "Staff",
+          "admin": "Administrator"
+        }
+      }
+    }
+  },
   "pages": {
     "services": {
       "eyebrow": "Services",

@@ -10,6 +10,8 @@
     "build": "next build"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.12.3",
+    "@supabase/supabase-js": "^2.110.8",
     "framer-motion": "^12.38.0",
     "next": "latest",
     "next-intl": "^4.11.0",

@@ -1,24 +1,10 @@
 import { getTranslations } from "next-intl/server";
 import { Badge, Card } from "@/components";
-import { createClient } from "@/lib/supabase/server";
+import { mockDashboardData } from "@/lib/mock-dashboard-data";
 
 export default async function ProfilePage() {
   const t = await getTranslations("dashboard.pages.profile");
-  const supabase = await createClient();
-  const {
-    data: { user }
-  } = await supabase.auth.getUser();
-  const { data: profile } = user
-    ? await supabase
-        .from("profiles")
-        .select("name, email, phone, role")
-        .eq("id", user.id)
-        .maybeSingle()
-    : { data: null };
-  const role =
-    profile?.role === "staff" || profile?.role === "admin"
-      ? profile.role
-      : "customer";
+  const { customer } = mockDashboardData;
 
   return (
     <div>
@@ -30,10 +16,10 @@ export default async function ProfilePage() {
       <Card className="mt-8">
         <dl className="grid gap-5 sm:grid-cols-2">
           {[
-            [t("fields.name"), profile?.name ?? t("notProvided")],
-            [t("fields.email"), profile?.email ?? user?.email ?? t("notProvided")],
-            [t("fields.phone"), profile?.phone ?? t("notProvided")],
-            [t("fields.role"), t(`roles.${role}`)]
+            [t("fields.name"), customer.name],
+            [t("fields.email"), customer.email],
+            [t("fields.phone"), customer.phone],
+            [t("fields.role"), t(`roles.${customer.role}`)]
           ].map(([label, value]) => (
             <div key={label}>
               <dt className="text-xs font-bold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">

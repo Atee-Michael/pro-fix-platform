@@ -1,30 +1,19 @@
 "use client";
 
-import { useActionState, useState } from "react";
-import { useFormStatus } from "react-dom";
+import { useState } from "react";
 import { createAuthSchema } from "@/lib/auth-schemas";
-import { Link } from "@/i18n/routing";
-import type { AuthActionState } from "@/app/[locale]/auth/actions";
+import { Link, useRouter } from "@/i18n/routing";
 
 type AuthFormMode = "login" | "register";
 
 type AuthFormProps = {
-  action: (
-    state: AuthActionState,
-    formData: FormData
-  ) => Promise<AuthActionState>;
   mode: AuthFormMode;
-  locale: "en" | "fr";
   emailLabel: string;
   emailPlaceholder: string;
   passwordLabel: string;
   passwordPlaceholder: string;
   submitLabel: string;
   validationPlaceholder: string;
-  backendPlaceholder: string;
-  errorMessage: string;
-  pendingLabel: string;
-  registrationPendingMessage: string;
   alternatePrompt: string;
   alternateLinkLabel: string;
   validationMessages: {
@@ -41,31 +30,23 @@ type FieldErrors = {
 };
 
 export function AuthForm({
-  action,
   alternateLinkLabel,
   alternatePrompt,
-  backendPlaceholder,
   emailLabel,
   emailPlaceholder,
-  errorMessage,
-  locale,
   mode,
-  pendingLabel,
   passwordLabel,
   passwordPlaceholder,
-  registrationPendingMessage,
   submitLabel,
   validationMessages,
   validationPlaceholder
 }: AuthFormProps) {
   const [errors, setErrors] = useState<FieldErrors>({});
-  const [clientMessage, setClientMessage] = useState(validationPlaceholder);
-  const [state, formAction] = useActionState(action, {
-    code: "idle"
-  } as AuthActionState);
+  const router = useRouter();
   const alternateHref = mode === "login" ? "/register" : "/login";
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
     const formData = new FormData(event.currentTarget);
     const result = createAuthSchema(validationMessages).safeParse({
       email: formData.get("email"),
@@ -73,31 +54,21 @@ export function AuthForm({
     });
 
     if (!result.success) {
-      event.preventDefault();
       const fieldErrors = result.error.flatten().fieldErrors;
 
       setErrors({
         email: fieldErrors.email?.[0],
         password: fieldErrors.password?.[0]
       });
-      setClientMessage(validationPlaceholder);
       return;
     }
 
     setErrors({});
-    setClientMessage(backendPlaceholder);
+    router.push("/dashboard");
   }
 
-  const message =
-    state.code === "error" || state.code === "invalid"
-      ? errorMessage
-      : state.code === "registrationPending"
-        ? registrationPendingMessage
-        : clientMessage;
-
   return (
-    <form action={formAction} className="grid gap-4" noValidate onSubmit={handleSubmit}>
-      <input name="locale" type="hidden" value={locale} />
+    <form className="grid gap-4" noValidate onSubmit={handleSubmit}>
       <label
         className="grid gap-2 text-sm font-medium text-zinc-800 dark:text-zinc-200"
         htmlFor={`${mode}-email`}
@@ -143,10 +114,15 @@ export function AuthForm({
         </p>
       ) : null}
 
-      <SubmitButton pendingLabel={pendingLabel} submitLabel={submitLabel} />
+      <button
+        className="inline-flex h-11 items-center justify-center rounded-md bg-blue-800 px-5 text-sm font-semibold text-white shadow-sm shadow-blue-950/20 transition-colors hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700"
+        type="submit"
+      >
+        {submitLabel}
+      </button>
 
       <p className="rounded-md border border-zinc-200 bg-zinc-100 p-3 text-sm leading-6 text-zinc-700 dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-300">
-        {message}
+        {validationPlaceholder}
       </p>
 
       <p className="text-sm text-zinc-600 dark:text-zinc-300">
@@ -159,25 +135,5 @@ export function AuthForm({
         </Link>
       </p>
     </form>
-  );
-}
-
-function SubmitButton({
-  pendingLabel,
-  submitLabel
-}: {
-  pendingLabel: string;
-  submitLabel: string;
-}) {
-  const { pending } = useFormStatus();
-
-  return (
-    <button
-      className="inline-flex h-11 items-center justify-center rounded-md bg-blue-800 px-5 text-sm font-semibold text-white shadow-sm shadow-blue-950/20 transition-colors hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700 disabled:cursor-not-allowed disabled:opacity-60"
-      disabled={pending}
-      type="submit"
-    >
-      {pending ? pendingLabel : submitLabel}
-    </button>
   );
 }

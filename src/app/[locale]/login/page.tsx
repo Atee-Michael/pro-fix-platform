@@ -2,15 +2,8 @@ import { getTranslations } from "next-intl/server";
 import { AuthForm } from "@/components/auth-form";
 import { Badge, Card, CardDescription, CardHeader, CardTitle, Container } from "@/components";
 import { SlideUp } from "@/components/motion";
-import { login } from "@/app/[locale]/auth/actions";
-import type { Locale } from "@/i18n/routing";
 
-export default async function LoginPage({
-  params
-}: {
-  params: Promise<{ locale: Locale }>;
-}) {
-  const { locale } = await params;
+export default async function LoginPage() {
   const t = await getTranslations("auth.login");
   const validation = await getTranslations("auth.validation");
 
@@ -25,19 +18,13 @@ export default async function LoginPage({
               <CardDescription>{t("description")}</CardDescription>
             </CardHeader>
             <AuthForm
-              action={login}
               alternateLinkLabel={t("alternateLink")}
               alternatePrompt={t("alternatePrompt")}
-              backendPlaceholder={t("backendPlaceholder")}
-              errorMessage={t("errorMessage")}
               emailLabel={t("emailLabel")}
               emailPlaceholder={t("emailPlaceholder")}
-              locale={locale}
               mode="login"
-              pendingLabel={t("pendingLabel")}
               passwordLabel={t("passwordLabel")}
               passwordPlaceholder={t("passwordPlaceholder")}
-              registrationPendingMessage={t("registrationPendingMessage")}
               submitLabel={t("submit")}
               validationMessages={{
                 emailRequired: validation("emailRequired"),

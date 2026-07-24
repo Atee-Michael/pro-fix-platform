@@ -1,27 +1,13 @@
-import { redirect } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import { logout } from "@/app/[locale]/auth/actions";
 import { Container } from "@/components";
 import { DashboardNavigation } from "@/components/dashboard-navigation";
-import { createClient } from "@/lib/supabase/server";
+import { mockDashboardData } from "@/lib/mock-dashboard-data";
 
 export default async function DashboardLayout({
-  children,
-  params
+  children
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
-  const supabase = await createClient();
-  const {
-    data: { user }
-  } = await supabase.auth.getUser();
-
-  if (!user) {
-    redirect(`/${locale}/login`);
-  }
-
   const t = await getTranslations("dashboard.shell");
 
   return (
@@ -33,21 +19,15 @@ export default async function DashboardLayout({
               {t("title")}
             </p>
             <p className="text-xs text-zinc-500 dark:text-zinc-400">
-              {user.email}
+              {mockDashboardData.customer.email}
             </p>
           </div>
-          <form action={logout}>
-            <input name="locale" type="hidden" value={locale} />
-            <button
-              className="rounded-md border border-zinc-300 px-3 py-2 text-sm font-semibold text-zinc-700 transition-colors hover:border-blue-700 hover:text-blue-800 dark:border-zinc-700 dark:text-zinc-200 dark:hover:border-blue-400 dark:hover:text-blue-300"
-              type="submit"
-            >
-              {t("logout")}
-            </button>
-          </form>
         </Container>
       </div>
       <Container className="py-8">
+        <p className="mb-6 rounded-md border border-amber-300 bg-amber-50 px-4 py-2 text-sm font-medium text-amber-950 dark:border-amber-800 dark:bg-amber-950/40 dark:text-amber-100">
+          {t("developmentNotice")}
+        </p>
         <div className="lg:flex lg:gap-8">
           <DashboardNavigation />
           <section className="min-w-0 flex-1 pt-6 lg:pt-0">{children}</section>

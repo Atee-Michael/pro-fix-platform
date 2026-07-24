@@ -370,34 +370,26 @@
     "login": {
       "eyebrow": "Connexion",
       "title": "Connectez-vous a votre compte.",
-      "description": "Connectez-vous en toute securite pour acceder a votre espace client.",
+      "description": "Apercu de la connexion client pendant le developpement du site.",
       "emailLabel": "Email",
       "emailPlaceholder": "vous@example.com",
       "passwordLabel": "Mot de passe",
       "passwordPlaceholder": "Saisissez votre mot de passe",
       "submit": "Se connecter",
-      "validationPlaceholder": "Les messages de validation apparaitront ici si necessaire.",
-      "backendPlaceholder": "Connexion securisee en cours...",
-      "errorMessage": "Connexion impossible avec ces informations. Verifiez-les et reessayez.",
-      "pendingLabel": "Connexion...",
-      "registrationPendingMessage": "Si un compte peut etre cree pour cette adresse, consultez votre email pour la prochaine etape.",
+      "validationPlaceholder": "L'authentification sera activee dans une phase ulterieure.",
       "alternatePrompt": "Besoin d'un compte ?",
       "alternateLink": "Inscription"
     },
     "register": {
       "eyebrow": "Inscription",
       "title": "Creez un compte Pro-Fix.",
-      "description": "Creez un compte client securise pour vos dossiers Pro-Fix.",
+      "description": "Apercu de l'inscription client pendant le developpement du site.",
       "emailLabel": "Email",
       "emailPlaceholder": "vous@example.com",
       "passwordLabel": "Mot de passe",
       "passwordPlaceholder": "Creez un mot de passe",
       "submit": "Creer un compte",
-      "validationPlaceholder": "Les messages de validation apparaitront ici si necessaire.",
-      "backendPlaceholder": "Creation securisee de votre compte...",
-      "errorMessage": "Impossible de traiter cette demande maintenant. Veuillez reessayer.",
-      "pendingLabel": "Creation du compte...",
-      "registrationPendingMessage": "Si un compte peut etre cree pour cette adresse, consultez votre email pour la prochaine etape.",
+      "validationPlaceholder": "L'authentification sera activee dans une phase ulterieure.",
       "alternatePrompt": "Vous avez deja un compte ?",
       "alternateLink": "Connexion"
     }
@@ -405,7 +397,7 @@
   "dashboard": {
     "shell": {
       "title": "Espace client",
-      "logout": "Se deconnecter"
+      "developmentNotice": "Mode developpement – L'authentification est temporairement desactivee."
     },
     "navigation": {
       "label": "Navigation de l'espace client",
@@ -425,7 +417,35 @@
         "eyebrow": "Apercu",
         "title": "Votre espace Pro-Fix",
         "description": "Un point de depart securise pour vos vehicules, visites a l'atelier et dossiers client.",
-        "placeholder": "L'activite du compte et les mises a jour de service apparaitront ici."
+        "placeholder": "L'activite du compte et les mises a jour de service apparaitront ici.",
+        "statistics": {
+          "vehicles": "Vehicules",
+          "upcomingBookings": "Reservations a venir",
+          "availableReports": "Rapports disponibles",
+          "openTickets": "Tickets ouverts"
+        },
+        "appointments": {
+          "title": "Prochain rendez-vous",
+          "description": "Votre prochaine visite planifiee a l'atelier."
+        },
+        "notifications": {
+          "title": "Notifications",
+          "description": "Mises a jour recentes du compte de demonstration.",
+          "messages": {
+            "bookingConfirmed": "Votre reservation a l'atelier est confirmee.",
+            "reportReady": "Un rapport de vehicule est pret a consulter."
+          }
+        },
+        "support": {
+          "title": "Support",
+          "summary": "{count, plural, =0 {Aucun ticket de demonstration} =1 {# ticket de demonstration} other {# tickets de demonstration}}"
+        },
+        "services": {
+          "annualService": "Entretien annuel"
+        },
+        "statuses": {
+          "confirmed": "Confirme"
+        }
       },
       "vehicles": {
         "eyebrow": "Vehicules",

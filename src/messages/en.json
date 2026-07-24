@@ -370,34 +370,26 @@
     "login": {
       "eyebrow": "Login",
       "title": "Sign in to your account.",
-      "description": "Sign in securely to access your customer dashboard.",
+      "description": "Preview the customer login experience during website development.",
       "emailLabel": "Email",
       "emailPlaceholder": "you@example.com",
       "passwordLabel": "Password",
       "passwordPlaceholder": "Enter your password",
       "submit": "Sign in",
-      "validationPlaceholder": "Validation messages will appear here when needed.",
-      "backendPlaceholder": "Signing in securely...",
-      "errorMessage": "Unable to sign in with those details. Check them and try again.",
-      "pendingLabel": "Signing in...",
-      "registrationPendingMessage": "If an account can be created for this address, check your email for the next step.",
+      "validationPlaceholder": "Authentication will be enabled in a later phase.",
       "alternatePrompt": "Need an account?",
       "alternateLink": "Register"
     },
     "register": {
       "eyebrow": "Register",
       "title": "Create a Pro-Fix account.",
-      "description": "Create a secure customer account for your Pro-Fix records.",
+      "description": "Preview the customer registration experience during website development.",
       "emailLabel": "Email",
       "emailPlaceholder": "you@example.com",
       "passwordLabel": "Password",
       "passwordPlaceholder": "Create a password",
       "submit": "Create account",
-      "validationPlaceholder": "Validation messages will appear here when needed.",
-      "backendPlaceholder": "Creating your account securely...",
-      "errorMessage": "Unable to complete this request right now. Please try again.",
-      "pendingLabel": "Creating account...",
-      "registrationPendingMessage": "If an account can be created for this address, check your email for the next step.",
+      "validationPlaceholder": "Authentication will be enabled in a later phase.",
       "alternatePrompt": "Already have an account?",
       "alternateLink": "Login"
     }
@@ -405,7 +397,7 @@
   "dashboard": {
     "shell": {
       "title": "Customer dashboard",
-      "logout": "Log out"
+      "developmentNotice": "Development Mode – Authentication is temporarily disabled."
     },
     "navigation": {
       "label": "Dashboard navigation",
@@ -425,7 +417,35 @@
         "eyebrow": "Overview",
         "title": "Your Pro-Fix dashboard",
         "description": "A secure starting point for your vehicles, workshop visits and customer records.",
-        "placeholder": "Dashboard activity and service updates will appear here."
+        "placeholder": "Dashboard activity and service updates will appear here.",
+        "statistics": {
+          "vehicles": "Vehicles",
+          "upcomingBookings": "Upcoming bookings",
+          "availableReports": "Available reports",
+          "openTickets": "Open tickets"
+        },
+        "appointments": {
+          "title": "Next appointment",
+          "description": "Your next scheduled workshop visit."
+        },
+        "notifications": {
+          "title": "Notifications",
+          "description": "Recent mock account updates.",
+          "messages": {
+            "bookingConfirmed": "Your workshop booking has been confirmed.",
+            "reportReady": "A vehicle report is ready to view."
+          }
+        },
+        "support": {
+          "title": "Support",
+          "summary": "{count, plural, =0 {No mock support tickets} =1 {# mock support ticket} other {# mock support tickets}}"
+        },
+        "services": {
+          "annualService": "Annual service"
+        },
+        "statuses": {
+          "confirmed": "Confirmed"
+        }
       },
       "vehicles": {
         "eyebrow": "Vehicles",

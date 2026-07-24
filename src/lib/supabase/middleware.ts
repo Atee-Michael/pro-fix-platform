@@ -27,8 +27,7 @@ export async function updateSession(request: NextRequest) {
     }
   );
 
-  // Refresh an expired session without adding route protection or auth UI.
-  await supabase.auth.getClaims();
+  const { data } = await supabase.auth.getClaims();
 
-  return response;
+  return { response, userId: data?.claims.sub };
 }

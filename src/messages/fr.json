@@ -904,6 +904,126 @@
       }
     }
   },
+  "admin": {
+    "shell": {
+      "brand": "Pro-Fix",
+      "portal": "Portail admin",
+      "menu": "Menu",
+      "openMenu": "Ouvrir la navigation admin",
+      "closeMenu": "Fermer la navigation admin",
+      "unrestrictedAccess": "Acces de developpement temporairement sans restriction",
+      "developmentWarning": "Mode developpement — L'authentification admin et les controles de role sont temporairement desactives."
+    },
+    "navigation": {
+      "label": "Navigation admin",
+      "overview": "Apercu",
+      "appointments": "Rendez-vous",
+      "customers": "Clients",
+      "vehicles": "Vehicules",
+      "support": "Support",
+      "articles": "Articles",
+      "reports": "Rapports",
+      "settings": "Parametres"
+    },
+    "header": {
+      "searchLabel": "Rechercher dans le portail admin",
+      "searchPlaceholder": "Rechercher clients, vehicules, rendez-vous...",
+      "notifications": "Placeholder des notifications",
+      "notificationShort": "Alertes",
+      "staffShort": "Equipe",
+      "profile": {
+        "name": "Profil equipe de developpement",
+        "placeholder": "Les actions du profil seront connectees apres l'authentification."
+      },
+      "theme": {
+        "label": "Selection du theme admin",
+        "system": "Systeme",
+        "light": "Clair",
+        "dark": "Sombre"
+      }
+    },
+    "breadcrumbs": {
+      "label": "Fil d'Ariane",
+      "admin": "Admin"
+    },
+    "overview": {
+      "eyebrow": "Apercu des operations",
+      "title": "Tableau de bord admin",
+      "description": "Une vue operationnelle fictive des rendez-vous, clients, vehicules, du support et du contenu publie.",
+      "statisticsLabel": "Statistiques admin",
+      "statistics": {
+        "todaysAppointments": "Rendez-vous aujourd'hui",
+        "pendingApprovals": "Validations en attente",
+        "inProgressAppointments": "Rendez-vous en cours",
+        "completedAppointments": "Rendez-vous termines",
+        "openSupportTickets": "Tickets de support ouverts",
+        "totalCustomers": "Total clients",
+        "totalVehicles": "Total vehicules",
+        "publishedArticles": "Articles publies"
+      },
+      "activity": {
+        "title": "Activite operationnelle recente",
+        "description": "Derniers evenements fictifs des operations atelier et client.",
+        "types": {
+          "appointmentConfirmed": "Rendez-vous confirme",
+          "supportTicketOpened": "Ticket de support ouvert",
+          "customerAdded": "Dossier client ajoute",
+          "appointmentCompleted": "Rendez-vous termine"
+        }
+      }
+    },
+    "sections": {
+      "appointments": {
+        "eyebrow": "Operations",
+        "title": "Rendez-vous",
+        "description": "Gerez le planning atelier, les validations et la progression des rendez-vous.",
+        "panelTitle": "Espace rendez-vous",
+        "panelDescription": "Les outils de gestion des rendez-vous seront connectes dans une implementation ulterieure."
+      },
+      "customers": {
+        "eyebrow": "Repertoire",
+        "title": "Clients",
+        "description": "Consultez les dossiers clients et leurs relations de service.",
+        "panelTitle": "Repertoire clients",
+        "panelDescription": "Les outils de recherche et de gestion des clients seront connectes plus tard."
+      },
+      "vehicles": {
+        "eyebrow": "Dossiers vehicules",
+        "title": "Vehicules",
+        "description": "Consultez les vehicules de tous les comptes clients.",
+        "panelTitle": "Repertoire vehicules",
+        "panelDescription": "Les outils de recherche et d'administration des vehicules seront connectes plus tard."
+      },
+      "support": {
+        "eyebrow": "Service client",
+        "title": "Support",
+        "description": "Consultez les files de support et les conversations client.",
+        "panelTitle": "Espace support",
+        "panelDescription": "Les outils de triage et de reponse seront connectes plus tard."
+      },
+      "articles": {
+        "eyebrow": "Contenu",
+        "title": "Articles",
+        "description": "Preparez et gerez les actualites et conseils destines aux clients.",
+        "panelTitle": "Espace articles",
+        "panelDescription": "Les outils de redaction, validation et publication seront connectes plus tard."
+      },
+      "reports": {
+        "eyebrow": "Operations",
+        "title": "Rapports",
+        "description": "Consultez les rapports operationnels et de service client.",
+        "panelTitle": "Espace rapports",
+        "panelDescription": "Les filtres, exports et resumes seront connectes plus tard."
+      },
+      "settings": {
+        "eyebrow": "Configuration",
+        "title": "Parametres",
+        "description": "Preparez la configuration de l'atelier et du portail.",
+        "panelTitle": "Parametres admin",
+        "panelDescription": "Les controles seront connectes apres l'authentification et l'autorisation."
+      }
+    }
+  },
   "pages": {
     "services": {
       "eyebrow": "Services",

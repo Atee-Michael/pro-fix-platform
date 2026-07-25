@@ -904,6 +904,126 @@
       }
     }
   },
+  "admin": {
+    "shell": {
+      "brand": "Pro-Fix",
+      "portal": "Admin portal",
+      "menu": "Menu",
+      "openMenu": "Open admin navigation",
+      "closeMenu": "Close admin navigation",
+      "unrestrictedAccess": "Temporary unrestricted development access",
+      "developmentWarning": "Development Mode — Admin authentication and role checks are temporarily disabled."
+    },
+    "navigation": {
+      "label": "Admin navigation",
+      "overview": "Overview",
+      "appointments": "Appointments",
+      "customers": "Customers",
+      "vehicles": "Vehicles",
+      "support": "Support",
+      "articles": "Articles",
+      "reports": "Reports",
+      "settings": "Settings"
+    },
+    "header": {
+      "searchLabel": "Search admin portal",
+      "searchPlaceholder": "Search customers, vehicles, appointments...",
+      "notifications": "Notifications placeholder",
+      "notificationShort": "Alerts",
+      "staffShort": "Staff",
+      "profile": {
+        "name": "Development staff profile",
+        "placeholder": "Profile actions will be connected after authentication."
+      },
+      "theme": {
+        "label": "Admin theme selector",
+        "system": "System",
+        "light": "Light",
+        "dark": "Dark"
+      }
+    },
+    "breadcrumbs": {
+      "label": "Breadcrumbs",
+      "admin": "Admin"
+    },
+    "overview": {
+      "eyebrow": "Operations overview",
+      "title": "Admin dashboard",
+      "description": "A mock operational view of appointments, customers, vehicles, support and published content.",
+      "statisticsLabel": "Admin statistics",
+      "statistics": {
+        "todaysAppointments": "Today's appointments",
+        "pendingApprovals": "Pending approvals",
+        "inProgressAppointments": "Appointments in progress",
+        "completedAppointments": "Completed appointments",
+        "openSupportTickets": "Open support tickets",
+        "totalCustomers": "Total customers",
+        "totalVehicles": "Total vehicles",
+        "publishedArticles": "Published articles"
+      },
+      "activity": {
+        "title": "Recent operational activity",
+        "description": "Latest mock events across workshop and customer operations.",
+        "types": {
+          "appointmentConfirmed": "Appointment confirmed",
+          "supportTicketOpened": "Support ticket opened",
+          "customerAdded": "Customer record added",
+          "appointmentCompleted": "Appointment completed"
+        }
+      }
+    },
+    "sections": {
+      "appointments": {
+        "eyebrow": "Operations",
+        "title": "Appointments",
+        "description": "Manage workshop schedules, approvals and appointment progress.",
+        "panelTitle": "Appointment workspace",
+        "panelDescription": "Appointment management tools will be connected here in a later implementation."
+      },
+      "customers": {
+        "eyebrow": "Directory",
+        "title": "Customers",
+        "description": "Review customer records and service relationships.",
+        "panelTitle": "Customer directory",
+        "panelDescription": "Customer search and management tools will be connected here later."
+      },
+      "vehicles": {
+        "eyebrow": "Vehicle records",
+        "title": "Vehicles",
+        "description": "Review vehicle records across customer accounts.",
+        "panelTitle": "Vehicle directory",
+        "panelDescription": "Vehicle lookup and administration tools will be connected here later."
+      },
+      "support": {
+        "eyebrow": "Customer care",
+        "title": "Support",
+        "description": "Review support queues and customer conversations.",
+        "panelTitle": "Support workspace",
+        "panelDescription": "Support triage and reply tools will be connected here later."
+      },
+      "articles": {
+        "eyebrow": "Content",
+        "title": "Articles",
+        "description": "Prepare and manage customer news and advice content.",
+        "panelTitle": "Article workspace",
+        "panelDescription": "Drafting, review and publishing tools will be connected here later."
+      },
+      "reports": {
+        "eyebrow": "Operations",
+        "title": "Reports",
+        "description": "Review operational and customer-service reporting.",
+        "panelTitle": "Reporting workspace",
+        "panelDescription": "Report filters, exports and summaries will be connected here later."
+      },
+      "settings": {
+        "eyebrow": "Configuration",
+        "title": "Settings",
+        "description": "Prepare workshop and portal configuration.",
+        "panelTitle": "Admin settings",
+        "panelDescription": "Configuration controls will be connected after authentication and authorization."
+      }
+    }
+  },
   "pages": {
     "services": {
       "eyebrow": "Services",

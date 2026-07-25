@@ -972,6 +972,104 @@
         }
       }
     },
+    "appointmentManagement": {
+      "eyebrow": "Workshop operations",
+      "title": "Appointment management",
+      "description": "Search, filter and manage mock workshop appointments.",
+      "temporaryNotice": "Changes are temporary and reset when the page is refreshed.",
+      "results": "{count, plural, =0 {No appointments} =1 {# appointment} other {# appointments}}",
+      "filters": {
+        "search": "Search",
+        "searchPlaceholder": "Reference, customer, vehicle or service",
+        "status": "Status",
+        "allStatuses": "All statuses",
+        "service": "Service type",
+        "allServices": "All services",
+        "date": "Appointment date",
+        "sort": "Sort by date",
+        "oldestFirst": "Earliest first",
+        "newestFirst": "Latest first"
+      },
+      "table": {
+        "date": "Date",
+        "customer": "Customer",
+        "vehicle": "Vehicle",
+        "service": "Service",
+        "status": "Status",
+        "action": "Action"
+      },
+      "statuses": {
+        "pending": "Pending",
+        "confirmed": "Confirmed",
+        "inProgress": "In progress",
+        "awaitingParts": "Awaiting parts",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      },
+      "empty": {
+        "title": "No matching appointments",
+        "description": "Adjust the search or filters to see more appointments."
+      },
+      "actions": {
+        "title": "Appointment actions",
+        "view": "View details",
+        "back": "Back to appointments",
+        "approve": "Approve",
+        "reject": "Reject",
+        "updateStatus": "Update status",
+        "assignStaff": "Assign staff member",
+        "unassigned": "Unassigned"
+      },
+      "detail": {
+        "eyebrow": "Appointment detail",
+        "reference": "Reference: {reference}",
+        "summary": "Appointment summary",
+        "service": "Service",
+        "scheduled": "Scheduled date and time",
+        "created": "Created",
+        "updated": "Last updated",
+        "customerRequest": "Customer notes",
+        "noNotes": "No customer notes were provided."
+      },
+      "notes": {
+        "internal": {
+          "title": "Internal notes",
+          "staffOnly": "Staff only — never visible to customers",
+          "description": "Operational notes for future authorized staff. These are stored separately from customer-visible notes."
+        },
+        "customer": {
+          "title": "Customer-visible notes",
+          "description": "These notes are intended to be visible in the customer's appointment interface."
+        },
+        "saveInternal": "Save internal notes",
+        "saveCustomer": "Save customer-visible notes"
+      },
+      "linked": {
+        "customer": "Linked customer",
+        "vehicle": "Linked vehicle",
+        "viewCustomer": "View customer record",
+        "viewVehicle": "View vehicle record"
+      },
+      "staff": {
+        "specialties": {
+          "diagnostics": "Diagnostics",
+          "mechanical": "Mechanical",
+          "electrical": "Electrical"
+        }
+      },
+      "feedback": {
+        "approved": "Appointment approved in this mock session.",
+        "rejected": "Appointment rejected in this mock session.",
+        "statusUpdated": "Appointment status updated in memory.",
+        "staffAssigned": "Staff assignment updated in memory.",
+        "internalNotes": "Staff-only internal notes saved in memory.",
+        "customerVisibleNotes": "Customer-visible notes saved in memory."
+      },
+      "notFound": {
+        "title": "Appointment not found",
+        "description": "This mock appointment is not available."
+      }
+    },
     "sections": {
       "appointments": {
         "eyebrow": "Operations",

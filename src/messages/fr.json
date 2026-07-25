@@ -972,6 +972,104 @@
         }
       }
     },
+    "appointmentManagement": {
+      "eyebrow": "Operations atelier",
+      "title": "Gestion des rendez-vous",
+      "description": "Recherchez, filtrez et gerez les rendez-vous fictifs de l'atelier.",
+      "temporaryNotice": "Les modifications sont temporaires et sont reinitialisees au rechargement de la page.",
+      "results": "{count, plural, =0 {Aucun rendez-vous} =1 {# rendez-vous} other {# rendez-vous}}",
+      "filters": {
+        "search": "Rechercher",
+        "searchPlaceholder": "Reference, client, vehicule ou service",
+        "status": "Statut",
+        "allStatuses": "Tous les statuts",
+        "service": "Type de service",
+        "allServices": "Tous les services",
+        "date": "Date du rendez-vous",
+        "sort": "Trier par date",
+        "oldestFirst": "Plus proche en premier",
+        "newestFirst": "Plus eloigne en premier"
+      },
+      "table": {
+        "date": "Date",
+        "customer": "Client",
+        "vehicle": "Vehicule",
+        "service": "Service",
+        "status": "Statut",
+        "action": "Action"
+      },
+      "statuses": {
+        "pending": "En attente",
+        "confirmed": "Confirme",
+        "inProgress": "En cours",
+        "awaitingParts": "En attente de pieces",
+        "completed": "Termine",
+        "cancelled": "Annule"
+      },
+      "empty": {
+        "title": "Aucun rendez-vous correspondant",
+        "description": "Modifiez la recherche ou les filtres pour afficher plus de rendez-vous."
+      },
+      "actions": {
+        "title": "Actions du rendez-vous",
+        "view": "Voir les details",
+        "back": "Retour aux rendez-vous",
+        "approve": "Approuver",
+        "reject": "Rejeter",
+        "updateStatus": "Mettre a jour le statut",
+        "assignStaff": "Assigner un membre de l'equipe",
+        "unassigned": "Non assigne"
+      },
+      "detail": {
+        "eyebrow": "Details du rendez-vous",
+        "reference": "Reference : {reference}",
+        "summary": "Resume du rendez-vous",
+        "service": "Service",
+        "scheduled": "Date et heure planifiees",
+        "created": "Cree",
+        "updated": "Derniere mise a jour",
+        "customerRequest": "Notes du client",
+        "noNotes": "Aucune note client fournie."
+      },
+      "notes": {
+        "internal": {
+          "title": "Notes internes",
+          "staffOnly": "Equipe uniquement — jamais visible par les clients",
+          "description": "Notes operationnelles pour le futur personnel autorise. Elles sont stockees separement des notes visibles par le client."
+        },
+        "customer": {
+          "title": "Notes visibles par le client",
+          "description": "Ces notes sont destinees a etre visibles dans l'interface de rendez-vous du client."
+        },
+        "saveInternal": "Enregistrer les notes internes",
+        "saveCustomer": "Enregistrer les notes visibles"
+      },
+      "linked": {
+        "customer": "Client lie",
+        "vehicle": "Vehicule lie",
+        "viewCustomer": "Voir le dossier client",
+        "viewVehicle": "Voir le dossier vehicule"
+      },
+      "staff": {
+        "specialties": {
+          "diagnostics": "Diagnostic",
+          "mechanical": "Mecanique",
+          "electrical": "Electricite"
+        }
+      },
+      "feedback": {
+        "approved": "Rendez-vous approuve dans cette session fictive.",
+        "rejected": "Rendez-vous rejete dans cette session fictive.",
+        "statusUpdated": "Statut du rendez-vous mis a jour en memoire.",
+        "staffAssigned": "Affectation du personnel mise a jour en memoire.",
+        "internalNotes": "Notes internes reservees au personnel enregistrees en memoire.",
+        "customerVisibleNotes": "Notes visibles par le client enregistrees en memoire."
+      },
+      "notFound": {
+        "title": "Rendez-vous introuvable",
+        "description": "Ce rendez-vous fictif n'est pas disponible."
+      }
+    },
     "sections": {
       "appointments": {
         "eyebrow": "Operations",

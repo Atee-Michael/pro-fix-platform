@@ -1,4 +1,5 @@
 import { AdminShell } from "@/components/admin/admin-shell";
+import { AdminAppointmentProvider } from "@/components/admin/admin-appointment-provider";
 
 /**
  * DEVELOPMENT ACCESS ONLY:
@@ -11,5 +12,9 @@ export default function AdminLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <AdminShell>{children}</AdminShell>;
+  return (
+    <AdminShell>
+      <AdminAppointmentProvider>{children}</AdminAppointmentProvider>
+    </AdminShell>
+  );
 }

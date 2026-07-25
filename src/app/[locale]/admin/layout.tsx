@@ -1,5 +1,6 @@
 import { AdminShell } from "@/components/admin/admin-shell";
 import { AdminAppointmentProvider } from "@/components/admin/admin-appointment-provider";
+import { AdminSupportProvider } from "@/components/admin/admin-support-provider";
 
 /**
  * DEVELOPMENT ACCESS ONLY:
@@ -14,7 +15,9 @@ export default function AdminLayout({
 }) {
   return (
     <AdminShell>
-      <AdminAppointmentProvider>{children}</AdminAppointmentProvider>
+      <AdminAppointmentProvider>
+        <AdminSupportProvider>{children}</AdminSupportProvider>
+      </AdminAppointmentProvider>
     </AdminShell>
   );
 }

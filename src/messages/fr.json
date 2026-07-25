@@ -972,6 +972,109 @@
         }
       }
     },
+    "directory": {
+      "pagination": {
+        "label": "Pagination",
+        "summary": "Page {page, number} sur {totalPages, number} · {totalItems, number} au total",
+        "previous": "Precedent",
+        "next": "Suivant"
+      },
+      "customers": {
+        "eyebrow": "Repertoire clients",
+        "title": "Clients",
+        "description": "Recherchez les dossiers clients fictifs et consultez leurs relations de service.",
+        "filters": {
+          "search": "Rechercher des clients",
+          "searchPlaceholder": "Nom, email ou telephone",
+          "accountState": "Etat du compte",
+          "allStates": "Tous les etats"
+        },
+        "states": {
+          "active": "Actif",
+          "invited": "Invite",
+          "suspended": "Suspendu"
+        },
+        "results": "{count, plural, =0 {Aucun client} =1 {# client} other {# clients}}",
+        "joined": "Inscrit le {date}",
+        "view": "Voir le client",
+        "back": "Retour aux clients",
+        "empty": {
+          "title": "Aucun client correspondant",
+          "description": "Modifiez la recherche ou le filtre d'etat du compte."
+        },
+        "notFound": {
+          "title": "Client introuvable"
+        },
+        "detail": {
+          "eyebrow": "Details du client",
+          "contact": "Coordonnees",
+          "email": "Adresse email",
+          "phone": "Numero de telephone",
+          "accountState": "Etat du compte",
+          "joined": "Client depuis",
+          "vehicles": "Vehicules lies",
+          "appointments": "Rendez-vous lies",
+          "supportTickets": "Tickets de support lies",
+          "activity": "Activite recente",
+          "emptyVehicles": "Aucun vehicule n'est lie a ce client.",
+          "emptyAppointments": "Aucun rendez-vous n'est lie a ce client.",
+          "emptyTickets": "Aucun ticket de support n'est lie a ce client."
+        },
+        "ticketStatuses": {
+          "open": "Ouvert",
+          "resolved": "Resolu"
+        },
+        "activityTypes": {
+          "appointmentConfirmed": "Rendez-vous confirme",
+          "supportReply": "Reponse du support recue",
+          "accountInvited": "Client invite",
+          "appointmentUpdated": "Rendez-vous mis a jour"
+        }
+      },
+      "vehicles": {
+        "eyebrow": "Repertoire vehicules",
+        "title": "Vehicules",
+        "description": "Recherchez les dossiers vehicules fictifs et consultez les relations de propriete et de service.",
+        "filters": {
+          "search": "Rechercher des vehicules",
+          "searchPlaceholder": "Immatriculation, VIN, marque ou modele",
+          "make": "Marque",
+          "allMakes": "Toutes les marques",
+          "year": "Annee",
+          "allYears": "Toutes les annees"
+        },
+        "results": "{count, plural, =0 {Aucun vehicule} =1 {# vehicule} other {# vehicules}}",
+        "owner": "Proprietaire : {owner}",
+        "unknownOwner": "Proprietaire indisponible",
+        "view": "Voir le vehicule",
+        "back": "Retour aux vehicules",
+        "empty": {
+          "title": "Aucun vehicule correspondant",
+          "description": "Modifiez la recherche ou les filtres de marque et d'annee."
+        },
+        "notFound": {
+          "title": "Vehicule introuvable"
+        },
+        "detail": {
+          "vehicleInformation": "Informations du vehicule",
+          "registration": "Numero d'immatriculation",
+          "vin": "VIN",
+          "make": "Marque",
+          "model": "Modele",
+          "year": "Annee",
+          "owner": "Informations du proprietaire",
+          "viewOwner": "Voir le dossier du proprietaire",
+          "appointmentHistory": "Historique des rendez-vous",
+          "serviceNotes": "Notes de service",
+          "noServiceNotes": "Aucune note de service ajoutee.",
+          "reports": "Rapports lies",
+          "receipts": "Recus lies",
+          "noReports": "Aucun rapport n'est lie a ce vehicule.",
+          "noReceipts": "Aucun recu n'est lie a ce vehicule.",
+          "placeholder": "Dossier placeholder — la consultation des documents sera ajoutee plus tard."
+        }
+      }
+    },
     "appointmentManagement": {
       "eyebrow": "Operations atelier",
       "title": "Gestion des rendez-vous",
@@ -1068,6 +1171,105 @@
       "notFound": {
         "title": "Rendez-vous introuvable",
         "description": "Ce rendez-vous fictif n'est pas disponible."
+      }
+    },
+    "supportManagement": {
+      "eyebrow": "Operations support",
+      "title": "File des tickets de support",
+      "description": "Recherchez, triez et traitez les tickets de support client fictifs.",
+      "temporaryNotice": "Toutes les modifications sont temporaires et sont reinitialisees au rechargement.",
+      "results": "{count, plural, =0 {Aucun ticket} =1 {# ticket} other {# tickets}}",
+      "updated": "Derniere mise a jour : {date}",
+      "filters": {
+        "search": "Rechercher des tickets",
+        "searchPlaceholder": "Reference, sujet, client ou email",
+        "status": "Statut",
+        "allStatuses": "Tous les statuts",
+        "priority": "Priorite",
+        "allPriorities": "Toutes les priorites",
+        "category": "Categorie",
+        "allCategories": "Toutes les categories",
+        "sort": "Trier par derniere mise a jour",
+        "newest": "Mis a jour recemment",
+        "oldest": "Mis a jour anciennement"
+      },
+      "statuses": {
+        "open": "Ouvert",
+        "awaitingReply": "En attente du client",
+        "resolved": "Resolu",
+        "closed": "Ferme"
+      },
+      "priorities": {
+        "low": "Basse",
+        "normal": "Normale",
+        "high": "Haute",
+        "urgent": "Urgente"
+      },
+      "categories": {
+        "appointment": "Rendez-vous",
+        "vehicle": "Vehicule",
+        "repairReport": "Rapport de reparation",
+        "receiptPayment": "Recu ou paiement",
+        "account": "Compte",
+        "generalEnquiry": "Demande generale"
+      },
+      "actions": {
+        "view": "Gerer le ticket",
+        "back": "Retour a la file",
+        "manage": "Gestion du ticket",
+        "status": "Modifier le statut",
+        "priority": "Modifier la priorite",
+        "assign": "Assigner un membre de l'equipe",
+        "unassigned": "Non assigne"
+      },
+      "empty": {
+        "title": "Aucun ticket correspondant",
+        "description": "Modifiez la recherche ou les filtres pour afficher plus de tickets."
+      },
+      "notFound": {
+        "title": "Ticket de support introuvable"
+      },
+      "detail": {
+        "reference": "Reference : {reference}"
+      },
+      "conversation": {
+        "title": "Conversation visible par le client",
+        "description": "Les messages de cette section sont visibles par le client. Le texte est affiche en texte brut.",
+        "authors": {
+          "customer": "Client",
+          "staff": "Support Pro-Fix"
+        },
+        "replyLabel": "Reponse du personnel visible par le client",
+        "sendReply": "Envoyer la reponse fictive"
+      },
+      "internal": {
+        "title": "Notes internes",
+        "staffOnly": "Equipe uniquement — jamais incluses dans les tickets client",
+        "description": "Notes operationnelles stockees separement de la conversation visible par le client.",
+        "empty": "Aucune note interne ajoutee.",
+        "noteLabel": "Nouvelle note interne",
+        "addNote": "Ajouter la note interne"
+      },
+      "customer": {
+        "title": "Informations client",
+        "view": "Voir le dossier client"
+      },
+      "related": {
+        "title": "Dossiers lies",
+        "appointment": "Rendez-vous lie",
+        "vehicle": "Vehicule lie",
+        "empty": "Aucun rendez-vous ou vehicule n'est lie."
+      },
+      "validation": {
+        "required": "Saisissez du texte avant l'envoi.",
+        "tooLong": "Le texte ne doit pas depasser 4 000 caracteres."
+      },
+      "feedback": {
+        "reply": "Reponse visible par le client ajoutee en memoire.",
+        "note": "Note interne reservee au personnel ajoutee en memoire.",
+        "status": "Statut du ticket mis a jour en memoire.",
+        "priority": "Priorite du ticket mise a jour en memoire.",
+        "assignment": "Affectation du personnel mise a jour en memoire."
       }
     },
     "sections": {

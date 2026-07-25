@@ -718,10 +718,30 @@
       "title": "Schedule your next Pro-Fix appointment.",
       "description": "Start a service request and prepare vehicle details before the booking workflow is connected.",
       "cardTitle": "Booking preview",
-      "cardDescription": "This route is ready for the future booking form and availability flow.",
-      "primaryAction": "Start booking",
-      "secondaryAction": "View services"
-    },
+        "cardDescription": "This route is ready for the future booking form and availability flow.",
+        "primaryAction": "Start booking",
+        "secondaryAction": "View services",
+        "choice": {
+          "title": "How would you like to book?",
+          "description": "Choose the option that best matches you.",
+          "newCustomer": {
+            "title": "I am a new customer",
+            "description": "Create a customer account before booking and keep your vehicle details together.",
+            "action": "Create an account"
+          },
+          "login": {
+            "title": "I already have an account",
+            "description": "Sign in to use your saved customer and vehicle information.",
+            "action": "Sign in"
+          },
+          "guest": {
+            "title": "Book as a guest",
+            "description": "Continue without an account and enter your contact and vehicle details for this request.",
+            "action": "Continue as guest"
+          },
+          "back": "Back"
+        }
+      },
     "news": {
       "eyebrow": "News",
       "title": "Updates, service notes, and automotive guidance.",

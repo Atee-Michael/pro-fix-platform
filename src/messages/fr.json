@@ -718,10 +718,30 @@
       "title": "Planifiez votre prochain rendez-vous Pro-Fix.",
       "description": "Commencez une demande de service et preparez les details du vehicule avant la connexion du parcours de reservation.",
       "cardTitle": "Apercu de reservation",
-      "cardDescription": "Cette route est prete pour le futur formulaire de reservation et le flux de disponibilite.",
-      "primaryAction": "Commencer",
-      "secondaryAction": "Voir les services"
-    },
+        "cardDescription": "Cette route est prete pour le futur formulaire de reservation et le flux de disponibilite.",
+        "primaryAction": "Commencer",
+        "secondaryAction": "Voir les services",
+        "choice": {
+          "title": "Comment souhaitez-vous reserver ?",
+          "description": "Choisissez l'option qui vous correspond.",
+          "newCustomer": {
+            "title": "Je suis un nouveau client",
+            "description": "Creez un compte client avant de reserver et conservez les informations de vos vehicules.",
+            "action": "Creer un compte"
+          },
+          "login": {
+            "title": "J'ai deja un compte",
+            "description": "Connectez-vous pour utiliser vos informations client et vehicules enregistrees.",
+            "action": "Se connecter"
+          },
+          "guest": {
+            "title": "Reserver en tant qu'invite",
+            "description": "Continuez sans compte et saisissez vos coordonnees et les informations du vehicule.",
+            "action": "Continuer en tant qu'invite"
+          },
+          "back": "Retour"
+        }
+      },
     "news": {
       "eyebrow": "Actualites",
       "title": "Mises a jour, notes de service et conseils automobiles.",

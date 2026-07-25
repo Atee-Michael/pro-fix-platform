@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { useFormatter, useTranslations } from "next-intl";
+import { useSearchParams } from "next/navigation";
 import { Badge, Button, Card } from "@/components";
 import { Link } from "@/i18n/routing";
 import { useAppointments } from "@/components/appointments/appointment-provider";
@@ -64,14 +65,16 @@ const inputClass =
 export default function BookAppointmentPage() {
   const t = useTranslations("dashboard.pages.appointmentBooking");
   const format = useFormatter();
+  const searchParams = useSearchParams();
+  const isGuest = searchParams.get("mode") === "guest";
   const { vehicles } = useVehicles();
   const { submitAppointment } = useAppointments();
   const [step, setStep] = useState(1);
   const [values, setValues] = useState<BookingState>(() => ({
     ...initialState,
-    contactName: mockDashboardData.customer.name,
-    contactEmail: mockDashboardData.customer.email,
-    contactPhone: mockDashboardData.customer.phone
+    contactName: isGuest ? "" : mockDashboardData.customer.name,
+    contactEmail: isGuest ? "" : mockDashboardData.customer.email,
+    contactPhone: isGuest ? "" : mockDashboardData.customer.phone
   }));
   const [errors, setErrors] = useState<Errors>({});
   const [submissionError, setSubmissionError] = useState(false);

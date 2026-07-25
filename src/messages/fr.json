@@ -789,7 +789,101 @@
         "eyebrow": "Support",
         "title": "Support client",
         "description": "Trouvez de l'aide et suivez vos echanges avec l'equipe Pro-Fix.",
-        "placeholder": "Les tickets et messages de support apparaitront ici."
+        "loading": "Chargement des tickets de support",
+        "actions": {
+          "new": "Nouveau ticket de support",
+          "view": "Voir la conversation",
+          "back": "Retour au support",
+          "cancel": "Annuler",
+          "create": "Creer le ticket",
+          "submitting": "Envoi en cours..."
+        },
+        "filter": {
+          "label": "Filtrer par statut",
+          "all": "Tous les statuts"
+        },
+        "fields": {
+          "subject": "Sujet",
+          "category": "Categorie",
+          "message": "Message",
+          "priority": "Priorite",
+          "status": "Statut",
+          "createdDate": "Cree",
+          "updatedDate": "Derniere mise a jour"
+        },
+        "categories": {
+          "appointment": "Rendez-vous",
+          "vehicle": "Vehicule",
+          "repairReport": "Rapport de reparation",
+          "receiptPayment": "Recu ou paiement",
+          "account": "Compte",
+          "generalEnquiry": "Demande generale"
+        },
+        "priorities": {
+          "low": "Priorite basse",
+          "normal": "Priorite normale",
+          "high": "Priorite haute",
+          "urgent": "Urgent"
+        },
+        "statuses": {
+          "open": "Ouvert",
+          "awaitingReply": "En attente de votre reponse",
+          "resolved": "Resolu",
+          "closed": "Ferme"
+        },
+        "card": {
+          "updated": "Mis a jour le {date}"
+        },
+        "empty": {
+          "title": "Aucun ticket de support",
+          "description": "Creez un ticket lorsque vous avez besoin de l'aide de l'equipe Pro-Fix.",
+          "action": "Creer votre premier ticket",
+          "filteredTitle": "Aucun ticket ne correspond a ce filtre",
+          "filteredDescription": "Choisissez un autre statut pour voir plus de tickets."
+        },
+        "new": {
+          "title": "Creer un ticket de support",
+          "description": "Decrivez votre besoin et choisissez la categorie la plus pertinente."
+        },
+        "form": {
+          "select": "Selectionnez une option"
+        },
+        "detail": {
+          "reference": "Reference : {reference}"
+        },
+        "conversation": {
+          "title": "Conversation",
+          "authors": {
+            "customer": "Vous",
+            "support": "Support Pro-Fix"
+          }
+        },
+        "reply": {
+          "label": "Ajouter une reponse",
+          "submit": "Envoyer la reponse"
+        },
+        "validation": {
+          "required": "Selectionnez une option.",
+          "subjectMin": "Le sujet doit comporter au moins 5 caracteres.",
+          "subjectMax": "Le sujet ne doit pas depasser 120 caracteres.",
+          "messageMin": "Le message doit comporter au moins 10 caracteres.",
+          "messageMax": "Le message ne doit pas depasser 4 000 caracteres.",
+          "replyRequired": "Saisissez une reponse avant l'envoi."
+        },
+        "feedback": {
+          "created": "Ticket de support cree avec succes.",
+          "replied": "Votre reponse a ete ajoutee avec succes.",
+          "error": "Le ticket n'a pas pu etre cree. Vos informations sont conservees."
+        },
+        "notFound": {
+          "title": "Ticket de support introuvable",
+          "description": "Ce ticket n'est peut-etre plus disponible."
+        },
+        "error": {
+          "title": "Impossible de charger les tickets",
+          "description": "Un probleme est survenu pendant l'affichage des tickets de support.",
+          "retry": "Reessayer"
+        }
       },
       "profile": {
         "eyebrow": "Profil",

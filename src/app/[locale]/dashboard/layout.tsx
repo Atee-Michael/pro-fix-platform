@@ -4,6 +4,7 @@ import { DashboardNavigation } from "@/components/dashboard-navigation";
 import { mockDashboardData } from "@/lib/mock-dashboard-data";
 import { VehicleProvider } from "@/components/vehicles/vehicle-provider";
 import { AppointmentProvider } from "@/components/appointments/appointment-provider";
+import { SupportTicketProvider } from "@/components/support/support-ticket-provider";
 
 export default async function DashboardLayout({
   children
@@ -34,7 +35,9 @@ export default async function DashboardLayout({
           <DashboardNavigation />
           <section className="min-w-0 flex-1 pt-6 lg:pt-0">
             <VehicleProvider>
-              <AppointmentProvider>{children}</AppointmentProvider>
+              <AppointmentProvider>
+                <SupportTicketProvider>{children}</SupportTicketProvider>
+              </AppointmentProvider>
             </VehicleProvider>
           </section>
         </div>

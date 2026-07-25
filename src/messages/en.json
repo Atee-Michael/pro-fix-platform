@@ -789,7 +789,101 @@
         "eyebrow": "Support",
         "title": "Customer support",
         "description": "Find help and follow conversations with the Pro-Fix team.",
-        "placeholder": "Support tickets and messages will appear here."
+        "loading": "Loading support tickets",
+        "actions": {
+          "new": "New support ticket",
+          "view": "View conversation",
+          "back": "Back to support",
+          "cancel": "Cancel",
+          "create": "Create ticket",
+          "submitting": "Submitting..."
+        },
+        "filter": {
+          "label": "Filter by status",
+          "all": "All statuses"
+        },
+        "fields": {
+          "subject": "Subject",
+          "category": "Category",
+          "message": "Message",
+          "priority": "Priority",
+          "status": "Status",
+          "createdDate": "Created",
+          "updatedDate": "Last updated"
+        },
+        "categories": {
+          "appointment": "Appointment",
+          "vehicle": "Vehicle",
+          "repairReport": "Repair report",
+          "receiptPayment": "Receipt or payment",
+          "account": "Account",
+          "generalEnquiry": "General enquiry"
+        },
+        "priorities": {
+          "low": "Low priority",
+          "normal": "Normal priority",
+          "high": "High priority",
+          "urgent": "Urgent"
+        },
+        "statuses": {
+          "open": "Open",
+          "awaitingReply": "Awaiting your reply",
+          "resolved": "Resolved",
+          "closed": "Closed"
+        },
+        "card": {
+          "updated": "Updated {date}"
+        },
+        "empty": {
+          "title": "No support tickets",
+          "description": "Create a ticket when you need help from the Pro-Fix team.",
+          "action": "Create your first ticket",
+          "filteredTitle": "No tickets match this filter",
+          "filteredDescription": "Choose another status to see more tickets."
+        },
+        "new": {
+          "title": "Create a support ticket",
+          "description": "Describe what you need help with and choose the most relevant category."
+        },
+        "form": {
+          "select": "Select an option"
+        },
+        "detail": {
+          "reference": "Reference: {reference}"
+        },
+        "conversation": {
+          "title": "Conversation",
+          "authors": {
+            "customer": "You",
+            "support": "Pro-Fix support"
+          }
+        },
+        "reply": {
+          "label": "Add a reply",
+          "submit": "Send reply"
+        },
+        "validation": {
+          "required": "Select an option.",
+          "subjectMin": "Subject must be at least 5 characters.",
+          "subjectMax": "Subject must be 120 characters or fewer.",
+          "messageMin": "Message must be at least 10 characters.",
+          "messageMax": "Message must be 4,000 characters or fewer.",
+          "replyRequired": "Enter a reply before sending."
+        },
+        "feedback": {
+          "created": "Support ticket created successfully.",
+          "replied": "Your reply was added successfully.",
+          "error": "The ticket could not be created. Your information is still here."
+        },
+        "notFound": {
+          "title": "Support ticket not found",
+          "description": "This ticket may no longer be available."
+        },
+        "error": {
+          "title": "Support tickets could not be loaded",
+          "description": "Something went wrong while displaying support tickets.",
+          "retry": "Try again"
+        }
       },
       "profile": {
         "eyebrow": "Profile",

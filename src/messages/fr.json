@@ -451,7 +451,87 @@
         "eyebrow": "Vehicules",
         "title": "Vos vehicules",
         "description": "Consultez et gerez les vehicules associes a votre compte client.",
-        "placeholder": "Les dossiers de vos vehicules apparaitront ici."
+        "actions": {
+          "add": "Ajouter un vehicule",
+          "view": "Voir les details",
+          "edit": "Modifier",
+          "delete": "Supprimer",
+          "save": "Enregistrer le vehicule",
+          "update": "Enregistrer les modifications",
+          "cancel": "Annuler",
+          "back": "Retour aux vehicules"
+        },
+        "new": {
+          "title": "Ajouter un vehicule",
+          "description": "Saisissez les informations utilisees pour identifier et entretenir ce vehicule."
+        },
+        "edit": {
+          "title": "Modifier le vehicule",
+          "description": "Mettez a jour les informations du vehicule ci-dessous."
+        },
+        "empty": {
+          "title": "Aucun vehicule",
+          "description": "Ajoutez votre premier vehicule pour commencer son dossier d'entretien.",
+          "action": "Ajouter votre premier vehicule"
+        },
+        "notFound": {
+          "title": "Vehicule introuvable",
+          "description": "Ce vehicule a peut-etre ete supprime ou n'est plus disponible."
+        },
+        "fields": {
+          "make": "Marque",
+          "model": "Modele",
+          "year": "Annee",
+          "registrationNumber": "Numero d'immatriculation",
+          "vin": "VIN",
+          "mileage": "Kilometrage",
+          "fuelType": "Type de carburant",
+          "transmission": "Transmission",
+          "notes": "Notes"
+        },
+        "options": {
+          "fuelType": {
+            "petrol": "Essence",
+            "diesel": "Diesel",
+            "hybrid": "Hybride",
+            "electric": "Electrique",
+            "other": "Autre"
+          },
+          "transmission": {
+            "manual": "Manuelle",
+            "automatic": "Automatique",
+            "other": "Autre"
+          }
+        },
+        "form": {
+          "selectOption": "Selectionnez une option"
+        },
+        "validation": {
+          "summary": "Verifiez les champs signales et reessayez.",
+          "required": "Ce champ est obligatoire.",
+          "yearInvalid": "Saisissez une annee entiere valide.",
+          "yearRange": "Saisissez une annee entre 1886 et l'annee prochaine.",
+          "mileageInvalid": "Saisissez un nombre entier positif ou nul.",
+          "vinInvalid": "Saisissez un VIN valide de 17 caracteres (sans I, O ou Q).",
+          "notesTooLong": "Les notes ne doivent pas depasser 2 000 caracteres."
+        },
+        "details": {
+          "description": "Informations d'identification et de propriete du vehicule.",
+          "mileageValue": "{value, number} km",
+          "noNotes": "Aucune note ajoutee.",
+          "updated": "Derniere mise a jour : {date}"
+        },
+        "feedback": {
+          "created": "Vehicule ajoute avec succes.",
+          "updated": "Vehicule mis a jour avec succes.",
+          "deleted": "Vehicule supprime avec succes."
+        },
+        "delete": {
+          "title": "Supprimer le vehicule ?",
+          "description": "{vehicle} sera supprime de la liste temporaire. Cette action est irreversible.",
+          "cancel": "Garder le vehicule",
+          "confirm": "Supprimer le vehicule"
+        }
       },
       "repairHistory": {
         "eyebrow": "Historique des reparations",

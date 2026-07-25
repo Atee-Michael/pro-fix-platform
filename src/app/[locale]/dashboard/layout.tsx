@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 import { Container } from "@/components";
 import { DashboardNavigation } from "@/components/dashboard-navigation";
 import { mockDashboardData } from "@/lib/mock-dashboard-data";
+import { VehicleProvider } from "@/components/vehicles/vehicle-provider";
 
 export default async function DashboardLayout({
   children
@@ -30,7 +31,9 @@ export default async function DashboardLayout({
         </p>
         <div className="lg:flex lg:gap-8">
           <DashboardNavigation />
-          <section className="min-w-0 flex-1 pt-6 lg:pt-0">{children}</section>
+          <section className="min-w-0 flex-1 pt-6 lg:pt-0">
+            <VehicleProvider>{children}</VehicleProvider>
+          </section>
         </div>
       </Container>
     </main>

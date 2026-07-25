@@ -451,7 +451,87 @@
         "eyebrow": "Vehicles",
         "title": "Your vehicles",
         "description": "View and manage the vehicles connected to your customer account.",
-        "placeholder": "Vehicle records will appear here."
+        "actions": {
+          "add": "Add vehicle",
+          "view": "View details",
+          "edit": "Edit",
+          "delete": "Delete",
+          "save": "Save vehicle",
+          "update": "Save changes",
+          "cancel": "Cancel",
+          "back": "Back to vehicles"
+        },
+        "new": {
+          "title": "Add a vehicle",
+          "description": "Enter the details used to identify and maintain this vehicle."
+        },
+        "edit": {
+          "title": "Edit vehicle",
+          "description": "Update the vehicle details below."
+        },
+        "empty": {
+          "title": "No vehicles yet",
+          "description": "Add your first vehicle to start building its service record.",
+          "action": "Add your first vehicle"
+        },
+        "notFound": {
+          "title": "Vehicle not found",
+          "description": "This vehicle may have been removed or is no longer available."
+        },
+        "fields": {
+          "make": "Make",
+          "model": "Model",
+          "year": "Year",
+          "registrationNumber": "Registration number",
+          "vin": "VIN",
+          "mileage": "Mileage",
+          "fuelType": "Fuel type",
+          "transmission": "Transmission",
+          "notes": "Notes"
+        },
+        "options": {
+          "fuelType": {
+            "petrol": "Petrol",
+            "diesel": "Diesel",
+            "hybrid": "Hybrid",
+            "electric": "Electric",
+            "other": "Other"
+          },
+          "transmission": {
+            "manual": "Manual",
+            "automatic": "Automatic",
+            "other": "Other"
+          }
+        },
+        "form": {
+          "selectOption": "Select an option"
+        },
+        "validation": {
+          "summary": "Check the highlighted fields and try again.",
+          "required": "This field is required.",
+          "yearInvalid": "Enter a valid whole year.",
+          "yearRange": "Enter a year between 1886 and next year.",
+          "mileageInvalid": "Enter a valid non-negative whole number.",
+          "vinInvalid": "Enter a valid 17-character VIN (without I, O or Q).",
+          "notesTooLong": "Notes must be 2,000 characters or fewer."
+        },
+        "details": {
+          "description": "Vehicle identity and ownership details.",
+          "mileageValue": "{value, number} miles",
+          "noNotes": "No notes added.",
+          "updated": "Last updated {date}"
+        },
+        "feedback": {
+          "created": "Vehicle added successfully.",
+          "updated": "Vehicle updated successfully.",
+          "deleted": "Vehicle deleted successfully."
+        },
+        "delete": {
+          "title": "Delete vehicle?",
+          "description": "This will remove {vehicle} from the temporary vehicle list. This action cannot be undone.",
+          "cancel": "Keep vehicle",
+          "confirm": "Delete vehicle"
+        }
       },
       "repairHistory": {
         "eyebrow": "Repair history",

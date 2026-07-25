@@ -9,7 +9,36 @@ export function createMockAppointment(
   return {
     ...input,
     id: `appointment-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`,
-    status: "requested",
-    submittedAt: new Date().toISOString()
+    status: "pending",
+    submittedAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
+    garageNotes: "",
+    internalAdminNotes: ""
+  };
+}
+
+export function cancelMockAppointment(
+  appointment: MockAppointment
+): MockAppointment {
+  return {
+    ...appointment,
+    status: "cancelled",
+    updatedAt: new Date().toISOString()
+  };
+}
+
+export function rescheduleMockAppointment(
+  appointment: MockAppointment,
+  preferredDate: string,
+  preferredTime: string
+): MockAppointment {
+  const now = new Date().toISOString();
+  return {
+    ...appointment,
+    preferredDate,
+    preferredTime,
+    status: "pending",
+    rescheduleRequestedAt: now,
+    updatedAt: now
   };
 }

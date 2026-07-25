@@ -1,7 +1,11 @@
 "use client";
 
 import { createContext, useCallback, useContext, useMemo, useState } from "react";
-import { createMockAppointment } from "@/lib/mock-data/appointment-repository";
+import {
+  cancelMockAppointment,
+  createMockAppointment,
+  rescheduleMockAppointment
+} from "@/lib/mock-data/appointment-repository";
 import {
   mockAppointments,
   type AppointmentInput,
@@ -11,6 +15,13 @@ import {
 type AppointmentContextValue = {
   appointments: MockAppointment[];
   submitAppointment: (input: AppointmentInput) => Promise<MockAppointment>;
+  getAppointment: (id: string) => MockAppointment | undefined;
+  cancelAppointment: (id: string) => Promise<MockAppointment | undefined>;
+  rescheduleAppointment: (
+    id: string,
+    preferredDate: string,
+    preferredTime: string
+  ) => Promise<MockAppointment | undefined>;
 };
 
 const AppointmentContext = createContext<AppointmentContextValue | null>(null);
@@ -31,9 +42,59 @@ export function AppointmentProvider({
     return appointment;
   }, []);
 
+  const getAppointment = useCallback(
+    (id: string) => appointments.find((appointment) => appointment.id === id),
+    [appointments]
+  );
+
+  const cancelAppointment = useCallback(async (id: string) => {
+    await new Promise((resolve) => setTimeout(resolve, 350));
+    let result: MockAppointment | undefined;
+    setAppointments((current) =>
+      current.map((appointment) => {
+        if (appointment.id !== id) return appointment;
+        result = cancelMockAppointment(appointment);
+        return result;
+      })
+    );
+    return result;
+  }, []);
+
+  const rescheduleAppointment = useCallback(
+    async (id: string, preferredDate: string, preferredTime: string) => {
+      await new Promise((resolve) => setTimeout(resolve, 350));
+      let result: MockAppointment | undefined;
+      setAppointments((current) =>
+        current.map((appointment) => {
+          if (appointment.id !== id) return appointment;
+          result = rescheduleMockAppointment(
+            appointment,
+            preferredDate,
+            preferredTime
+          );
+          return result;
+        })
+      );
+      return result;
+    },
+    []
+  );
+
   const value = useMemo(
-    () => ({ appointments, submitAppointment }),
-    [appointments, submitAppointment]
+    () => ({
+      appointments,
+      submitAppointment,
+      getAppointment,
+      cancelAppointment,
+      rescheduleAppointment
+    }),
+    [
+      appointments,
+      submitAppointment,
+      getAppointment,
+      cancelAppointment,
+      rescheduleAppointment
+    ]
   );
 
   return (

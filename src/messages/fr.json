@@ -567,6 +567,113 @@
         "reference": "Reference : {reference}",
         "vehicleUnavailable": "Vehicule indisponible"
       },
+      "appointments": {
+        "eyebrow": "Rendez-vous",
+        "title": "Mes rendez-vous",
+        "description": "Consultez les visites a venir, les travaux termines et les demandes de rendez-vous.",
+        "loading": "Chargement des rendez-vous",
+        "vehicleUnavailable": "Informations du vehicule indisponibles",
+        "actions": {
+          "book": "Prendre rendez-vous",
+          "view": "Voir le rendez-vous",
+          "back": "Retour aux rendez-vous",
+          "cancel": "Annuler le rendez-vous",
+          "reschedule": "Demander un autre horaire"
+        },
+        "upcoming": {
+          "title": "Rendez-vous a venir",
+          "description": "Visites planifiees et demandes encore actives.",
+          "emptyTitle": "Aucun rendez-vous a venir",
+          "emptyDescription": "Les nouvelles demandes de rendez-vous apparaitront ici."
+        },
+        "past": {
+          "title": "Rendez-vous passes",
+          "description": "Historique des rendez-vous termines et annules.",
+          "emptyTitle": "Aucun rendez-vous passe",
+          "emptyDescription": "Les visites terminees a l'atelier apparaitront ici."
+        },
+        "statuses": {
+          "pending": "En attente",
+          "confirmed": "Confirme",
+          "inProgress": "En cours",
+          "awaitingParts": "En attente de pieces",
+          "completed": "Termine",
+          "cancelled": "Annule"
+        },
+        "notFound": {
+          "title": "Rendez-vous introuvable",
+          "description": "Ce rendez-vous n'est peut-etre plus disponible."
+        },
+        "detail": {
+          "eyebrow": "Details du rendez-vous",
+          "reference": "Reference : {reference}",
+          "service": {
+            "title": "Details du service"
+          },
+          "schedule": {
+            "title": "Date et heure preferees",
+            "reschedulePending": "Votre demande de changement est enregistree et attend une confirmation."
+          },
+          "vehicle": {
+            "title": "Details du vehicule",
+            "makeModel": "Marque et modele",
+            "registration": "Numero d'immatriculation",
+            "year": "Annee",
+            "source": "Dossier du vehicule",
+            "saved": "Vehicule enregistre",
+            "temporary": "Informations temporaires de reservation"
+          },
+          "customerNotes": {
+            "title": "Vos notes"
+          },
+          "garageNotes": {
+            "title": "Notes du garage",
+            "empty": "Le garage n'a ajoute aucune note visible par le client."
+          },
+          "noNotes": "Aucune note fournie."
+        },
+        "serviceDescriptions": {
+          "diagnosticInspection": "Recherche structuree des voyants, symptomes ou problemes de performance.",
+          "routineMaintenance": "Entretien planifie selon l'age, le kilometrage et l'utilisation du vehicule.",
+          "engineRepair": "Evaluation et reparation des problemes lies au moteur.",
+          "electricalDiagnosis": "Diagnostic des defauts electriques, de charge, de capteurs ou de commande.",
+          "brakeService": "Inspection et entretien des composants de freinage.",
+          "suspensionService": "Inspection et reparation de la suspension, de la direction et du confort.",
+          "airConditioningService": "Controle et entretien de la climatisation et du refroidissement de l'habitacle.",
+          "prePurchaseInspection": "Inspection attentive du vehicule avant une decision d'achat.",
+          "bmwCodingProgramming": "Codage ou programmation BMW pour les systemes compatibles.",
+          "other": "Rendez-vous a l'atelier pour un service non repertorie."
+        },
+        "requests": {
+          "cancel": {
+            "title": "Annuler ce rendez-vous ?",
+            "description": "Cette annulation fictive met immediatement le rendez-vous a jour sans notifier le garage.",
+            "confirm": "Confirmer l'annulation"
+          },
+          "reschedule": {
+            "title": "Demander un autre horaire",
+            "description": "Choisissez une nouvelle date et heure preferees. Cette demande fictive sera mise en attente.",
+            "confirm": "Envoyer la demande"
+          },
+          "dateLabel": "Nouvelle date preferee",
+          "timeLabel": "Nouvelle heure preferee",
+          "dismiss": "Retour",
+          "submitting": "Envoi en cours...",
+          "validation": {
+            "required": "Choisissez une date et une heure.",
+            "datePast": "Choisissez aujourd'hui ou une date future."
+          }
+        },
+        "feedback": {
+          "cancelled": "Le rendez-vous a ete annule dans cette session fictive.",
+          "rescheduled": "Votre demande fictive de changement a ete enregistree."
+        },
+        "error": {
+          "title": "Impossible de charger les rendez-vous",
+          "description": "Un probleme est survenu pendant l'affichage de vos rendez-vous.",
+          "retry": "Reessayer"
+        }
+      },
       "appointmentBooking": {
         "eyebrow": "Prise de rendez-vous",
         "title": "Demander un rendez-vous a l'atelier",

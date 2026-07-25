@@ -10,7 +10,7 @@ const items = [
   { href: "/dashboard/repair-history", key: "repairHistory" },
   { href: "/dashboard/reports", key: "reports" },
   { href: "/dashboard/receipts", key: "receipts" },
-  { href: "/dashboard/bookings", key: "bookings" },
+  { href: "/dashboard/appointments", key: "bookings" },
   { href: "/dashboard/payments", key: "payments" },
   { href: "/dashboard/support", key: "support" },
   { href: "/dashboard/profile", key: "profile" }

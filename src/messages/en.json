@@ -567,6 +567,113 @@
         "reference": "Reference: {reference}",
         "vehicleUnavailable": "Vehicle unavailable"
       },
+      "appointments": {
+        "eyebrow": "Appointments",
+        "title": "My appointments",
+        "description": "Review upcoming visits, completed work and appointment requests.",
+        "loading": "Loading appointments",
+        "vehicleUnavailable": "Vehicle details unavailable",
+        "actions": {
+          "book": "Book an appointment",
+          "view": "View appointment",
+          "back": "Back to appointments",
+          "cancel": "Cancel appointment",
+          "reschedule": "Request reschedule"
+        },
+        "upcoming": {
+          "title": "Upcoming appointments",
+          "description": "Scheduled visits and requests that are still active.",
+          "emptyTitle": "No upcoming appointments",
+          "emptyDescription": "New appointment requests will appear here."
+        },
+        "past": {
+          "title": "Past appointments",
+          "description": "Completed and cancelled appointment history.",
+          "emptyTitle": "No past appointments",
+          "emptyDescription": "Completed workshop visits will appear here."
+        },
+        "statuses": {
+          "pending": "Pending",
+          "confirmed": "Confirmed",
+          "inProgress": "In progress",
+          "awaitingParts": "Awaiting parts",
+          "completed": "Completed",
+          "cancelled": "Cancelled"
+        },
+        "notFound": {
+          "title": "Appointment not found",
+          "description": "This appointment may no longer be available."
+        },
+        "detail": {
+          "eyebrow": "Appointment details",
+          "reference": "Reference: {reference}",
+          "service": {
+            "title": "Service details"
+          },
+          "schedule": {
+            "title": "Preferred date and time",
+            "reschedulePending": "Your reschedule request is recorded and awaiting confirmation."
+          },
+          "vehicle": {
+            "title": "Vehicle details",
+            "makeModel": "Make and model",
+            "registration": "Registration number",
+            "year": "Year",
+            "source": "Vehicle record",
+            "saved": "Saved vehicle",
+            "temporary": "Temporary booking details"
+          },
+          "customerNotes": {
+            "title": "Your notes"
+          },
+          "garageNotes": {
+            "title": "Garage notes",
+            "empty": "The garage has not added any customer-visible notes."
+          },
+          "noNotes": "No notes were provided."
+        },
+        "serviceDescriptions": {
+          "diagnosticInspection": "Structured investigation of warning lights, symptoms or performance concerns.",
+          "routineMaintenance": "Planned servicing and checks based on vehicle age, mileage and use.",
+          "engineRepair": "Assessment and repair support for engine-related concerns.",
+          "electricalDiagnosis": "Diagnosis of electrical, charging, sensor or control-system faults.",
+          "brakeService": "Inspection and service of braking components and related concerns.",
+          "suspensionService": "Inspection and repair support for suspension, steering and ride concerns.",
+          "airConditioningService": "Checks and servicing for cabin cooling and climate-control performance.",
+          "prePurchaseInspection": "A considered vehicle inspection before a purchase decision.",
+          "bmwCodingProgramming": "BMW-focused coding or programming support for compatible systems.",
+          "other": "A workshop appointment for a service not listed elsewhere."
+        },
+        "requests": {
+          "cancel": {
+            "title": "Cancel this appointment?",
+            "description": "This mock cancellation updates the appointment immediately and does not notify the garage.",
+            "confirm": "Confirm cancellation"
+          },
+          "reschedule": {
+            "title": "Request a new time",
+            "description": "Choose a new preferred date and time. This mock request will be marked as pending.",
+            "confirm": "Submit reschedule request"
+          },
+          "dateLabel": "New preferred date",
+          "timeLabel": "New preferred time",
+          "dismiss": "Go back",
+          "submitting": "Submitting...",
+          "validation": {
+            "required": "Choose a date and time.",
+            "datePast": "Choose today or a future date."
+          }
+        },
+        "feedback": {
+          "cancelled": "The appointment was cancelled in this mock session.",
+          "rescheduled": "Your mock reschedule request was recorded."
+        },
+        "error": {
+          "title": "Appointments could not be loaded",
+          "description": "Something went wrong while displaying your appointments.",
+          "retry": "Try again"
+        }
+      },
       "appointmentBooking": {
         "eyebrow": "Appointment booking",
         "title": "Request a workshop appointment",

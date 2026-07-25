@@ -451,7 +451,7 @@ export default function BookAppointmentPage() {
               {t("success.reference", { reference: confirmation.id })}
             </p>
             <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
-              <Link href="/dashboard/bookings">
+              <Link href="/dashboard/appointments">
                 <Button>{t("success.viewAppointments")}</Button>
               </Link>
               <Link href="/dashboard">
@@ -468,7 +468,7 @@ export default function BookAppointmentPage() {
                 {t("actions.back")}
               </Button>
             ) : (
-              <Link href="/dashboard/bookings">
+              <Link href="/dashboard/appointments">
                 <Button className="w-full" variant="secondary">
                   {t("actions.cancel")}
                 </Button>

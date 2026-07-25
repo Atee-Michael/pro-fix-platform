@@ -1,0 +1,10 @@
+<svg width="220" height="64" viewBox="0 0 220 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Pro-Fix Auto Services</title>
+  <desc id="desc">Pro-Fix wordmark with deep blue automotive mark.</desc>
+  <rect width="220" height="64" rx="8" fill="#09090B"/>
+  <path d="M23 41L35 18H55L43 41H23Z" fill="#D4D4D8"/>
+  <path d="M49 41L61 18H72L60 41H49Z" fill="#1E40AF"/>
+  <path d="M30 45H58" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round"/>
+  <text x="86" y="32" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="0">PRO-FIX</text>
+  <text x="87" y="47" fill="#A1A1AA" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" letter-spacing="1.6">AUTO SERVICES</text>
+</svg>

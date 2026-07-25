@@ -1,0 +1,1036 @@
+{
+  "navigation": {
+    "logoAlt": "Pro-Fix Auto Services",
+    "primaryLabel": "Navigation principale",
+    "mobileLabel": "Navigation mobile",
+    "accountLabel": "Navigation du compte",
+    "localeLabel": "Selecteur de langue",
+    "menu": "Menu",
+    "home": "Accueil",
+    "services": "Services",
+    "book": "Reserver",
+    "news": "Actualites",
+    "support": "Support",
+    "contact": "Contact",
+    "login": "Connexion",
+    "register": "Inscription",
+    "design": "Design",
+    "theme": {
+      "label": "Selecteur de theme",
+      "system": "Systeme",
+      "light": "Clair",
+      "dark": "Sombre"
+    },
+    "locales": {
+      "en": "Anglais",
+      "fr": "Francais"
+    }
+  },
+  "footer": {
+    "label": "Navigation de pied de page",
+    "description": "Entretien automobile premium, parcours de service clairs et support fiable pour les clients Pro-Fix.",
+    "copyright": "Pro-Fix Auto Services. Tous droits reserves."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Pro-Fix Auto Services",
+      "title": "Entretien independant pour BMW, MINI, Motorrad et vehicules premium.",
+      "description": "Diagnostics mesures, conseils clairs et travail soigne pour les conducteurs qui veulent un vrai suivi de leur vehicule.",
+      "primaryAction": "Reserver une visite",
+      "secondaryAction": "Voir les services",
+      "panelLabel": "Approche atelier",
+      "panelText": "Chaque intervention commence par l'ecoute, les controles et l'explication de la bonne prochaine etape."
+    },
+    "story": {
+      "eyebrow": "Histoire de l'entreprise",
+      "title": "Construit autour de la confiance, pas du volume.",
+      "description": "Pro-Fix s'adresse aux proprietaires qui apprecient les reponses directes et l'entretien attentif.",
+      "body": "L'atelier repose sur une idee simple : comprendre correctement le vehicule, expliquer ce qui compte et realiser le travail avec soin. Les clients doivent repartir en sachant ce qui a ete trouve, ce qui a ete fait et ce qui peut attendre."
+    },
+    "expertise": {
+      "eyebrow": "Expertise marques",
+      "title": "Connaissance BMW, MINI, BMW Motorrad et marques premium.",
+      "description": "L'experience specialisee aide a garder le diagnostic precis et les reparations adaptees au vehicule.",
+      "brands": ["BMW", "MINI", "BMW Motorrad", "Marques premium"],
+      "cardDescription": "Controles adaptes au modele, recherche de panne soignee et conseils de service respectueux du vehicule."
+    },
+    "services": {
+      "eyebrow": "Apercu des services",
+      "title": "Services essentiels avec communication claire.",
+      "description": "Une offre ciblee pour l'entretien, les pannes et le suivi planifie.",
+      "items": [
+        {
+          "title": "Diagnostics",
+          "description": "Recherche structuree pour voyants, problemes de fonctionnement et defauts electroniques."
+        },
+        {
+          "title": "Entretien",
+          "description": "Maintenance courante avec les bonnes pieces, les bons controles et les bons dossiers."
+        },
+        {
+          "title": "Reparations",
+          "description": "Travaux expliques avant validation, avec attention portee a la fiabilite."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Processus diagnostic",
+      "title": "Un parcours calme du probleme a la decision.",
+      "description": "Le processus reduit les suppositions et garde le client informe.",
+      "steps": [
+        {
+          "title": "Ecouter",
+          "description": "Commencer par les symptomes, l'historique et ce que le conducteur a remarque."
+        },
+        {
+          "title": "Tester",
+          "description": "Utiliser les controles et outils de diagnostic pour confirmer ce qui se passe."
+        },
+        {
+          "title": "Expliquer",
+          "description": "Partager les constats simplement, avec des options raisonnables."
+        },
+        {
+          "title": "Reparer",
+          "description": "Realiser les travaux valides et confirmer le resultat avant la restitution."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Pourquoi Pro-Fix",
+      "title": "Travail soigne, priorites claires.",
+      "description": "Une experience premium doit rester posee, transparente et utile.",
+      "items": [
+        {
+          "title": "Specialisation",
+          "description": "La familiarite avec BMW, MINI, Motorrad et les systemes premium garde le travail precis."
+        },
+        {
+          "title": "Conseil simple",
+          "description": "Les constats sont expliques sans pression, pour faciliter les decisions."
+        },
+        {
+          "title": "Restitution claire",
+          "description": "Les clients comprennent ce qui a change et ce qu'il faut surveiller ensuite."
+        }
+      ]
+    },
+    "portal": {
+      "eyebrow": "Apercu du portail client",
+      "title": "Un futur espace pour l'historique et les mises a jour.",
+      "description": "Le portail client donnera aux proprietaires une vue claire des reservations, notes et avances du vehicule.",
+      "statusLabel": "Statut du vehicule",
+      "status": "En controle",
+      "note": "Les fonctions du portail seront ajoutees plus tard, avec des mises a jour et dossiers de service faciles a lire."
+    },
+    "news": {
+      "eyebrow": "Actualites et conseils",
+      "title": "Notes utiles pour les proprietaires.",
+      "description": "Le contenu conseil doit aider les clients a comprendre l'entretien sans ajouter de bruit.",
+      "items": [
+        {
+          "title": "Preparer une visite diagnostic",
+          "description": "Ce qu'il faut noter avant d'amener le vehicule pour une recherche."
+        },
+        {
+          "title": "Intervalles et usage reel",
+          "description": "Pourquoi le kilometrage, l'age et le style de conduite comptent."
+        },
+        {
+          "title": "Voyants avec contexte",
+          "description": "Comment traiter les alertes tableau de bord sans panique ni attente."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact et reservation",
+      "title": "Dites-nous ce dont le vehicule a besoin.",
+      "description": "Partagez le probleme, reservez une visite ou posez une question. La premiere etape est une conversation claire.",
+      "primaryAction": "Reserver une visite",
+      "secondaryAction": "Contacter Pro-Fix"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "Services",
+      "title": "Travail soigne pour vehicules premium.",
+      "description": "Du diagnostic a l'entretien et a la reparation, Pro-Fix garde un processus clair, mesure et centre sur les vrais besoins du vehicule."
+    },
+    "overview": {
+      "eyebrow": "Groupes de services",
+      "title": "Un support adapte a la conception de votre vehicule.",
+      "description": "Chaque domaine de service est groupe pour aider les proprietaires a trouver le bon point de depart avant de reserver."
+    },
+    "groups": [
+      {
+        "title": "Diagnostics",
+        "description": "Recherche de panne structuree pour voyants, perte de performance et symptomes incertains.",
+        "services": [
+          "Lecture des codes avec contexte",
+          "Recherche de voyants",
+          "Controles de fonctionnement",
+          "Rapports avant reparation"
+        ]
+      },
+      {
+        "title": "Maintenance preventive",
+        "description": "Entretien courant planifie selon le kilometrage, l'age et l'usage du vehicule.",
+        "services": [
+          "Vidange et filtres",
+          "Controles liquide de frein et refroidissement",
+          "Points d'inspection",
+          "Bilans saisonniers"
+        ]
+      },
+      {
+        "title": "Reparations mecaniques",
+        "description": "Travaux expliques avant validation, avec attention portee a la fiabilite.",
+        "services": [
+          "Reparations de freinage",
+          "Suspension et direction",
+          "Systeme de refroidissement",
+          "Moteur et transmission"
+        ]
+      },
+      {
+        "title": "Systemes electriques",
+        "description": "Controles attentifs pour les defauts electriques modernes et systemes connectes.",
+        "services": [
+          "Batterie et charge",
+          "Capteurs et modules",
+          "Eclairage et commandes",
+          "Tests de continuite"
+        ]
+      },
+      {
+        "title": "Support specialiste BMW et MINI",
+        "description": "Support adapte aux modeles BMW et MINI pour l'entretien, les pannes et les questions d'usage.",
+        "services": [
+          "Diagnostics BMW et MINI",
+          "Conseils de planning d'entretien",
+          "Recherche de pannes courantes",
+          "Controles avant achat"
+        ]
+      },
+      {
+        "title": "Support BMW Motorrad",
+        "description": "Accompagnement cible pour les proprietaires BMW Motorrad qui veulent des conseils clairs et des controles precis.",
+        "services": [
+          "Diagnostics moto",
+          "Inspections d'entretien",
+          "Controles electriques et capteurs",
+          "Conseils de possession"
+        ]
+      },
+      {
+        "title": "Inspections marques premium",
+        "description": "Inspections detaillees pour vehicules premium avant achat, vente ou long trajet.",
+        "services": [
+          "Inspections d'etat",
+          "Observations apres essai routier",
+          "Revue de l'historique",
+          "Constats ecrits clairs"
+        ]
+      }
+    ],
+    "cta": {
+      "eyebrow": "Reservation",
+      "title": "Pret a organiser une visite ?",
+      "description": "Envoyez les details du vehicule et le probleme. L'equipe peut guider la prochaine etape avant le debut des travaux.",
+      "action": "Aller a la reservation"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Parler avec Pro-Fix.",
+      "description": "Utilisez cette page pour trouver les coordonnees de l'atelier ou preparer un message pour l'equipe. Le formulaire est une maquette pour l'instant."
+    },
+    "details": {
+      "items": [
+        {
+          "label": "Adresse",
+          "value": "302, Boulevard du 13 Janvier, Lome, Togo"
+        },
+        {
+          "label": "Telephone",
+          "value": "+228 93685800"
+        },
+        {
+          "label": "Email",
+          "value": "info@pro-fix.com"
+        }
+      ]
+    },
+    "hours": {
+      "eyebrow": "Horaires",
+      "title": "Horaires de l'atelier",
+      "description": "Les horaires seront confirmes avant le lancement.",
+      "placeholder": "Placeholder des horaires"
+    },
+    "map": {
+      "eyebrow": "Carte",
+      "title": "Emplacement de l'atelier",
+      "description": "Une carte pourra etre connectee plus tard.",
+      "placeholder": "Placeholder de carte"
+    },
+    "form": {
+      "eyebrow": "Formulaire de contact",
+      "title": "Maquette de message",
+      "description": "Aucune fonctionnalite backend n'est connectee pour l'instant.",
+      "nameLabel": "Nom",
+      "namePlaceholder": "Votre nom",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vous@example.com",
+      "phoneLabel": "Telephone",
+      "phonePlaceholder": "+228 ...",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Dites-nous ce dont vous avez besoin",
+      "submit": "Envoyer le message",
+      "note": "Ce formulaire est uniquement une maquette visuelle. L'envoi sera ajoute dans une etape backend ulterieure."
+    }
+  },
+  "supportPage": {
+    "hero": {
+      "eyebrow": "Support",
+      "title": "Aide pour reservations, comptes et dossiers de service.",
+      "description": "Trouvez la bonne zone d'aide ou utilisez le futur point d'entree ticket lorsque les flux support seront connectes."
+    },
+    "contact": {
+      "eyebrow": "Email support",
+      "title": "Contacter le support",
+      "description": "Pour les questions de support client, utilisez la boite support.",
+      "email": "support@pro-fix.com"
+    },
+    "ticket": {
+      "eyebrow": "Ticket",
+      "title": "Placeholder de ticket support",
+      "description": "Un formulaire de ticket sera connecte plus tard.",
+      "placeholder": "Placeholder du point d'entree ticket support"
+    },
+    "help": {
+      "eyebrow": "Sections d'aide",
+      "title": "Zones de support courantes",
+      "description": "Ces sections preparent la structure pour l'aide compte, reservation, recu et rapport.",
+      "sections": [
+        {
+          "title": "Aide compte",
+          "description": "Future aide pour connexion, inscription et acces au profil client."
+        },
+        {
+          "title": "Aide reservation",
+          "description": "Support pour demandes de rendez-vous, changements et preparation de visite."
+        },
+        {
+          "title": "Aide recu",
+          "description": "Un espace pour les questions de recus de paiement et dossiers de facture."
+        },
+        {
+          "title": "Aide rapport",
+          "description": "Support pour rapports diagnostic, notes de service et resumes d'inspection."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Questions frequentes",
+      "description": "Premieres questions pour la page support publique.",
+      "items": [
+        {
+          "question": "Puis-je envoyer un ticket maintenant ?",
+          "answer": "Pas encore. Le point d'entree ticket est prepare comme placeholder jusqu'a l'ajout du backend."
+        },
+        {
+          "question": "Ou envoyer les questions de support ?",
+          "answer": "Utilisez support@pro-fix.com pendant que le portail et le systeme de tickets ne sont pas connectes."
+        },
+        {
+          "question": "Puis-je obtenir de l'aide pour une reservation ?",
+          "answer": "Oui. L'aide reservation couvrira les demandes, changements et details de preparation."
+        }
+      ]
+    }
+  },
+  "newsPage": {
+    "hero": {
+      "eyebrow": "Actualites et conseils",
+      "title": "Notes pratiques pour proprietaires de vehicules premium.",
+      "description": "Articles courts sur le diagnostic, l'entretien, les inspections et le suivi attentif."
+    },
+    "readArticle": "Lire l'article",
+    "backToNews": "Retour aux actualites"
+  },
+  "auth": {
+    "validation": {
+      "emailRequired": "Saisissez votre adresse email.",
+      "emailInvalid": "Saisissez une adresse email valide.",
+      "passwordRequired": "Saisissez votre mot de passe.",
+      "passwordMin": "Utilisez au moins 8 caracteres."
+    },
+    "login": {
+      "eyebrow": "Connexion",
+      "title": "Connectez-vous a votre compte.",
+      "description": "Apercu de la connexion client pendant le developpement du site.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vous@example.com",
+      "passwordLabel": "Mot de passe",
+      "passwordPlaceholder": "Saisissez votre mot de passe",
+      "submit": "Se connecter",
+      "validationPlaceholder": "L'authentification sera activee dans une phase ulterieure.",
+      "alternatePrompt": "Besoin d'un compte ?",
+      "alternateLink": "Inscription"
+    },
+    "register": {
+      "eyebrow": "Inscription",
+      "title": "Creez un compte Pro-Fix.",
+      "description": "Apercu de l'inscription client pendant le developpement du site.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vous@example.com",
+      "passwordLabel": "Mot de passe",
+      "passwordPlaceholder": "Creez un mot de passe",
+      "submit": "Creer un compte",
+      "validationPlaceholder": "L'authentification sera activee dans une phase ulterieure.",
+      "alternatePrompt": "Vous avez deja un compte ?",
+      "alternateLink": "Connexion"
+    }
+  },
+  "dashboard": {
+    "shell": {
+      "title": "Espace client",
+      "developmentNotice": "Mode developpement – L'authentification est temporairement desactivee."
+    },
+    "navigation": {
+      "label": "Navigation de l'espace client",
+      "mobileLabel": "Navigation mobile de l'espace client",
+      "overview": "Apercu",
+      "vehicles": "Vehicules",
+      "repairHistory": "Historique des reparations",
+      "reports": "Rapports",
+      "receipts": "Recus",
+      "bookings": "Reservations",
+      "payments": "Paiements",
+      "support": "Support",
+      "profile": "Profil"
+    },
+    "pages": {
+      "overview": {
+        "eyebrow": "Apercu",
+        "title": "Votre espace Pro-Fix",
+        "description": "Un point de depart securise pour vos vehicules, visites a l'atelier et dossiers client.",
+        "placeholder": "L'activite du compte et les mises a jour de service apparaitront ici.",
+        "statistics": {
+          "vehicles": "Vehicules",
+          "upcomingBookings": "Reservations a venir",
+          "availableReports": "Rapports disponibles",
+          "openTickets": "Tickets ouverts"
+        },
+        "appointments": {
+          "title": "Prochain rendez-vous",
+          "description": "Votre prochaine visite planifiee a l'atelier."
+        },
+        "notifications": {
+          "title": "Notifications",
+          "description": "Mises a jour recentes du compte de demonstration.",
+          "messages": {
+            "bookingConfirmed": "Votre reservation a l'atelier est confirmee.",
+            "reportReady": "Un rapport de vehicule est pret a consulter."
+          }
+        },
+        "support": {
+          "title": "Support",
+          "summary": "{count, plural, =0 {Aucun ticket de demonstration} =1 {# ticket de demonstration} other {# tickets de demonstration}}"
+        },
+        "services": {
+          "annualService": "Entretien annuel"
+        },
+        "statuses": {
+          "confirmed": "Confirme"
+        }
+      },
+      "vehicles": {
+        "eyebrow": "Vehicules",
+        "title": "Vos vehicules",
+        "description": "Consultez et gerez les vehicules associes a votre compte client.",
+        "actions": {
+          "add": "Ajouter un vehicule",
+          "view": "Voir les details",
+          "edit": "Modifier",
+          "delete": "Supprimer",
+          "save": "Enregistrer le vehicule",
+          "update": "Enregistrer les modifications",
+          "cancel": "Annuler",
+          "back": "Retour aux vehicules"
+        },
+        "new": {
+          "title": "Ajouter un vehicule",
+          "description": "Saisissez les informations utilisees pour identifier et entretenir ce vehicule."
+        },
+        "edit": {
+          "title": "Modifier le vehicule",
+          "description": "Mettez a jour les informations du vehicule ci-dessous."
+        },
+        "empty": {
+          "title": "Aucun vehicule",
+          "description": "Ajoutez votre premier vehicule pour commencer son dossier d'entretien.",
+          "action": "Ajouter votre premier vehicule"
+        },
+        "notFound": {
+          "title": "Vehicule introuvable",
+          "description": "Ce vehicule a peut-etre ete supprime ou n'est plus disponible."
+        },
+        "fields": {
+          "make": "Marque",
+          "model": "Modele",
+          "year": "Annee",
+          "registrationNumber": "Numero d'immatriculation",
+          "vin": "VIN",
+          "mileage": "Kilometrage",
+          "fuelType": "Type de carburant",
+          "transmission": "Transmission",
+          "notes": "Notes"
+        },
+        "options": {
+          "fuelType": {
+            "petrol": "Essence",
+            "diesel": "Diesel",
+            "hybrid": "Hybride",
+            "electric": "Electrique",
+            "other": "Autre"
+          },
+          "transmission": {
+            "manual": "Manuelle",
+            "automatic": "Automatique",
+            "other": "Autre"
+          }
+        },
+        "form": {
+          "selectOption": "Selectionnez une option"
+        },
+        "validation": {
+          "summary": "Verifiez les champs signales et reessayez.",
+          "required": "Ce champ est obligatoire.",
+          "yearInvalid": "Saisissez une annee entiere valide.",
+          "yearRange": "Saisissez une annee entre 1886 et l'annee prochaine.",
+          "mileageInvalid": "Saisissez un nombre entier positif ou nul.",
+          "vinInvalid": "Saisissez un VIN valide de 17 caracteres (sans I, O ou Q).",
+          "notesTooLong": "Les notes ne doivent pas depasser 2 000 caracteres."
+        },
+        "details": {
+          "description": "Informations d'identification et de propriete du vehicule.",
+          "mileageValue": "{value, number} km",
+          "noNotes": "Aucune note ajoutee.",
+          "updated": "Derniere mise a jour : {date}"
+        },
+        "feedback": {
+          "created": "Vehicule ajoute avec succes.",
+          "updated": "Vehicule mis a jour avec succes.",
+          "deleted": "Vehicule supprime avec succes."
+        },
+        "delete": {
+          "title": "Supprimer le vehicule ?",
+          "description": "{vehicle} sera supprime de la liste temporaire. Cette action est irreversible.",
+          "cancel": "Garder le vehicule",
+          "confirm": "Supprimer le vehicule"
+        }
+      },
+      "repairHistory": {
+        "eyebrow": "Historique des reparations",
+        "title": "Historique des reparations",
+        "description": "Consultez les travaux termines et l'historique d'entretien de vos vehicules.",
+        "placeholder": "Les dossiers de reparation apparaitront ici."
+      },
+      "reports": {
+        "eyebrow": "Rapports",
+        "title": "Rapports des vehicules",
+        "description": "Accedez aux rapports de diagnostic, d'inspection et d'atelier partages avec votre compte.",
+        "placeholder": "Les rapports disponibles apparaitront ici."
+      },
+      "receipts": {
+        "eyebrow": "Recus",
+        "title": "Vos recus",
+        "description": "Retrouvez les recus associes aux rendez-vous termines et aux paiements.",
+        "placeholder": "Les recus apparaitront ici."
+      },
+      "bookings": {
+        "eyebrow": "Reservations",
+        "title": "Vos reservations",
+        "description": "Consultez vos prochains rendez-vous et vos visites precedentes.",
+        "bookAction": "Prendre rendez-vous",
+        "empty": {
+          "title": "Aucune demande de rendez-vous",
+          "description": "Choisissez un service, un vehicule et un horaire prefere pour demander votre premier rendez-vous.",
+          "action": "Prendre rendez-vous"
+        },
+        "statuses": {
+          "requested": "Demande"
+        },
+        "reference": "Reference : {reference}",
+        "vehicleUnavailable": "Vehicule indisponible"
+      },
+      "appointments": {
+        "eyebrow": "Rendez-vous",
+        "title": "Mes rendez-vous",
+        "description": "Consultez les visites a venir, les travaux termines et les demandes de rendez-vous.",
+        "loading": "Chargement des rendez-vous",
+        "vehicleUnavailable": "Informations du vehicule indisponibles",
+        "actions": {
+          "book": "Prendre rendez-vous",
+          "view": "Voir le rendez-vous",
+          "back": "Retour aux rendez-vous",
+          "cancel": "Annuler le rendez-vous",
+          "reschedule": "Demander un autre horaire"
+        },
+        "upcoming": {
+          "title": "Rendez-vous a venir",
+          "description": "Visites planifiees et demandes encore actives.",
+          "emptyTitle": "Aucun rendez-vous a venir",
+          "emptyDescription": "Les nouvelles demandes de rendez-vous apparaitront ici."
+        },
+        "past": {
+          "title": "Rendez-vous passes",
+          "description": "Historique des rendez-vous termines et annules.",
+          "emptyTitle": "Aucun rendez-vous passe",
+          "emptyDescription": "Les visites terminees a l'atelier apparaitront ici."
+        },
+        "statuses": {
+          "pending": "En attente",
+          "confirmed": "Confirme",
+          "inProgress": "En cours",
+          "awaitingParts": "En attente de pieces",
+          "completed": "Termine",
+          "cancelled": "Annule"
+        },
+        "notFound": {
+          "title": "Rendez-vous introuvable",
+          "description": "Ce rendez-vous n'est peut-etre plus disponible."
+        },
+        "detail": {
+          "eyebrow": "Details du rendez-vous",
+          "reference": "Reference : {reference}",
+          "service": {
+            "title": "Details du service"
+          },
+          "schedule": {
+            "title": "Date et heure preferees",
+            "reschedulePending": "Votre demande de changement est enregistree et attend une confirmation."
+          },
+          "vehicle": {
+            "title": "Details du vehicule",
+            "makeModel": "Marque et modele",
+            "registration": "Numero d'immatriculation",
+            "year": "Annee",
+            "source": "Dossier du vehicule",
+            "saved": "Vehicule enregistre",
+            "temporary": "Informations temporaires de reservation"
+          },
+          "customerNotes": {
+            "title": "Vos notes"
+          },
+          "garageNotes": {
+            "title": "Notes du garage",
+            "empty": "Le garage n'a ajoute aucune note visible par le client."
+          },
+          "noNotes": "Aucune note fournie."
+        },
+        "serviceDescriptions": {
+          "diagnosticInspection": "Recherche structuree des voyants, symptomes ou problemes de performance.",
+          "routineMaintenance": "Entretien planifie selon l'age, le kilometrage et l'utilisation du vehicule.",
+          "engineRepair": "Evaluation et reparation des problemes lies au moteur.",
+          "electricalDiagnosis": "Diagnostic des defauts electriques, de charge, de capteurs ou de commande.",
+          "brakeService": "Inspection et entretien des composants de freinage.",
+          "suspensionService": "Inspection et reparation de la suspension, de la direction et du confort.",
+          "airConditioningService": "Controle et entretien de la climatisation et du refroidissement de l'habitacle.",
+          "prePurchaseInspection": "Inspection attentive du vehicule avant une decision d'achat.",
+          "bmwCodingProgramming": "Codage ou programmation BMW pour les systemes compatibles.",
+          "other": "Rendez-vous a l'atelier pour un service non repertorie."
+        },
+        "requests": {
+          "cancel": {
+            "title": "Annuler ce rendez-vous ?",
+            "description": "Cette annulation fictive met immediatement le rendez-vous a jour sans notifier le garage.",
+            "confirm": "Confirmer l'annulation"
+          },
+          "reschedule": {
+            "title": "Demander un autre horaire",
+            "description": "Choisissez une nouvelle date et heure preferees. Cette demande fictive sera mise en attente.",
+            "confirm": "Envoyer la demande"
+          },
+          "dateLabel": "Nouvelle date preferee",
+          "timeLabel": "Nouvelle heure preferee",
+          "dismiss": "Retour",
+          "submitting": "Envoi en cours...",
+          "validation": {
+            "required": "Choisissez une date et une heure.",
+            "datePast": "Choisissez aujourd'hui ou une date future."
+          }
+        },
+        "feedback": {
+          "cancelled": "Le rendez-vous a ete annule dans cette session fictive.",
+          "rescheduled": "Votre demande fictive de changement a ete enregistree."
+        },
+        "error": {
+          "title": "Impossible de charger les rendez-vous",
+          "description": "Un probleme est survenu pendant l'affichage de vos rendez-vous.",
+          "retry": "Reessayer"
+        }
+      },
+      "appointmentBooking": {
+        "eyebrow": "Prise de rendez-vous",
+        "title": "Demander un rendez-vous a l'atelier",
+        "description": "Indiquez les besoins de votre vehicule et choisissez votre horaire prefere.",
+        "progress": {
+          "label": "Progression de la reservation",
+          "step": "Etape {current} sur {total}"
+        },
+        "steps": {
+          "service": {
+            "title": "Selectionnez un service",
+            "description": "Choisissez le service qui correspond le mieux aux besoins du vehicule."
+          },
+          "vehicle": {
+            "title": "Choisissez un vehicule",
+            "description": "Utilisez un vehicule enregistre ou saisissez des informations temporaires."
+          },
+          "date": {
+            "title": "Choisissez une date preferee",
+            "description": "Selectionnez une date future qui vous convient. La disponibilite sera confirmee plus tard."
+          },
+          "time": {
+            "title": "Choisissez une heure preferee",
+            "description": "Selectionnez l'heure a laquelle vous souhaitez arriver a l'atelier."
+          },
+          "contact": {
+            "title": "Saisissez vos coordonnees",
+            "description": "Indiquez les coordonnees que l'atelier pourra utiliser pour cette demande."
+          },
+          "notes": {
+            "title": "Decrivez le probleme",
+            "description": "Ajoutez les symptomes, voyants, bruits ou tout autre contexte utile."
+          },
+          "review": {
+            "title": "Verifiez votre demande",
+            "description": "Verifiez toutes les informations avant d'envoyer ce rendez-vous fictif."
+          }
+        },
+        "services": {
+          "diagnosticInspection": "Inspection diagnostique",
+          "routineMaintenance": "Entretien courant",
+          "engineRepair": "Reparation moteur",
+          "electricalDiagnosis": "Diagnostic electrique",
+          "brakeService": "Service de freinage",
+          "suspensionService": "Service de suspension",
+          "airConditioningService": "Service de climatisation",
+          "prePurchaseInspection": "Inspection avant achat",
+          "bmwCodingProgramming": "Codage ou programmation BMW",
+          "other": "Autre"
+        },
+        "vehicle": {
+          "existing": "Utiliser un vehicule enregistre",
+          "temporary": "Saisir un vehicule temporaire",
+          "none": "Vous n'avez aucun vehicule enregistre. Choisissez les informations temporaires pour continuer.",
+          "fields": {
+            "temporaryMake": "Marque",
+            "temporaryModel": "Modele",
+            "temporaryYear": "Annee",
+            "temporaryRegistration": "Numero d'immatriculation"
+          }
+        },
+        "fields": {
+          "preferredDate": "Date preferee",
+          "contactName": "Nom du contact",
+          "contactEmail": "Adresse email",
+          "contactPhone": "Numero de telephone",
+          "notes": "Notes, symptomes ou problemes"
+        },
+        "notesCount": "{count, number} caracteres sur {max, number}",
+        "review": {
+          "service": "Service",
+          "vehicle": "Vehicule",
+          "preferredDateTime": "Date et heure preferees",
+          "contact": "Contact",
+          "notes": "Notes",
+          "noNotes": "Aucune note supplementaire."
+        },
+        "actions": {
+          "back": "Retour",
+          "cancel": "Annuler",
+          "continue": "Continuer",
+          "submit": "Envoyer la demande de rendez-vous",
+          "submitting": "Envoi en cours..."
+        },
+        "validation": {
+          "required": "Ce champ est obligatoire.",
+          "vehicleRequired": "Selectionnez un vehicule enregistre.",
+          "yearInvalid": "Saisissez une annee entiere valide.",
+          "yearRange": "Saisissez une annee entre 1886 et l'annee prochaine.",
+          "datePast": "Choisissez aujourd'hui ou une date future.",
+          "emailInvalid": "Saisissez une adresse email valide.",
+          "phoneInvalid": "Saisissez un numero de telephone valide.",
+          "notesTooLong": "Les notes ne doivent pas depasser 2 000 caracteres."
+        },
+        "feedback": {
+          "error": "Le rendez-vous n'a pas pu etre envoye. Vos informations sont conservees ; reessayez."
+        },
+        "success": {
+          "title": "Rendez-vous demande",
+          "description": "Votre rendez-vous fictif est enregistre dans cette session. L'atelier n'a pas ete contacte.",
+          "reference": "Reference : {reference}",
+          "viewAppointments": "Voir les rendez-vous",
+          "dashboard": "Retour au tableau de bord"
+        }
+      },
+      "payments": {
+        "eyebrow": "Paiements",
+        "title": "Paiements",
+        "description": "Consultez le statut des paiements et l'activite de facturation du compte.",
+        "placeholder": "Les informations de paiement apparaitront ici."
+      },
+      "support": {
+        "eyebrow": "Support",
+        "title": "Support client",
+        "description": "Trouvez de l'aide et suivez vos echanges avec l'equipe Pro-Fix.",
+        "loading": "Chargement des tickets de support",
+        "actions": {
+          "new": "Nouveau ticket de support",
+          "view": "Voir la conversation",
+          "back": "Retour au support",
+          "cancel": "Annuler",
+          "create": "Creer le ticket",
+          "submitting": "Envoi en cours..."
+        },
+        "filter": {
+          "label": "Filtrer par statut",
+          "all": "Tous les statuts"
+        },
+        "fields": {
+          "subject": "Sujet",
+          "category": "Categorie",
+          "message": "Message",
+          "priority": "Priorite",
+          "status": "Statut",
+          "createdDate": "Cree",
+          "updatedDate": "Derniere mise a jour"
+        },
+        "categories": {
+          "appointment": "Rendez-vous",
+          "vehicle": "Vehicule",
+          "repairReport": "Rapport de reparation",
+          "receiptPayment": "Recu ou paiement",
+          "account": "Compte",
+          "generalEnquiry": "Demande generale"
+        },
+        "priorities": {
+          "low": "Priorite basse",
+          "normal": "Priorite normale",
+          "high": "Priorite haute",
+          "urgent": "Urgent"
+        },
+        "statuses": {
+          "open": "Ouvert",
+          "awaitingReply": "En attente de votre reponse",
+          "resolved": "Resolu",
+          "closed": "Ferme"
+        },
+        "card": {
+          "updated": "Mis a jour le {date}"
+        },
+        "empty": {
+          "title": "Aucun ticket de support",
+          "description": "Creez un ticket lorsque vous avez besoin de l'aide de l'equipe Pro-Fix.",
+          "action": "Creer votre premier ticket",
+          "filteredTitle": "Aucun ticket ne correspond a ce filtre",
+          "filteredDescription": "Choisissez un autre statut pour voir plus de tickets."
+        },
+        "new": {
+          "title": "Creer un ticket de support",
+          "description": "Decrivez votre besoin et choisissez la categorie la plus pertinente."
+        },
+        "form": {
+          "select": "Selectionnez une option"
+        },
+        "detail": {
+          "reference": "Reference : {reference}"
+        },
+        "conversation": {
+          "title": "Conversation",
+          "authors": {
+            "customer": "Vous",
+            "support": "Support Pro-Fix"
+          }
+        },
+        "reply": {
+          "label": "Ajouter une reponse",
+          "submit": "Envoyer la reponse"
+        },
+        "validation": {
+          "required": "Selectionnez une option.",
+          "subjectMin": "Le sujet doit comporter au moins 5 caracteres.",
+          "subjectMax": "Le sujet ne doit pas depasser 120 caracteres.",
+          "messageMin": "Le message doit comporter au moins 10 caracteres.",
+          "messageMax": "Le message ne doit pas depasser 4 000 caracteres.",
+          "replyRequired": "Saisissez une reponse avant l'envoi."
+        },
+        "feedback": {
+          "created": "Ticket de support cree avec succes.",
+          "replied": "Votre reponse a ete ajoutee avec succes.",
+          "error": "Le ticket n'a pas pu etre cree. Vos informations sont conservees."
+        },
+        "notFound": {
+          "title": "Ticket de support introuvable",
+          "description": "Ce ticket n'est peut-etre plus disponible."
+        },
+        "error": {
+          "title": "Impossible de charger les tickets",
+          "description": "Un probleme est survenu pendant l'affichage des tickets de support.",
+          "retry": "Reessayer"
+        }
+      },
+      "profile": {
+        "eyebrow": "Profil",
+        "title": "Resume du profil",
+        "description": "Consultez les informations client associees a votre compte securise.",
+        "notProvided": "Non renseigne",
+        "fields": {
+          "name": "Nom",
+          "email": "Email",
+          "phone": "Telephone",
+          "role": "Role du compte"
+        },
+        "roles": {
+          "customer": "Client",
+          "staff": "Personnel",
+          "admin": "Administrateur"
+        }
+      }
+    }
+  },
+  "pages": {
+    "services": {
+      "eyebrow": "Services",
+      "title": "Maintenance experte pour conducteurs et flottes professionnelles.",
+      "description": "Explorez diagnostics, reparations, inspections, entretien et options de soin premium pour votre vehicule.",
+      "cardTitle": "Couverture des services",
+      "cardDescription": "Une structure claire aide les clients a trouver le bon support avant de reserver.",
+      "primaryAction": "Reserver un service",
+      "secondaryAction": "Contacter l'equipe"
+    },
+    "book": {
+      "eyebrow": "Reservation",
+      "title": "Planifiez votre prochain rendez-vous Pro-Fix.",
+      "description": "Commencez une demande de service et preparez les details du vehicule avant la connexion du parcours de reservation.",
+      "cardTitle": "Apercu de reservation",
+        "cardDescription": "Cette route est prete pour le futur formulaire de reservation et le flux de disponibilite.",
+        "primaryAction": "Commencer",
+        "secondaryAction": "Voir les services",
+        "choice": {
+          "title": "Comment souhaitez-vous reserver ?",
+          "description": "Choisissez l'option qui vous correspond.",
+          "newCustomer": {
+            "title": "Je suis un nouveau client",
+            "description": "Creez un compte client avant de reserver et conservez les informations de vos vehicules.",
+            "action": "Creer un compte"
+          },
+          "login": {
+            "title": "J'ai deja un compte",
+            "description": "Connectez-vous pour utiliser vos informations client et vehicules enregistrees.",
+            "action": "Se connecter"
+          },
+          "guest": {
+            "title": "Reserver en tant qu'invite",
+            "description": "Continuez sans compte et saisissez vos coordonnees et les informations du vehicule.",
+            "action": "Continuer en tant qu'invite"
+          },
+          "back": "Retour"
+        }
+      },
+    "news": {
+      "eyebrow": "Actualites",
+      "title": "Mises a jour, notes de service et conseils automobiles.",
+      "description": "Publiez les annonces Pro-Fix, conseils d'entretien et mises a jour client depuis cette page.",
+      "cardTitle": "Base editoriale",
+      "cardDescription": "La route actualites est prete pour les articles et contenus par categorie.",
+      "primaryAction": "Lire les dernieres nouvelles",
+      "secondaryAction": "Contacter le support"
+    },
+    "support": {
+      "eyebrow": "Support",
+      "title": "Aide utile avant, pendant et apres le service.",
+      "description": "Offrez aux clients un espace clair pour les questions de service, l'aide a la reservation et le suivi automobile.",
+      "cardTitle": "Centre de support",
+      "cardDescription": "Cette page peut evoluer vers des FAQ, de l'aide au statut et des parcours de support client.",
+      "primaryAction": "Obtenir de l'aide",
+      "secondaryAction": "Nous contacter"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Contactez l'equipe Pro-Fix.",
+      "description": "Creez une route directe pour les questions client, demandes de service et partenariats.",
+      "cardTitle": "Options de contact",
+      "cardDescription": "La page contact est prete pour l'adresse, les horaires et le formulaire de demande.",
+      "primaryAction": "Envoyer une demande",
+      "secondaryAction": "Reserver"
+    },
+    "login": {
+      "eyebrow": "Connexion",
+      "title": "Acces client pour les futures fonctions de compte.",
+      "description": "Gardez la route de connexion publique prete sans ajouter encore de logique d'authentification.",
+      "cardTitle": "Connexion au compte",
+      "cardDescription": "L'authentification sera ajoutee plus tard dans une etape dediee.",
+      "primaryAction": "Continuer",
+      "secondaryAction": "Creer un compte"
+    },
+    "register": {
+      "eyebrow": "Inscription",
+      "title": "Preparez l'inscription client pour les futurs comptes.",
+      "description": "Gardez la route d'inscription disponible pendant que la creation de compte reste hors perimetre.",
+      "cardTitle": "Configuration du compte",
+      "cardDescription": "L'interface d'inscription et l'authentification seront connectees dans une phase ulterieure.",
+      "primaryAction": "Creer un compte",
+      "secondaryAction": "Se connecter"
+    }
+  },
+  "design": {
+    "hero": {
+      "eyebrow": "Systeme de design",
+      "title": "Apercu des composants Pro-Fix",
+      "description": "Des fondations d'interface reutilisables pour la plateforme Pro-Fix, avec une palette automobile haut de gamme.",
+      "primaryAction": "Reserver un service",
+      "secondaryAction": "Voir l'inspection"
+    },
+    "brand": {
+      "badge": "Marque",
+      "title": "Logo et palette",
+      "logoAlt": "Pro-Fix Auto Services"
+    },
+    "colors": {
+      "black": "Noir",
+      "white": "Blanc",
+      "silver": "Argent",
+      "deepBlue": "Bleu profond"
+    },
+    "buttons": {
+      "badge": "Boutons",
+      "title": "Actions de service",
+      "description": "Des actions claires pour les reservations, les avis et les parcours secondaires.",
+      "primary": "Principal",
+      "secondary": "Secondaire",
+      "ghost": "Discret"
+    },
+    "inputs": {
+      "badge": "Champs",
+      "title": "Details client",
+      "description": "Controles de formulaire pour les premieres reservations et la capture de demandes.",
+      "registrationLabel": "Immatriculation du vehicule",
+      "registrationPlaceholder": "AB12 CDE"
+    },
+    "cards": {
+      "badge": "Cartes",
+      "title": "Resume d'inspection",
+      "description": "Surfaces compactes pour les statuts, notes et informations de service.",
+      "brakeCheck": "Controle des freins",
+      "ready": "Pret",
+      "oilService": "Vidange",
+      "queued": "En attente"
+    }
+  }
+}

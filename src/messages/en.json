@@ -1,0 +1,1036 @@
+{
+  "navigation": {
+    "logoAlt": "Pro-Fix Auto Services",
+    "primaryLabel": "Primary navigation",
+    "mobileLabel": "Mobile navigation",
+    "accountLabel": "Account navigation",
+    "localeLabel": "Language switcher",
+    "menu": "Menu",
+    "home": "Home",
+    "services": "Services",
+    "book": "Book",
+    "news": "News",
+    "support": "Support",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "design": "Design",
+    "theme": {
+      "label": "Theme selector",
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "locales": {
+      "en": "English",
+      "fr": "French"
+    }
+  },
+  "footer": {
+    "label": "Footer navigation",
+    "description": "Premium vehicle care, clear service journeys, and reliable support for Pro-Fix customers.",
+    "copyright": "Pro-Fix Auto Services. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Pro-Fix Auto Services",
+      "title": "Independent care for BMW, MINI, Motorrad and premium vehicles.",
+      "description": "Measured diagnostics, clear advice and careful workmanship for drivers who want their vehicle looked after properly.",
+      "primaryAction": "Book a visit",
+      "secondaryAction": "View services",
+      "panelLabel": "Workshop approach",
+      "panelText": "Every job starts with listening, testing and explaining the right next step before work begins."
+    },
+    "story": {
+      "eyebrow": "Business story",
+      "title": "Built around trust, not volume.",
+      "description": "Pro-Fix is shaped for owners who value straight answers and thoughtful vehicle care.",
+      "body": "The workshop is built around a simple idea: understand the vehicle properly, explain what matters, and carry out the work with care. Customers should leave knowing what was found, what was done and what can wait."
+    },
+    "expertise": {
+      "eyebrow": "Brand expertise",
+      "title": "BMW, MINI, BMW Motorrad and premium brand knowledge.",
+      "description": "Specialist experience helps diagnosis stay focused and repairs stay appropriate to the vehicle.",
+      "brands": ["BMW", "MINI", "BMW Motorrad", "Premium brands"],
+      "cardDescription": "Model-aware checks, careful fault tracing and service advice that respects the vehicle."
+    },
+    "services": {
+      "eyebrow": "Services preview",
+      "title": "Core services with clear communication.",
+      "description": "A focused service range for maintenance, faults and planned care.",
+      "items": [
+        {
+          "title": "Diagnostics",
+          "description": "Structured investigation for warning lights, running concerns and electronic faults."
+        },
+        {
+          "title": "Servicing",
+          "description": "Routine maintenance carried out with the right parts, checks and records."
+        },
+        {
+          "title": "Repairs",
+          "description": "Practical repair work explained before approval, with attention to long-term reliability."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Diagnostic process",
+      "title": "A calm route from concern to decision.",
+      "description": "The process is designed to reduce guesswork and keep customers informed.",
+      "steps": [
+        {
+          "title": "Listen",
+          "description": "Start with the symptoms, history and what the driver has noticed."
+        },
+        {
+          "title": "Test",
+          "description": "Use checks and diagnostic tools to confirm what is happening."
+        },
+        {
+          "title": "Explain",
+          "description": "Share findings in plain language with sensible options."
+        },
+        {
+          "title": "Repair",
+          "description": "Carry out approved work and confirm the result before handover."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Why Pro-Fix",
+      "title": "Careful work, clear priorities.",
+      "description": "A premium experience should feel composed, transparent and useful.",
+      "items": [
+        {
+          "title": "Specialist focus",
+          "description": "Familiarity with BMW, MINI, Motorrad and premium systems keeps work precise."
+        },
+        {
+          "title": "Plain advice",
+          "description": "Findings are explained without pressure, so decisions are easier."
+        },
+        {
+          "title": "Thoughtful handover",
+          "description": "Customers understand what changed and what to watch next."
+        }
+      ]
+    },
+    "portal": {
+      "eyebrow": "Customer portal preview",
+      "title": "A future space for service history and updates.",
+      "description": "The customer portal will give owners a calm view of bookings, notes and vehicle progress.",
+      "statusLabel": "Vehicle status",
+      "status": "In review",
+      "note": "Portal features will be added later, with booking updates and service records kept easy to read."
+    },
+    "news": {
+      "eyebrow": "Latest news and advice",
+      "title": "Useful notes for owners.",
+      "description": "Advice content should help customers understand maintenance without turning it into noise.",
+      "items": [
+        {
+          "title": "Preparing for a diagnostic visit",
+          "description": "What to note before bringing the vehicle in for investigation."
+        },
+        {
+          "title": "Service intervals and real use",
+          "description": "Why mileage, age and driving style all matter."
+        },
+        {
+          "title": "Warning lights with context",
+          "description": "How to treat dashboard alerts without panic or delay."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Contact and booking",
+      "title": "Tell us what the vehicle needs.",
+      "description": "Share the concern, book a visit or ask a question. The first step is a clear conversation.",
+      "primaryAction": "Book a visit",
+      "secondaryAction": "Contact Pro-Fix"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "eyebrow": "Services",
+      "title": "Careful service work for premium vehicles.",
+      "description": "From diagnosis to maintenance and repair, Pro-Fix keeps the process clear, measured and focused on what the vehicle actually needs."
+    },
+    "overview": {
+      "eyebrow": "Service groups",
+      "title": "Support shaped around the way your vehicle is built.",
+      "description": "Each service area is grouped to help owners find the right starting point before booking."
+    },
+    "groups": [
+      {
+        "title": "Diagnostics",
+        "description": "Structured fault finding for warning lights, performance concerns and unclear symptoms.",
+        "services": [
+          "Fault code reading with context",
+          "Warning light investigation",
+          "Running and drivability checks",
+          "Pre-repair diagnostic reports"
+        ]
+      },
+      {
+        "title": "Preventive maintenance",
+        "description": "Routine care planned around mileage, age and how the vehicle is used.",
+        "services": [
+          "Oil and filter servicing",
+          "Brake fluid and coolant checks",
+          "Inspection service items",
+          "Seasonal vehicle health checks"
+        ]
+      },
+      {
+        "title": "Mechanical repairs",
+        "description": "Repair work explained before approval, with attention to reliability and fit.",
+        "services": [
+          "Brake repairs",
+          "Suspension and steering work",
+          "Cooling system repairs",
+          "Engine and drivetrain support"
+        ]
+      },
+      {
+        "title": "Electrical systems",
+        "description": "Careful checks for modern electrical faults and connected vehicle systems.",
+        "services": [
+          "Battery and charging checks",
+          "Sensor and module investigation",
+          "Lighting and control faults",
+          "Electrical continuity testing"
+        ]
+      },
+      {
+        "title": "BMW and MINI specialist support",
+        "description": "Model-aware support for BMW and MINI service, faults and ownership questions.",
+        "services": [
+          "BMW and MINI diagnostics",
+          "Service schedule guidance",
+          "Common fault investigation",
+          "Pre-purchase checks"
+        ]
+      },
+      {
+        "title": "BMW Motorrad support",
+        "description": "Focused care for BMW Motorrad owners who want clear advice and precise checks.",
+        "services": [
+          "Motorcycle diagnostic checks",
+          "Maintenance inspections",
+          "Electrical and sensor checks",
+          "Ownership advice"
+        ]
+      },
+      {
+        "title": "Premium brand inspections",
+        "description": "Detailed inspections for premium vehicles before purchase, sale or longer journeys.",
+        "services": [
+          "Condition inspections",
+          "Road test observations",
+          "Service history review",
+          "Clear written findings"
+        ]
+      }
+    ],
+    "cta": {
+      "eyebrow": "Booking",
+      "title": "Ready to arrange a visit?",
+      "description": "Send the vehicle details and the concern. The team can guide the next step before work begins.",
+      "action": "Go to booking"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "eyebrow": "Contact us",
+      "title": "Speak with Pro-Fix.",
+      "description": "Use this page to find the workshop details or prepare a message for the team. The form is a shell for now and does not submit yet."
+    },
+    "details": {
+      "items": [
+        {
+          "label": "Address",
+          "value": "302, Boulevard du 13 Janvier, Lome, Togo"
+        },
+        {
+          "label": "Phone",
+          "value": "+228 93685800"
+        },
+        {
+          "label": "Email",
+          "value": "info@pro-fix.com"
+        }
+      ]
+    },
+    "hours": {
+      "eyebrow": "Opening hours",
+      "title": "Workshop hours",
+      "description": "Opening hours will be confirmed before launch.",
+      "placeholder": "Opening hours placeholder"
+    },
+    "map": {
+      "eyebrow": "Map",
+      "title": "Workshop location",
+      "description": "A map embed can be connected later.",
+      "placeholder": "Map placeholder"
+    },
+    "form": {
+      "eyebrow": "Contact form",
+      "title": "Message shell",
+      "description": "No backend functionality is connected yet.",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "+228 ...",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us what you need help with",
+      "submit": "Send message",
+      "note": "This form is a visual shell only. Submission will be added in a later backend step."
+    }
+  },
+  "supportPage": {
+    "hero": {
+      "eyebrow": "Support",
+      "title": "Help for bookings, accounts and service records.",
+      "description": "Find the right support area or use the future ticket entry point when support workflows are connected."
+    },
+    "contact": {
+      "eyebrow": "Support email",
+      "title": "Contact support",
+      "description": "For customer support questions, use the support inbox.",
+      "email": "support@pro-fix.com"
+    },
+    "ticket": {
+      "eyebrow": "Ticket entry",
+      "title": "Support ticket placeholder",
+      "description": "A ticket form will be connected later.",
+      "placeholder": "Support ticket entry point placeholder"
+    },
+    "help": {
+      "eyebrow": "Help sections",
+      "title": "Common support areas",
+      "description": "These sections prepare the structure for account, booking, receipt and report guidance.",
+      "sections": [
+        {
+          "title": "Account help",
+          "description": "Future guidance for signing in, registration and customer profile access."
+        },
+        {
+          "title": "Booking help",
+          "description": "Support for appointment requests, booking changes and visit preparation."
+        },
+        {
+          "title": "Receipt help",
+          "description": "A place for payment receipt questions and invoice record guidance."
+        },
+        {
+          "title": "Report help",
+          "description": "Support for diagnostic reports, service notes and inspection summaries."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "description": "Initial questions for the public support page.",
+      "items": [
+        {
+          "question": "Can I submit a support ticket now?",
+          "answer": "Not yet. The ticket entry point is prepared as a placeholder until backend functionality is added."
+        },
+        {
+          "question": "Where should I send support questions?",
+          "answer": "Use support@pro-fix.com for support questions while the portal and ticket system are not connected."
+        },
+        {
+          "question": "Can I get help with a booking?",
+          "answer": "Yes. Booking help will cover appointment requests, changes and preparation details."
+        }
+      ]
+    }
+  },
+  "newsPage": {
+    "hero": {
+      "eyebrow": "News and advice",
+      "title": "Practical notes for premium vehicle owners.",
+      "description": "Short articles on diagnostics, maintenance, inspections and careful ownership."
+    },
+    "readArticle": "Read article",
+    "backToNews": "Back to news"
+  },
+  "auth": {
+    "validation": {
+      "emailRequired": "Enter your email address.",
+      "emailInvalid": "Enter a valid email address.",
+      "passwordRequired": "Enter your password.",
+      "passwordMin": "Use at least 8 characters."
+    },
+    "login": {
+      "eyebrow": "Login",
+      "title": "Sign in to your account.",
+      "description": "Preview the customer login experience during website development.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "submit": "Sign in",
+      "validationPlaceholder": "Authentication will be enabled in a later phase.",
+      "alternatePrompt": "Need an account?",
+      "alternateLink": "Register"
+    },
+    "register": {
+      "eyebrow": "Register",
+      "title": "Create a Pro-Fix account.",
+      "description": "Preview the customer registration experience during website development.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Create a password",
+      "submit": "Create account",
+      "validationPlaceholder": "Authentication will be enabled in a later phase.",
+      "alternatePrompt": "Already have an account?",
+      "alternateLink": "Login"
+    }
+  },
+  "dashboard": {
+    "shell": {
+      "title": "Customer dashboard",
+      "developmentNotice": "Development Mode – Authentication is temporarily disabled."
+    },
+    "navigation": {
+      "label": "Dashboard navigation",
+      "mobileLabel": "Mobile dashboard navigation",
+      "overview": "Overview",
+      "vehicles": "Vehicles",
+      "repairHistory": "Repair history",
+      "reports": "Reports",
+      "receipts": "Receipts",
+      "bookings": "Bookings",
+      "payments": "Payments",
+      "support": "Support",
+      "profile": "Profile"
+    },
+    "pages": {
+      "overview": {
+        "eyebrow": "Overview",
+        "title": "Your Pro-Fix dashboard",
+        "description": "A secure starting point for your vehicles, workshop visits and customer records.",
+        "placeholder": "Dashboard activity and service updates will appear here.",
+        "statistics": {
+          "vehicles": "Vehicles",
+          "upcomingBookings": "Upcoming bookings",
+          "availableReports": "Available reports",
+          "openTickets": "Open tickets"
+        },
+        "appointments": {
+          "title": "Next appointment",
+          "description": "Your next scheduled workshop visit."
+        },
+        "notifications": {
+          "title": "Notifications",
+          "description": "Recent mock account updates.",
+          "messages": {
+            "bookingConfirmed": "Your workshop booking has been confirmed.",
+            "reportReady": "A vehicle report is ready to view."
+          }
+        },
+        "support": {
+          "title": "Support",
+          "summary": "{count, plural, =0 {No mock support tickets} =1 {# mock support ticket} other {# mock support tickets}}"
+        },
+        "services": {
+          "annualService": "Annual service"
+        },
+        "statuses": {
+          "confirmed": "Confirmed"
+        }
+      },
+      "vehicles": {
+        "eyebrow": "Vehicles",
+        "title": "Your vehicles",
+        "description": "View and manage the vehicles connected to your customer account.",
+        "actions": {
+          "add": "Add vehicle",
+          "view": "View details",
+          "edit": "Edit",
+          "delete": "Delete",
+          "save": "Save vehicle",
+          "update": "Save changes",
+          "cancel": "Cancel",
+          "back": "Back to vehicles"
+        },
+        "new": {
+          "title": "Add a vehicle",
+          "description": "Enter the details used to identify and maintain this vehicle."
+        },
+        "edit": {
+          "title": "Edit vehicle",
+          "description": "Update the vehicle details below."
+        },
+        "empty": {
+          "title": "No vehicles yet",
+          "description": "Add your first vehicle to start building its service record.",
+          "action": "Add your first vehicle"
+        },
+        "notFound": {
+          "title": "Vehicle not found",
+          "description": "This vehicle may have been removed or is no longer available."
+        },
+        "fields": {
+          "make": "Make",
+          "model": "Model",
+          "year": "Year",
+          "registrationNumber": "Registration number",
+          "vin": "VIN",
+          "mileage": "Mileage",
+          "fuelType": "Fuel type",
+          "transmission": "Transmission",
+          "notes": "Notes"
+        },
+        "options": {
+          "fuelType": {
+            "petrol": "Petrol",
+            "diesel": "Diesel",
+            "hybrid": "Hybrid",
+            "electric": "Electric",
+            "other": "Other"
+          },
+          "transmission": {
+            "manual": "Manual",
+            "automatic": "Automatic",
+            "other": "Other"
+          }
+        },
+        "form": {
+          "selectOption": "Select an option"
+        },
+        "validation": {
+          "summary": "Check the highlighted fields and try again.",
+          "required": "This field is required.",
+          "yearInvalid": "Enter a valid whole year.",
+          "yearRange": "Enter a year between 1886 and next year.",
+          "mileageInvalid": "Enter a valid non-negative whole number.",
+          "vinInvalid": "Enter a valid 17-character VIN (without I, O or Q).",
+          "notesTooLong": "Notes must be 2,000 characters or fewer."
+        },
+        "details": {
+          "description": "Vehicle identity and ownership details.",
+          "mileageValue": "{value, number} miles",
+          "noNotes": "No notes added.",
+          "updated": "Last updated {date}"
+        },
+        "feedback": {
+          "created": "Vehicle added successfully.",
+          "updated": "Vehicle updated successfully.",
+          "deleted": "Vehicle deleted successfully."
+        },
+        "delete": {
+          "title": "Delete vehicle?",
+          "description": "This will remove {vehicle} from the temporary vehicle list. This action cannot be undone.",
+          "cancel": "Keep vehicle",
+          "confirm": "Delete vehicle"
+        }
+      },
+      "repairHistory": {
+        "eyebrow": "Repair history",
+        "title": "Repair history",
+        "description": "Review completed workshop work and service history for your vehicles.",
+        "placeholder": "Repair history records will appear here."
+      },
+      "reports": {
+        "eyebrow": "Reports",
+        "title": "Vehicle reports",
+        "description": "Access diagnostic, inspection and workshop reports shared with your account.",
+        "placeholder": "Available reports will appear here."
+      },
+      "receipts": {
+        "eyebrow": "Receipts",
+        "title": "Your receipts",
+        "description": "Find receipts connected to completed appointments and payments.",
+        "placeholder": "Receipt records will appear here."
+      },
+      "bookings": {
+        "eyebrow": "Bookings",
+        "title": "Your bookings",
+        "description": "Review upcoming and previous workshop appointments.",
+        "bookAction": "Book an appointment",
+        "empty": {
+          "title": "No appointment requests",
+          "description": "Choose a service, vehicle and preferred time to request your first workshop appointment.",
+          "action": "Book an appointment"
+        },
+        "statuses": {
+          "requested": "Requested"
+        },
+        "reference": "Reference: {reference}",
+        "vehicleUnavailable": "Vehicle unavailable"
+      },
+      "appointments": {
+        "eyebrow": "Appointments",
+        "title": "My appointments",
+        "description": "Review upcoming visits, completed work and appointment requests.",
+        "loading": "Loading appointments",
+        "vehicleUnavailable": "Vehicle details unavailable",
+        "actions": {
+          "book": "Book an appointment",
+          "view": "View appointment",
+          "back": "Back to appointments",
+          "cancel": "Cancel appointment",
+          "reschedule": "Request reschedule"
+        },
+        "upcoming": {
+          "title": "Upcoming appointments",
+          "description": "Scheduled visits and requests that are still active.",
+          "emptyTitle": "No upcoming appointments",
+          "emptyDescription": "New appointment requests will appear here."
+        },
+        "past": {
+          "title": "Past appointments",
+          "description": "Completed and cancelled appointment history.",
+          "emptyTitle": "No past appointments",
+          "emptyDescription": "Completed workshop visits will appear here."
+        },
+        "statuses": {
+          "pending": "Pending",
+          "confirmed": "Confirmed",
+          "inProgress": "In progress",
+          "awaitingParts": "Awaiting parts",
+          "completed": "Completed",
+          "cancelled": "Cancelled"
+        },
+        "notFound": {
+          "title": "Appointment not found",
+          "description": "This appointment may no longer be available."
+        },
+        "detail": {
+          "eyebrow": "Appointment details",
+          "reference": "Reference: {reference}",
+          "service": {
+            "title": "Service details"
+          },
+          "schedule": {
+            "title": "Preferred date and time",
+            "reschedulePending": "Your reschedule request is recorded and awaiting confirmation."
+          },
+          "vehicle": {
+            "title": "Vehicle details",
+            "makeModel": "Make and model",
+            "registration": "Registration number",
+            "year": "Year",
+            "source": "Vehicle record",
+            "saved": "Saved vehicle",
+            "temporary": "Temporary booking details"
+          },
+          "customerNotes": {
+            "title": "Your notes"
+          },
+          "garageNotes": {
+            "title": "Garage notes",
+            "empty": "The garage has not added any customer-visible notes."
+          },
+          "noNotes": "No notes were provided."
+        },
+        "serviceDescriptions": {
+          "diagnosticInspection": "Structured investigation of warning lights, symptoms or performance concerns.",
+          "routineMaintenance": "Planned servicing and checks based on vehicle age, mileage and use.",
+          "engineRepair": "Assessment and repair support for engine-related concerns.",
+          "electricalDiagnosis": "Diagnosis of electrical, charging, sensor or control-system faults.",
+          "brakeService": "Inspection and service of braking components and related concerns.",
+          "suspensionService": "Inspection and repair support for suspension, steering and ride concerns.",
+          "airConditioningService": "Checks and servicing for cabin cooling and climate-control performance.",
+          "prePurchaseInspection": "A considered vehicle inspection before a purchase decision.",
+          "bmwCodingProgramming": "BMW-focused coding or programming support for compatible systems.",
+          "other": "A workshop appointment for a service not listed elsewhere."
+        },
+        "requests": {
+          "cancel": {
+            "title": "Cancel this appointment?",
+            "description": "This mock cancellation updates the appointment immediately and does not notify the garage.",
+            "confirm": "Confirm cancellation"
+          },
+          "reschedule": {
+            "title": "Request a new time",
+            "description": "Choose a new preferred date and time. This mock request will be marked as pending.",
+            "confirm": "Submit reschedule request"
+          },
+          "dateLabel": "New preferred date",
+          "timeLabel": "New preferred time",
+          "dismiss": "Go back",
+          "submitting": "Submitting...",
+          "validation": {
+            "required": "Choose a date and time.",
+            "datePast": "Choose today or a future date."
+          }
+        },
+        "feedback": {
+          "cancelled": "The appointment was cancelled in this mock session.",
+          "rescheduled": "Your mock reschedule request was recorded."
+        },
+        "error": {
+          "title": "Appointments could not be loaded",
+          "description": "Something went wrong while displaying your appointments.",
+          "retry": "Try again"
+        }
+      },
+      "appointmentBooking": {
+        "eyebrow": "Appointment booking",
+        "title": "Request a workshop appointment",
+        "description": "Tell us what your vehicle needs and choose your preferred visit time.",
+        "progress": {
+          "label": "Booking progress",
+          "step": "Step {current} of {total}"
+        },
+        "steps": {
+          "service": {
+            "title": "Select a service",
+            "description": "Choose the service that best matches what your vehicle needs."
+          },
+          "vehicle": {
+            "title": "Choose a vehicle",
+            "description": "Use a saved vehicle or enter temporary details for this request."
+          },
+          "date": {
+            "title": "Choose a preferred date",
+            "description": "Select a future date that suits you. Availability will be confirmed later."
+          },
+          "time": {
+            "title": "Choose a preferred time",
+            "description": "Select the time you would prefer to arrive at the workshop."
+          },
+          "contact": {
+            "title": "Enter contact details",
+            "description": "Provide the details the workshop can use for this appointment request."
+          },
+          "notes": {
+            "title": "Describe the concern",
+            "description": "Add any symptoms, warning lights, noises or other useful context."
+          },
+          "review": {
+            "title": "Review your request",
+            "description": "Check all details before submitting this mock appointment."
+          }
+        },
+        "services": {
+          "diagnosticInspection": "Diagnostic inspection",
+          "routineMaintenance": "Routine maintenance",
+          "engineRepair": "Engine repair",
+          "electricalDiagnosis": "Electrical diagnosis",
+          "brakeService": "Brake service",
+          "suspensionService": "Suspension service",
+          "airConditioningService": "Air-conditioning service",
+          "prePurchaseInspection": "Pre-purchase inspection",
+          "bmwCodingProgramming": "BMW coding or programming",
+          "other": "Other"
+        },
+        "vehicle": {
+          "existing": "Use a saved vehicle",
+          "temporary": "Enter temporary vehicle details",
+          "none": "You have no saved vehicles. Choose temporary vehicle details to continue.",
+          "fields": {
+            "temporaryMake": "Make",
+            "temporaryModel": "Model",
+            "temporaryYear": "Year",
+            "temporaryRegistration": "Registration number"
+          }
+        },
+        "fields": {
+          "preferredDate": "Preferred date",
+          "contactName": "Contact name",
+          "contactEmail": "Email address",
+          "contactPhone": "Phone number",
+          "notes": "Notes, symptoms or concerns"
+        },
+        "notesCount": "{count, number} of {max, number} characters",
+        "review": {
+          "service": "Service",
+          "vehicle": "Vehicle",
+          "preferredDateTime": "Preferred date and time",
+          "contact": "Contact",
+          "notes": "Notes",
+          "noNotes": "No additional notes."
+        },
+        "actions": {
+          "back": "Back",
+          "cancel": "Cancel",
+          "continue": "Continue",
+          "submit": "Submit appointment request",
+          "submitting": "Submitting..."
+        },
+        "validation": {
+          "required": "This field is required.",
+          "vehicleRequired": "Select a saved vehicle.",
+          "yearInvalid": "Enter a valid whole year.",
+          "yearRange": "Enter a year between 1886 and next year.",
+          "datePast": "Choose today or a future date.",
+          "emailInvalid": "Enter a valid email address.",
+          "phoneInvalid": "Enter a valid phone number.",
+          "notesTooLong": "Notes must be 2,000 characters or fewer."
+        },
+        "feedback": {
+          "error": "The appointment could not be submitted. Your information is still here; please try again."
+        },
+        "success": {
+          "title": "Appointment requested",
+          "description": "Your mock appointment has been saved in this browser session. The workshop has not been contacted.",
+          "reference": "Reference: {reference}",
+          "viewAppointments": "View appointments",
+          "dashboard": "Return to dashboard"
+        }
+      },
+      "payments": {
+        "eyebrow": "Payments",
+        "title": "Payments",
+        "description": "View payment status and account billing activity.",
+        "placeholder": "Payment information will appear here."
+      },
+      "support": {
+        "eyebrow": "Support",
+        "title": "Customer support",
+        "description": "Find help and follow conversations with the Pro-Fix team.",
+        "loading": "Loading support tickets",
+        "actions": {
+          "new": "New support ticket",
+          "view": "View conversation",
+          "back": "Back to support",
+          "cancel": "Cancel",
+          "create": "Create ticket",
+          "submitting": "Submitting..."
+        },
+        "filter": {
+          "label": "Filter by status",
+          "all": "All statuses"
+        },
+        "fields": {
+          "subject": "Subject",
+          "category": "Category",
+          "message": "Message",
+          "priority": "Priority",
+          "status": "Status",
+          "createdDate": "Created",
+          "updatedDate": "Last updated"
+        },
+        "categories": {
+          "appointment": "Appointment",
+          "vehicle": "Vehicle",
+          "repairReport": "Repair report",
+          "receiptPayment": "Receipt or payment",
+          "account": "Account",
+          "generalEnquiry": "General enquiry"
+        },
+        "priorities": {
+          "low": "Low priority",
+          "normal": "Normal priority",
+          "high": "High priority",
+          "urgent": "Urgent"
+        },
+        "statuses": {
+          "open": "Open",
+          "awaitingReply": "Awaiting your reply",
+          "resolved": "Resolved",
+          "closed": "Closed"
+        },
+        "card": {
+          "updated": "Updated {date}"
+        },
+        "empty": {
+          "title": "No support tickets",
+          "description": "Create a ticket when you need help from the Pro-Fix team.",
+          "action": "Create your first ticket",
+          "filteredTitle": "No tickets match this filter",
+          "filteredDescription": "Choose another status to see more tickets."
+        },
+        "new": {
+          "title": "Create a support ticket",
+          "description": "Describe what you need help with and choose the most relevant category."
+        },
+        "form": {
+          "select": "Select an option"
+        },
+        "detail": {
+          "reference": "Reference: {reference}"
+        },
+        "conversation": {
+          "title": "Conversation",
+          "authors": {
+            "customer": "You",
+            "support": "Pro-Fix support"
+          }
+        },
+        "reply": {
+          "label": "Add a reply",
+          "submit": "Send reply"
+        },
+        "validation": {
+          "required": "Select an option.",
+          "subjectMin": "Subject must be at least 5 characters.",
+          "subjectMax": "Subject must be 120 characters or fewer.",
+          "messageMin": "Message must be at least 10 characters.",
+          "messageMax": "Message must be 4,000 characters or fewer.",
+          "replyRequired": "Enter a reply before sending."
+        },
+        "feedback": {
+          "created": "Support ticket created successfully.",
+          "replied": "Your reply was added successfully.",
+          "error": "The ticket could not be created. Your information is still here."
+        },
+        "notFound": {
+          "title": "Support ticket not found",
+          "description": "This ticket may no longer be available."
+        },
+        "error": {
+          "title": "Support tickets could not be loaded",
+          "description": "Something went wrong while displaying support tickets.",
+          "retry": "Try again"
+        }
+      },
+      "profile": {
+        "eyebrow": "Profile",
+        "title": "Profile summary",
+        "description": "Review the customer details connected to your secure account.",
+        "notProvided": "Not provided",
+        "fields": {
+          "name": "Name",
+          "email": "Email",
+          "phone": "Phone",
+          "role": "Account role"
+        },
+        "roles": {
+          "customer": "Customer",
+          "staff": "Staff",
+          "admin": "Administrator"
+        }
+      }
+    }
+  },
+  "pages": {
+    "services": {
+      "eyebrow": "Services",
+      "title": "Expert maintenance for everyday drivers and business fleets.",
+      "description": "Explore diagnostics, repairs, inspections, servicing, and premium care options for your vehicle.",
+      "cardTitle": "Service coverage",
+      "cardDescription": "A clear service structure helps customers find the right support before booking.",
+      "primaryAction": "Book a service",
+      "secondaryAction": "Contact the team"
+    },
+    "book": {
+      "eyebrow": "Booking",
+      "title": "Schedule your next Pro-Fix appointment.",
+      "description": "Start a service request and prepare vehicle details before the booking workflow is connected.",
+      "cardTitle": "Booking preview",
+        "cardDescription": "This route is ready for the future booking form and availability flow.",
+        "primaryAction": "Start booking",
+        "secondaryAction": "View services",
+        "choice": {
+          "title": "How would you like to book?",
+          "description": "Choose the option that best matches you.",
+          "newCustomer": {
+            "title": "I am a new customer",
+            "description": "Create a customer account before booking and keep your vehicle details together.",
+            "action": "Create an account"
+          },
+          "login": {
+            "title": "I already have an account",
+            "description": "Sign in to use your saved customer and vehicle information.",
+            "action": "Sign in"
+          },
+          "guest": {
+            "title": "Book as a guest",
+            "description": "Continue without an account and enter your contact and vehicle details for this request.",
+            "action": "Continue as guest"
+          },
+          "back": "Back"
+        }
+      },
+    "news": {
+      "eyebrow": "News",
+      "title": "Updates, service notes, and automotive guidance.",
+      "description": "Publish Pro-Fix announcements, maintenance advice, and customer updates from this page.",
+      "cardTitle": "Editorial foundation",
+      "cardDescription": "The news route is ready for articles and category-led content.",
+      "primaryAction": "Read latest",
+      "secondaryAction": "Contact support"
+    },
+    "support": {
+      "eyebrow": "Support",
+      "title": "Helpful guidance before, during, and after service.",
+      "description": "Give customers a clear place for service questions, booking help, and vehicle care support.",
+      "cardTitle": "Support center",
+      "cardDescription": "This page can grow into FAQs, status help, and customer support workflows.",
+      "primaryAction": "Get support",
+      "secondaryAction": "Contact us"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Reach the Pro-Fix team.",
+      "description": "Create a direct contact route for customer questions, service requests, and partnership enquiries.",
+      "cardTitle": "Contact options",
+      "cardDescription": "The contact page is ready for location, hours, and enquiry form details.",
+      "primaryAction": "Send enquiry",
+      "secondaryAction": "Book service"
+    },
+    "login": {
+      "eyebrow": "Login",
+      "title": "Customer access for future account features.",
+      "description": "Keep the public login route ready without adding authentication logic yet.",
+      "cardTitle": "Account sign in",
+      "cardDescription": "Authentication will be added later as a focused implementation step.",
+      "primaryAction": "Continue",
+      "secondaryAction": "Create account"
+    },
+    "register": {
+      "eyebrow": "Register",
+      "title": "Prepare customer registration for future accounts.",
+      "description": "Keep the registration route available while account creation remains out of scope.",
+      "cardTitle": "Account setup",
+      "cardDescription": "Registration UI and authentication will be connected in a later phase.",
+      "primaryAction": "Create account",
+      "secondaryAction": "Sign in"
+    }
+  },
+  "design": {
+    "hero": {
+      "eyebrow": "Design system",
+      "title": "Pro-Fix component preview",
+      "description": "Reusable UI foundations for the Pro-Fix platform, shaped around a premium automotive palette.",
+      "primaryAction": "Book service",
+      "secondaryAction": "View inspection"
+    },
+    "brand": {
+      "badge": "Brand",
+      "title": "Logo and palette",
+      "logoAlt": "Pro-Fix Auto Services"
+    },
+    "colors": {
+      "black": "Black",
+      "white": "White",
+      "silver": "Silver",
+      "deepBlue": "Deep blue"
+    },
+    "buttons": {
+      "badge": "Buttons",
+      "title": "Service actions",
+      "description": "Clear actions for booking, review, and secondary flows.",
+      "primary": "Primary",
+      "secondary": "Secondary",
+      "ghost": "Ghost"
+    },
+    "inputs": {
+      "badge": "Inputs",
+      "title": "Customer details",
+      "description": "Form controls for early booking and lead capture surfaces.",
+      "registrationLabel": "Vehicle registration",
+      "registrationPlaceholder": "AB12 CDE"
+    },
+    "cards": {
+      "badge": "Cards",
+      "title": "Inspection summary",
+      "description": "Compact surfaces for status, notes, and service information.",
+      "brakeCheck": "Brake check",
+      "ready": "Ready",
+      "oilService": "Oil service",
+      "queued": "Queued"
+    }
+  }
+}

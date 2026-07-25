@@ -8,6 +8,8 @@ export type AdminCustomer = {
   name: string;
   email: string;
   phone: string;
+  accountState: "active" | "invited" | "suspended";
+  joinedAt: string;
 };
 
 export type AdminVehicle = {
@@ -18,6 +20,7 @@ export type AdminVehicle = {
   year: number;
   registrationNumber: string;
   vin: string;
+  serviceNotes: string;
 };
 
 export type AdminStaffMember = {
@@ -47,19 +50,25 @@ export const adminCustomers: AdminCustomer[] = [
     id: "customer-001",
     name: "Amelia Carter",
     email: "amelia.carter@example.com",
-    phone: "+44 7700 900123"
+    phone: "+44 7700 900123",
+    accountState: "active",
+    joinedAt: "2025-11-14T10:00:00.000Z"
   },
   {
     id: "customer-002",
     name: "Noah Martin",
     email: "noah.martin@example.com",
-    phone: "+44 7700 900456"
+    phone: "+44 7700 900456",
+    accountState: "invited",
+    joinedAt: "2026-07-21T14:30:00.000Z"
   },
   {
     id: "customer-003",
     name: "Sophie Bernard",
     email: "sophie.bernard@example.com",
-    phone: "+33 6 12 34 56 78"
+    phone: "+33 6 12 34 56 78",
+    accountState: "suspended",
+    joinedAt: "2025-08-02T09:00:00.000Z"
   }
 ];
 
@@ -71,7 +80,8 @@ export const adminVehicles: AdminVehicle[] = [
     model: "3 Series",
     year: 2021,
     registrationNumber: "PF21 BMW",
-    vin: "WBA5R7C04MFK12345"
+    vin: "WBA5R7C04MFK12345",
+    serviceNotes: "Use manufacturer-approved oil specification."
   },
   {
     id: "vehicle-002",
@@ -80,7 +90,8 @@ export const adminVehicles: AdminVehicle[] = [
     model: "Countryman",
     year: 2019,
     registrationNumber: "PF19 MINI",
-    vin: "WMWYU7C05K3F67890"
+    vin: "WMWYU7C05K3F67890",
+    serviceNotes: ""
   },
   {
     id: "vehicle-003",
@@ -89,7 +100,8 @@ export const adminVehicles: AdminVehicle[] = [
     model: "X5",
     year: 2022,
     registrationNumber: "NX22 BMW",
-    vin: "WBACR6C01N9K24680"
+    vin: "WBACR6C01N9K24680",
+    serviceNotes: "Check tyre pressures during each workshop visit."
   },
   {
     id: "vehicle-004",
@@ -98,7 +110,8 @@ export const adminVehicles: AdminVehicle[] = [
     model: "A4",
     year: 2020,
     registrationNumber: "SB20 AUD",
-    vin: "WAUZZZF40LA135791"
+    vin: "WAUZZZF40LA135791",
+    serviceNotes: "Customer reports intermittent passenger window control."
   }
 ];
 

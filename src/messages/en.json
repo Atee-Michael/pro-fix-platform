@@ -972,6 +972,109 @@
         }
       }
     },
+    "directory": {
+      "pagination": {
+        "label": "Pagination",
+        "summary": "Page {page, number} of {totalPages, number} · {totalItems, number} total",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "customers": {
+        "eyebrow": "Customer directory",
+        "title": "Customers",
+        "description": "Search mock customer records and review linked service relationships.",
+        "filters": {
+          "search": "Search customers",
+          "searchPlaceholder": "Name, email or phone",
+          "accountState": "Account state",
+          "allStates": "All account states"
+        },
+        "states": {
+          "active": "Active",
+          "invited": "Invited",
+          "suspended": "Suspended"
+        },
+        "results": "{count, plural, =0 {No customers} =1 {# customer} other {# customers}}",
+        "joined": "Joined {date}",
+        "view": "View customer",
+        "back": "Back to customers",
+        "empty": {
+          "title": "No matching customers",
+          "description": "Adjust the search or account-state filter."
+        },
+        "notFound": {
+          "title": "Customer not found"
+        },
+        "detail": {
+          "eyebrow": "Customer detail",
+          "contact": "Contact information",
+          "email": "Email address",
+          "phone": "Phone number",
+          "accountState": "Account state",
+          "joined": "Customer since",
+          "vehicles": "Linked vehicles",
+          "appointments": "Linked appointments",
+          "supportTickets": "Linked support tickets",
+          "activity": "Recent activity",
+          "emptyVehicles": "No vehicles are linked to this customer.",
+          "emptyAppointments": "No appointments are linked to this customer.",
+          "emptyTickets": "No support tickets are linked to this customer."
+        },
+        "ticketStatuses": {
+          "open": "Open",
+          "resolved": "Resolved"
+        },
+        "activityTypes": {
+          "appointmentConfirmed": "Appointment confirmed",
+          "supportReply": "Support reply received",
+          "accountInvited": "Customer invited",
+          "appointmentUpdated": "Appointment updated"
+        }
+      },
+      "vehicles": {
+        "eyebrow": "Vehicle directory",
+        "title": "Vehicles",
+        "description": "Search mock vehicle records and review ownership and service relationships.",
+        "filters": {
+          "search": "Search vehicles",
+          "searchPlaceholder": "Registration, VIN, make or model",
+          "make": "Make",
+          "allMakes": "All makes",
+          "year": "Year",
+          "allYears": "All years"
+        },
+        "results": "{count, plural, =0 {No vehicles} =1 {# vehicle} other {# vehicles}}",
+        "owner": "Owner: {owner}",
+        "unknownOwner": "Owner unavailable",
+        "view": "View vehicle",
+        "back": "Back to vehicles",
+        "empty": {
+          "title": "No matching vehicles",
+          "description": "Adjust the search, make or year filters."
+        },
+        "notFound": {
+          "title": "Vehicle not found"
+        },
+        "detail": {
+          "vehicleInformation": "Vehicle information",
+          "registration": "Registration number",
+          "vin": "VIN",
+          "make": "Make",
+          "model": "Model",
+          "year": "Year",
+          "owner": "Owner information",
+          "viewOwner": "View owner record",
+          "appointmentHistory": "Appointment history",
+          "serviceNotes": "Service notes",
+          "noServiceNotes": "No service notes have been added.",
+          "reports": "Linked reports",
+          "receipts": "Linked receipts",
+          "noReports": "No reports are linked to this vehicle.",
+          "noReceipts": "No receipts are linked to this vehicle.",
+          "placeholder": "Placeholder record — document viewing will be added later."
+        }
+      }
+    },
     "appointmentManagement": {
       "eyebrow": "Workshop operations",
       "title": "Appointment management",

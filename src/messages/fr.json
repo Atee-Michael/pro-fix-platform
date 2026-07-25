@@ -555,7 +555,122 @@
         "eyebrow": "Reservations",
         "title": "Vos reservations",
         "description": "Consultez vos prochains rendez-vous et vos visites precedentes.",
-        "placeholder": "Les details de reservation apparaitront ici."
+        "bookAction": "Prendre rendez-vous",
+        "empty": {
+          "title": "Aucune demande de rendez-vous",
+          "description": "Choisissez un service, un vehicule et un horaire prefere pour demander votre premier rendez-vous.",
+          "action": "Prendre rendez-vous"
+        },
+        "statuses": {
+          "requested": "Demande"
+        },
+        "reference": "Reference : {reference}",
+        "vehicleUnavailable": "Vehicule indisponible"
+      },
+      "appointmentBooking": {
+        "eyebrow": "Prise de rendez-vous",
+        "title": "Demander un rendez-vous a l'atelier",
+        "description": "Indiquez les besoins de votre vehicule et choisissez votre horaire prefere.",
+        "progress": {
+          "label": "Progression de la reservation",
+          "step": "Etape {current} sur {total}"
+        },
+        "steps": {
+          "service": {
+            "title": "Selectionnez un service",
+            "description": "Choisissez le service qui correspond le mieux aux besoins du vehicule."
+          },
+          "vehicle": {
+            "title": "Choisissez un vehicule",
+            "description": "Utilisez un vehicule enregistre ou saisissez des informations temporaires."
+          },
+          "date": {
+            "title": "Choisissez une date preferee",
+            "description": "Selectionnez une date future qui vous convient. La disponibilite sera confirmee plus tard."
+          },
+          "time": {
+            "title": "Choisissez une heure preferee",
+            "description": "Selectionnez l'heure a laquelle vous souhaitez arriver a l'atelier."
+          },
+          "contact": {
+            "title": "Saisissez vos coordonnees",
+            "description": "Indiquez les coordonnees que l'atelier pourra utiliser pour cette demande."
+          },
+          "notes": {
+            "title": "Decrivez le probleme",
+            "description": "Ajoutez les symptomes, voyants, bruits ou tout autre contexte utile."
+          },
+          "review": {
+            "title": "Verifiez votre demande",
+            "description": "Verifiez toutes les informations avant d'envoyer ce rendez-vous fictif."
+          }
+        },
+        "services": {
+          "diagnosticInspection": "Inspection diagnostique",
+          "routineMaintenance": "Entretien courant",
+          "engineRepair": "Reparation moteur",
+          "electricalDiagnosis": "Diagnostic electrique",
+          "brakeService": "Service de freinage",
+          "suspensionService": "Service de suspension",
+          "airConditioningService": "Service de climatisation",
+          "prePurchaseInspection": "Inspection avant achat",
+          "bmwCodingProgramming": "Codage ou programmation BMW",
+          "other": "Autre"
+        },
+        "vehicle": {
+          "existing": "Utiliser un vehicule enregistre",
+          "temporary": "Saisir un vehicule temporaire",
+          "none": "Vous n'avez aucun vehicule enregistre. Choisissez les informations temporaires pour continuer.",
+          "fields": {
+            "temporaryMake": "Marque",
+            "temporaryModel": "Modele",
+            "temporaryYear": "Annee",
+            "temporaryRegistration": "Numero d'immatriculation"
+          }
+        },
+        "fields": {
+          "preferredDate": "Date preferee",
+          "contactName": "Nom du contact",
+          "contactEmail": "Adresse email",
+          "contactPhone": "Numero de telephone",
+          "notes": "Notes, symptomes ou problemes"
+        },
+        "notesCount": "{count, number} caracteres sur {max, number}",
+        "review": {
+          "service": "Service",
+          "vehicle": "Vehicule",
+          "preferredDateTime": "Date et heure preferees",
+          "contact": "Contact",
+          "notes": "Notes",
+          "noNotes": "Aucune note supplementaire."
+        },
+        "actions": {
+          "back": "Retour",
+          "cancel": "Annuler",
+          "continue": "Continuer",
+          "submit": "Envoyer la demande de rendez-vous",
+          "submitting": "Envoi en cours..."
+        },
+        "validation": {
+          "required": "Ce champ est obligatoire.",
+          "vehicleRequired": "Selectionnez un vehicule enregistre.",
+          "yearInvalid": "Saisissez une annee entiere valide.",
+          "yearRange": "Saisissez une annee entre 1886 et l'annee prochaine.",
+          "datePast": "Choisissez aujourd'hui ou une date future.",
+          "emailInvalid": "Saisissez une adresse email valide.",
+          "phoneInvalid": "Saisissez un numero de telephone valide.",
+          "notesTooLong": "Les notes ne doivent pas depasser 2 000 caracteres."
+        },
+        "feedback": {
+          "error": "Le rendez-vous n'a pas pu etre envoye. Vos informations sont conservees ; reessayez."
+        },
+        "success": {
+          "title": "Rendez-vous demande",
+          "description": "Votre rendez-vous fictif est enregistre dans cette session. L'atelier n'a pas ete contacte.",
+          "reference": "Reference : {reference}",
+          "viewAppointments": "Voir les rendez-vous",
+          "dashboard": "Retour au tableau de bord"
+        }
       },
       "payments": {
         "eyebrow": "Paiements",

@@ -3,6 +3,7 @@ import { Container } from "@/components";
 import { DashboardNavigation } from "@/components/dashboard-navigation";
 import { mockDashboardData } from "@/lib/mock-dashboard-data";
 import { VehicleProvider } from "@/components/vehicles/vehicle-provider";
+import { AppointmentProvider } from "@/components/appointments/appointment-provider";
 
 export default async function DashboardLayout({
   children
@@ -32,7 +33,9 @@ export default async function DashboardLayout({
         <div className="lg:flex lg:gap-8">
           <DashboardNavigation />
           <section className="min-w-0 flex-1 pt-6 lg:pt-0">
-            <VehicleProvider>{children}</VehicleProvider>
+            <VehicleProvider>
+              <AppointmentProvider>{children}</AppointmentProvider>
+            </VehicleProvider>
           </section>
         </div>
       </Container>

@@ -555,7 +555,122 @@
         "eyebrow": "Bookings",
         "title": "Your bookings",
         "description": "Review upcoming and previous workshop appointments.",
-        "placeholder": "Booking details will appear here."
+        "bookAction": "Book an appointment",
+        "empty": {
+          "title": "No appointment requests",
+          "description": "Choose a service, vehicle and preferred time to request your first workshop appointment.",
+          "action": "Book an appointment"
+        },
+        "statuses": {
+          "requested": "Requested"
+        },
+        "reference": "Reference: {reference}",
+        "vehicleUnavailable": "Vehicle unavailable"
+      },
+      "appointmentBooking": {
+        "eyebrow": "Appointment booking",
+        "title": "Request a workshop appointment",
+        "description": "Tell us what your vehicle needs and choose your preferred visit time.",
+        "progress": {
+          "label": "Booking progress",
+          "step": "Step {current} of {total}"
+        },
+        "steps": {
+          "service": {
+            "title": "Select a service",
+            "description": "Choose the service that best matches what your vehicle needs."
+          },
+          "vehicle": {
+            "title": "Choose a vehicle",
+            "description": "Use a saved vehicle or enter temporary details for this request."
+          },
+          "date": {
+            "title": "Choose a preferred date",
+            "description": "Select a future date that suits you. Availability will be confirmed later."
+          },
+          "time": {
+            "title": "Choose a preferred time",
+            "description": "Select the time you would prefer to arrive at the workshop."
+          },
+          "contact": {
+            "title": "Enter contact details",
+            "description": "Provide the details the workshop can use for this appointment request."
+          },
+          "notes": {
+            "title": "Describe the concern",
+            "description": "Add any symptoms, warning lights, noises or other useful context."
+          },
+          "review": {
+            "title": "Review your request",
+            "description": "Check all details before submitting this mock appointment."
+          }
+        },
+        "services": {
+          "diagnosticInspection": "Diagnostic inspection",
+          "routineMaintenance": "Routine maintenance",
+          "engineRepair": "Engine repair",
+          "electricalDiagnosis": "Electrical diagnosis",
+          "brakeService": "Brake service",
+          "suspensionService": "Suspension service",
+          "airConditioningService": "Air-conditioning service",
+          "prePurchaseInspection": "Pre-purchase inspection",
+          "bmwCodingProgramming": "BMW coding or programming",
+          "other": "Other"
+        },
+        "vehicle": {
+          "existing": "Use a saved vehicle",
+          "temporary": "Enter temporary vehicle details",
+          "none": "You have no saved vehicles. Choose temporary vehicle details to continue.",
+          "fields": {
+            "temporaryMake": "Make",
+            "temporaryModel": "Model",
+            "temporaryYear": "Year",
+            "temporaryRegistration": "Registration number"
+          }
+        },
+        "fields": {
+          "preferredDate": "Preferred date",
+          "contactName": "Contact name",
+          "contactEmail": "Email address",
+          "contactPhone": "Phone number",
+          "notes": "Notes, symptoms or concerns"
+        },
+        "notesCount": "{count, number} of {max, number} characters",
+        "review": {
+          "service": "Service",
+          "vehicle": "Vehicle",
+          "preferredDateTime": "Preferred date and time",
+          "contact": "Contact",
+          "notes": "Notes",
+          "noNotes": "No additional notes."
+        },
+        "actions": {
+          "back": "Back",
+          "cancel": "Cancel",
+          "continue": "Continue",
+          "submit": "Submit appointment request",
+          "submitting": "Submitting..."
+        },
+        "validation": {
+          "required": "This field is required.",
+          "vehicleRequired": "Select a saved vehicle.",
+          "yearInvalid": "Enter a valid whole year.",
+          "yearRange": "Enter a year between 1886 and next year.",
+          "datePast": "Choose today or a future date.",
+          "emailInvalid": "Enter a valid email address.",
+          "phoneInvalid": "Enter a valid phone number.",
+          "notesTooLong": "Notes must be 2,000 characters or fewer."
+        },
+        "feedback": {
+          "error": "The appointment could not be submitted. Your information is still here; please try again."
+        },
+        "success": {
+          "title": "Appointment requested",
+          "description": "Your mock appointment has been saved in this browser session. The workshop has not been contacted.",
+          "reference": "Reference: {reference}",
+          "viewAppointments": "View appointments",
+          "dashboard": "Return to dashboard"
+        }
       },
       "payments": {
         "eyebrow": "Payments",

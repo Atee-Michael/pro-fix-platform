@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { routing } from "@/i18n/routing";
+import { CmsArticleProvider } from "@/components/cms/cms-article-provider";
+import { DocumentProvider } from "@/components/documents/document-provider";
 
 type LocaleLayoutProps = {
   children: React.ReactNode;
@@ -28,7 +30,9 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider>
       <Header locale={locale as "en" | "fr"} />
-      {children}
+      <CmsArticleProvider>
+        <DocumentProvider>{children}</DocumentProvider>
+      </CmsArticleProvider>
       <Footer locale={locale as "en" | "fr"} />
     </NextIntlClientProvider>
   );

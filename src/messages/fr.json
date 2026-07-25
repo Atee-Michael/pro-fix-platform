@@ -358,7 +358,10 @@
       "description": "Articles courts sur le diagnostic, l'entretien, les inspections et le suivi attentif."
     },
     "readArticle": "Lire l'article",
-    "backToNews": "Retour aux actualites"
+    "backToNews": "Retour aux actualites",
+    "featuredImage": "Placeholder de l'image principale",
+    "relatedArticles": "Articles associes",
+    "notFound": "Article publie introuvable"
   },
   "auth": {
     "validation": {
@@ -885,6 +888,48 @@
           "retry": "Reessayer"
         }
       },
+      "documents": {
+        "reports": {
+          "eyebrow": "Rapports",
+          "title": "Rapports des vehicules",
+          "description": "Consultez les metadonnees des rapports partages avec votre compte client."
+        },
+        "receipts": {
+          "eyebrow": "Recus",
+          "title": "Recus et factures",
+          "description": "Consultez les metadonnees des recus et factures des visites terminees."
+        },
+        "filters": {
+          "vehicle": "Filtrer par vehicule",
+          "allVehicles": "Tous les vehicules",
+          "date": "Filtrer par date"
+        },
+        "categories": {
+          "diagnosticReport": "Rapport diagnostic",
+          "inspectionReport": "Rapport d'inspection",
+          "serviceReport": "Rapport de service",
+          "receipt": "Recu",
+          "invoice": "Facture"
+        },
+        "metadata": {
+          "vehicle": "Vehicule",
+          "unknownVehicle": "Vehicule indisponible",
+          "fileName": "Nom du fichier",
+          "fileSize": "Taille du fichier",
+          "created": "Cree",
+          "kilobytes": "Ko"
+        },
+        "download": "Simuler le telechargement",
+        "downloadDemo": "Demonstration uniquement : aucun fichier n'a ete telecharge pour « {title} ».",
+        "unavailable": {
+          "badge": "Fichier indisponible",
+          "description": "Les metadonnees sont disponibles, mais aucun fichier fictif ne peut etre telecharge."
+        },
+        "empty": {
+          "title": "Aucun document correspondant",
+          "description": "Modifiez les filtres de vehicule ou de date."
+        }
+      },
       "profile": {
         "eyebrow": "Profil",
         "title": "Resume du profil",
@@ -1270,6 +1315,140 @@
         "status": "Statut du ticket mis a jour en memoire.",
         "priority": "Priorite du ticket mise a jour en memoire.",
         "assignment": "Affectation du personnel mise a jour en memoire."
+      }
+    },
+    "cms": {
+      "eyebrow": "CMS actualites et conseils",
+      "title": "Gestion des articles",
+      "description": "Creez et gerez du contenu editorial fictif, securise et adapte a la langue.",
+      "languages": {
+        "en": "Anglais",
+        "fr": "Francais"
+      },
+      "states": {
+        "draft": "Brouillon",
+        "published": "Publie"
+      },
+      "filters": {
+        "search": "Rechercher des articles",
+        "state": "Etat de publication",
+        "allStates": "Tous les etats"
+      },
+      "actions": {
+        "new": "Nouvel article",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "publish": "Publier",
+        "unpublish": "Depublier",
+        "generateSlug": "Generer depuis le titre",
+        "cancel": "Annuler",
+        "preview": "Apercu du brouillon",
+        "hidePreview": "Masquer l'apercu",
+        "save": "Enregistrer l'article",
+        "back": "Retour aux articles"
+      },
+      "delete": {
+        "confirm": "Supprimer cet article fictif ? Cette action est irreversible dans la session."
+      },
+      "new": {
+        "title": "Creer un article",
+        "description": "Creez un brouillon ou un article publie avec des paragraphes en texte brut controle."
+      },
+      "edit": {
+        "title": "Modifier l'article",
+        "description": "Mettez a jour le contenu, la publication et les metadonnees SEO."
+      },
+      "fields": {
+        "language": "Langue de l'article",
+        "state": "Etat de publication",
+        "title": "Titre",
+        "slug": "Slug",
+        "excerpt": "Extrait",
+        "category": "Categorie",
+        "author": "Auteur",
+        "featuredImage": "Placeholder de l'image principale",
+        "body": "Corps de l'article",
+        "publishedAt": "Date de publication",
+        "seoTitle": "Titre SEO",
+        "seoDescription": "Description SEO"
+      },
+      "featuredImagePlaceholder": "Reference d'image ou libelle placeholder",
+      "bodyHelp": "Separez les paragraphes par une ligne vide. Le HTML n'est ni accepte ni affiche.",
+      "seo": {
+        "title": "Metadonnees SEO"
+      },
+      "preview": {
+        "badge": "Apercu du brouillon",
+        "untitled": "Article sans titre"
+      },
+      "validation": {
+        "required": "Ce champ est obligatoire.",
+        "slugTooLong": "Le slug ne doit pas depasser 100 caracteres.",
+        "slugInvalid": "Utilisez uniquement des lettres minuscules, chiffres et tirets simples.",
+        "slugDuplicate": "Ce slug est deja utilise pour la langue selectionnee.",
+        "titleMin": "Saisissez au moins 5 caracteres.",
+        "titleMax": "Utilisez au maximum 160 caracteres.",
+        "excerptMin": "Saisissez au moins 10 caracteres.",
+        "excerptMax": "Utilisez au maximum 320 caracteres.",
+        "categoryMax": "Utilisez au maximum 80 caracteres.",
+        "authorMax": "Utilisez au maximum 100 caracteres.",
+        "imageMax": "Utilisez au maximum 200 caracteres.",
+        "bodyMin": "Le contenu doit comporter au moins 20 caracteres.",
+        "bodyMax": "Le contenu ne doit pas depasser 12 000 caracteres."
+      },
+      "notFound": "Article introuvable"
+    },
+    "documents": {
+      "eyebrow": "Documents operationnels",
+      "title": "Rapports et recus",
+      "description": "Consultez les metadonnees de fichiers fictifs des clients, vehicules et rendez-vous.",
+      "demoNotice": "Metadonnees uniquement — aucune URL de stockage ni fichier reel n'est connecte.",
+      "categories": {
+        "diagnosticReport": "Rapport diagnostic",
+        "inspectionReport": "Rapport d'inspection",
+        "serviceReport": "Rapport de service",
+        "receipt": "Recu",
+        "invoice": "Facture"
+      },
+      "states": {
+        "available": "Disponible en demonstration",
+        "metadataOnly": "Metadonnees uniquement"
+      },
+      "actions": {
+        "upload": "Ajouter un document",
+        "uploadDemo": "Lancer la demonstration",
+        "cancel": "Annuler"
+      },
+      "upload": {
+        "eyebrow": "Ajout de document",
+        "title": "Ajouter les metadonnees d'un document",
+        "description": "Preparez les metadonnees et simulez un futur envoi vers le stockage.",
+        "noRealUpload": "Demonstration uniquement — le fichier selectionne n'est jamais envoye ni lu.",
+        "rules": "Autorises : {types}. Taille maximale future : {size, number} Mo.",
+        "simulateFailure": "Simuler un echec d'envoi",
+        "progress": "Progression fictive : {progress, number} %",
+        "success": "Demonstration terminee. Les metadonnees sont ajoutees en memoire ; aucun fichier n'a ete envoye.",
+        "failure": "Echec fictif simule. Aucune metadonnee ni fichier n'a ete stocke."
+      },
+      "fields": {
+        "customer": "Client",
+        "vehicle": "Vehicule",
+        "appointment": "Rendez-vous",
+        "category": "Categorie du fichier",
+        "title": "Titre du document",
+        "notes": "Notes",
+        "file": "Selectionner un fichier pour la validation",
+        "select": "Selectionnez une option"
+      },
+      "validation": {
+        "required": "Selectionnez une option.",
+        "titleMin": "Le titre doit comporter au moins 3 caracteres.",
+        "titleMax": "Le titre ne doit pas depasser 160 caracteres.",
+        "notesMax": "Les notes ne doivent pas depasser 2 000 caracteres.",
+        "fileRequired": "Selectionnez un fichier.",
+        "executableBlocked": "Les fichiers executables ne sont pas autorises.",
+        "fileType": "Utilisez un fichier PDF, JPG, JPEG ou PNG.",
+        "fileSize": "Le fichier depasse la limite future de 10 Mo."
       }
     },
     "sections": {

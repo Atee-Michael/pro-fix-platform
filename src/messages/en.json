@@ -358,7 +358,10 @@
       "description": "Short articles on diagnostics, maintenance, inspections and careful ownership."
     },
     "readArticle": "Read article",
-    "backToNews": "Back to news"
+    "backToNews": "Back to news",
+    "featuredImage": "Featured image placeholder",
+    "relatedArticles": "Related articles",
+    "notFound": "Published article not found"
   },
   "auth": {
     "validation": {
@@ -885,6 +888,48 @@
           "retry": "Try again"
         }
       },
+      "documents": {
+        "reports": {
+          "eyebrow": "Reports",
+          "title": "Vehicle reports",
+          "description": "Review report metadata shared with your customer account."
+        },
+        "receipts": {
+          "eyebrow": "Receipts",
+          "title": "Receipts and invoices",
+          "description": "Review receipt and invoice metadata for completed workshop visits."
+        },
+        "filters": {
+          "vehicle": "Filter by vehicle",
+          "allVehicles": "All vehicles",
+          "date": "Filter by date"
+        },
+        "categories": {
+          "diagnosticReport": "Diagnostic report",
+          "inspectionReport": "Inspection report",
+          "serviceReport": "Service report",
+          "receipt": "Receipt",
+          "invoice": "Invoice"
+        },
+        "metadata": {
+          "vehicle": "Vehicle",
+          "unknownVehicle": "Vehicle unavailable",
+          "fileName": "File name",
+          "fileSize": "File size",
+          "created": "Created",
+          "kilobytes": "KB"
+        },
+        "download": "Demonstrate download",
+        "downloadDemo": "Demonstration only: no file was downloaded for “{title}”.",
+        "unavailable": {
+          "badge": "File unavailable",
+          "description": "Metadata is available, but no mock file can be downloaded."
+        },
+        "empty": {
+          "title": "No matching documents",
+          "description": "Adjust the vehicle or date filters to see other records."
+        }
+      },
       "profile": {
         "eyebrow": "Profile",
         "title": "Profile summary",
@@ -1270,6 +1315,140 @@
         "status": "Ticket status updated in memory.",
         "priority": "Ticket priority updated in memory.",
         "assignment": "Staff assignment updated in memory."
+      }
+    },
+    "cms": {
+      "eyebrow": "News and advice CMS",
+      "title": "Article management",
+      "description": "Create and manage safe, language-aware mock editorial content.",
+      "languages": {
+        "en": "English",
+        "fr": "French"
+      },
+      "states": {
+        "draft": "Draft",
+        "published": "Published"
+      },
+      "filters": {
+        "search": "Search articles",
+        "state": "Publication state",
+        "allStates": "All states"
+      },
+      "actions": {
+        "new": "New article",
+        "edit": "Edit",
+        "delete": "Delete",
+        "publish": "Publish",
+        "unpublish": "Unpublish",
+        "generateSlug": "Generate from title",
+        "cancel": "Cancel",
+        "preview": "Preview draft",
+        "hidePreview": "Hide preview",
+        "save": "Save article",
+        "back": "Back to articles"
+      },
+      "delete": {
+        "confirm": "Delete this mock article? This cannot be undone in the current session."
+      },
+      "new": {
+        "title": "Create article",
+        "description": "Create a draft or published article using controlled plain-text paragraphs."
+      },
+      "edit": {
+        "title": "Edit article",
+        "description": "Update editorial content, publication details and SEO metadata."
+      },
+      "fields": {
+        "language": "Article language",
+        "state": "Publication state",
+        "title": "Title",
+        "slug": "Slug",
+        "excerpt": "Excerpt",
+        "category": "Category",
+        "author": "Author",
+        "featuredImage": "Featured image placeholder",
+        "body": "Article body",
+        "publishedAt": "Publication date",
+        "seoTitle": "SEO title",
+        "seoDescription": "SEO description"
+      },
+      "featuredImagePlaceholder": "Image reference or placeholder label",
+      "bodyHelp": "Separate paragraphs with a blank line. HTML is not accepted or rendered.",
+      "seo": {
+        "title": "SEO metadata"
+      },
+      "preview": {
+        "badge": "Draft preview",
+        "untitled": "Untitled article"
+      },
+      "validation": {
+        "required": "This field is required.",
+        "slugTooLong": "Slug must be 100 characters or fewer.",
+        "slugInvalid": "Use lowercase letters, numbers and single hyphens only.",
+        "slugDuplicate": "This slug is already used for the selected language.",
+        "titleMin": "Enter at least 5 characters.",
+        "titleMax": "Use 160 characters or fewer.",
+        "excerptMin": "Enter at least 10 characters.",
+        "excerptMax": "Use 320 characters or fewer.",
+        "categoryMax": "Use 80 characters or fewer.",
+        "authorMax": "Use 100 characters or fewer.",
+        "imageMax": "Use 200 characters or fewer.",
+        "bodyMin": "Article content must be at least 20 characters.",
+        "bodyMax": "Article content must be 12,000 characters or fewer."
+      },
+      "notFound": "Article not found"
+    },
+    "documents": {
+      "eyebrow": "Operational documents",
+      "title": "Reports and receipts",
+      "description": "Review mock file metadata across customers, vehicles and appointments.",
+      "demoNotice": "Metadata only — no storage URLs or real files are connected.",
+      "categories": {
+        "diagnosticReport": "Diagnostic report",
+        "inspectionReport": "Inspection report",
+        "serviceReport": "Service report",
+        "receipt": "Receipt",
+        "invoice": "Invoice"
+      },
+      "states": {
+        "available": "Demo available",
+        "metadataOnly": "Metadata only"
+      },
+      "actions": {
+        "upload": "Upload document",
+        "uploadDemo": "Run upload demonstration",
+        "cancel": "Cancel"
+      },
+      "upload": {
+        "eyebrow": "Document upload",
+        "title": "Upload document metadata",
+        "description": "Prepare document metadata and simulate a future storage upload.",
+        "noRealUpload": "Demonstration only — the selected file is never uploaded or read.",
+        "rules": "Allowed: {types}. Future maximum size: {size, number} MB.",
+        "simulateFailure": "Simulate an upload failure",
+        "progress": "Mock upload progress: {progress, number}%",
+        "success": "Mock upload complete. Metadata was added in memory; no file was uploaded.",
+        "failure": "Mock upload failed as requested. No metadata or file was stored."
+      },
+      "fields": {
+        "customer": "Customer",
+        "vehicle": "Vehicle",
+        "appointment": "Appointment",
+        "category": "File category",
+        "title": "Document title",
+        "notes": "Notes",
+        "file": "Select file for validation demonstration",
+        "select": "Select an option"
+      },
+      "validation": {
+        "required": "Select an option.",
+        "titleMin": "Title must be at least 3 characters.",
+        "titleMax": "Title must be 160 characters or fewer.",
+        "notesMax": "Notes must be 2,000 characters or fewer.",
+        "fileRequired": "Select a file.",
+        "executableBlocked": "Executable files are not allowed.",
+        "fileType": "Use a PDF, JPG, JPEG or PNG file.",
+        "fileSize": "The file exceeds the future 10 MB size limit."
       }
     },
     "sections": {
